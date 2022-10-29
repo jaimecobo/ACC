@@ -1,3 +1,3 @@
 package edu.acc.java;
 
-public enum Document_Type {}
+public enum Document_Type {PASSPORT}
