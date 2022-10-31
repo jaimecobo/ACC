@@ -1,3 +1,3 @@
 package edu.acc.java;
 
-public enum CreditCardType {}
+public enum CreditCardType {VISA}
