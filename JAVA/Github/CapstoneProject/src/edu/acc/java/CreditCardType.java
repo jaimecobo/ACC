@@ -1,3 +1,3 @@
 package edu.acc.java;
 
-public enum CreditCardType {VISA, MASTERCARD, AMERICAN_EXPRESS, DISCOVER}
+public enum CreditCardType {VISA, MASTERCARD, AMERICAN_EXPRESS, DISCOVER, OTHER}
