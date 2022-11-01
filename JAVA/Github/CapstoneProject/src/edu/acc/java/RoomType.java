@@ -1,3 +1,3 @@
 package edu.acc.java;
 
-public enum RoomType {SINGLE}
+public enum RoomType {SINGLE, DOUBLE}
