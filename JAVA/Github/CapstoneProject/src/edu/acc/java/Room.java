@@ -28,4 +28,14 @@ public class Room implements Serializable {
 		// TODO Auto-generated constructor stub
 	}
 
+
+	protected Room(int room_Number, RoomType type, double base_Price, String description, boolean availability) {
+		super();
+		this.room_Number = room_Number;
+		this.type = type;
+		this.base_Price = base_Price;
+		this.description = description;
+		this.availability = availability;
+	}
+
 }
