@@ -14,5 +14,18 @@ public class Room implements Serializable {
 	 * 
 	 */
 	private static final long serialVersionUID = 1L;
+	@Id
+	private int room_Number;
+	@Enumerated(EnumType.STRING)
+	private RoomType type;
+	private double base_Price;
+	private String description;
+	private boolean availability;
+	
+	
+	protected Room() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
 
 }
