@@ -38,4 +38,54 @@ public class Room implements Serializable {
 		this.availability = availability;
 	}
 
+
+	protected int getRoom_Number() {
+		return room_Number;
+	}
+
+
+	protected void setRoom_Number(int room_Number) {
+		this.room_Number = room_Number;
+	}
+
+
+	protected RoomType getType() {
+		return type;
+	}
+
+
+	protected void setType(RoomType type) {
+		this.type = type;
+	}
+
+
+	protected double getBase_Price() {
+		return base_Price;
+	}
+
+
+	protected void setBase_Price(double base_Price) {
+		this.base_Price = base_Price;
+	}
+
+
+	protected String getDescription() {
+		return description;
+	}
+
+
+	protected void setDescription(String description) {
+		this.description = description;
+	}
+
+
+	protected boolean isAvailability() {
+		return availability;
+	}
+
+
+	protected void setAvailability(boolean availability) {
+		this.availability = availability;
+	}
+
 }
