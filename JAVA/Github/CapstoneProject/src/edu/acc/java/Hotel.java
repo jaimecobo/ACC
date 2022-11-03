@@ -18,5 +18,6 @@ public class Hotel implements Serializable{
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	private long hotel_Id;
 	private String hotel_Name;
-
+	private String hotel_Address;
+	
 }
