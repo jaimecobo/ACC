@@ -43,5 +43,85 @@ public class Hotel implements Serializable{
 		this.num_Of_floors = num_Of_floors;
 		this.num_Of_Rooms = num_Of_Rooms;
 	}
+
+
+	public long getHotel_Id() {
+		return hotel_Id;
+	}
+
+
+	public void setHotel_Id(long hotel_Id) {
+		this.hotel_Id = hotel_Id;
+	}
+
+
+	public String getHotel_Name() {
+		return hotel_Name;
+	}
+
+
+	public void setHotel_Name(String hotel_tName) {
+		this.hotel_Name = hotel_tName;
+	}
+
+
+	public String getHotel_Address() {
+		return hotel_Address;
+	}
+
+
+	public void setHotel_Address(String hotel_Address) {
+		this.hotel_Address = hotel_Address;
+	}
+
+
+	public String getHotel_Email() {
+		return hotel_Email;
+	}
+
+
+	public void setHotel_Email(String hotel_Email) {
+		this.hotel_Email = hotel_Email;
+	}
+
+
+	public String getHotel_Description() {
+		return hotel_Description;
+	}
+
+
+	public void setHotel_Description(String hotel_Description) {
+		this.hotel_Description = hotel_Description;
+	}
+
+
+	public int getHotel_Type() {
+		return hotel_Type;
+	}
+
+
+	public void setHotel_Type(int hotel_Type) {
+		this.hotel_Type = hotel_Type;
+	}
+
+
+	public int getNum_Of_floors() {
+		return num_Of_floors;
+	}
+
+
+	public void setNum_Of_floors(int num_Of_floors) {
+		this.num_Of_floors = num_Of_floors;
+	}
+
+
+	public int getNum_Of_Rooms() {
+		return num_Of_Rooms;
+	}
+
+
+	public void setNum_Of_Rooms(int num_Of_Rooms) {
+		this.num_Of_Rooms = num_Of_Rooms;
+	}
 	
 }
