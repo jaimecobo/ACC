@@ -19,5 +19,6 @@ public class Hotel implements Serializable{
 	private long hotel_Id;
 	private String hotel_Name;
 	private String hotel_Address;
+	private String hotel_Email;
 	
 }
