@@ -1,5 +1,7 @@
 package edu.acc.java;
 
-public class Hotel {
+import java.io.Serializable;
 
+public class Hotel implements Serializable{
+	
 }
