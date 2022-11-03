@@ -21,5 +21,6 @@ public class Hotel implements Serializable{
 	private String hotel_Address;
 	private String hotel_Email;
 	private String hotel_Description;
+	private int hotel_Type; 		//1=Hotel; 2=Hostel; 3=Motel; 4=House
 	
 }
