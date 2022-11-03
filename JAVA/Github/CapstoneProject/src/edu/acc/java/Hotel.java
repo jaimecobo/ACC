@@ -24,5 +24,10 @@ public class Hotel implements Serializable{
 	private int hotel_Type; 		//1=Hotel; 2=Hostel; 3=Motel; 4=House
 	private int num_Of_floors;
 	private int num_Of_Rooms;
-
+	
+	
+	public Hotel() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
 }
