@@ -1,6 +1,7 @@
 package edu.acc.java;
 
 import java.io.Serializable;
+import java.util.Date;
 
 import javax.persistence.CascadeType;
 import javax.persistence.Entity;
@@ -8,7 +9,8 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.ManyToOne;
-
+import javax.persistence.Temporal;
+import javax.persistence.TemporalType;
 
 @Entity
 public class CreditCard_Payment implements Serializable {
@@ -25,5 +27,7 @@ public class CreditCard_Payment implements Serializable {
 	private Customer customer;
 	private Reservation reservation;
 	private CreditCard creditCard;
+	@Temporal(value = TemporalType.TIMESTAMP)
+	private Date payment_Date;
 	
 }
