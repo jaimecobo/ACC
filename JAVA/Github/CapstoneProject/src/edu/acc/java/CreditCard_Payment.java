@@ -30,5 +30,6 @@ public class CreditCard_Payment implements Serializable {
 	@Temporal(value = TemporalType.TIMESTAMP)
 	private Date payment_Date;
 	private String verification_Number;
+	private double amount;
 	
 }
