@@ -2,12 +2,12 @@ package edu.acc.java;
 
 import java.io.Serializable;
 
+import javax.persistence.CascadeType;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.ManyToOne;
-
 
 @Entity
 public class CreditCard_Payment implements Serializable {
@@ -22,5 +22,6 @@ public class CreditCard_Payment implements Serializable {
 	private long id_CreditCard_Payment;
 	@ManyToOne(cascade = CascadeType.ALL)
 	private Customer customer;
+	private Reservation reservation;
 	
 }
