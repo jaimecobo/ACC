@@ -32,4 +32,10 @@ public class CreditCard_Payment implements Serializable {
 	private String verification_Number;
 	private double amount;
 	
+	
+	protected CreditCard_Payment() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
 }
