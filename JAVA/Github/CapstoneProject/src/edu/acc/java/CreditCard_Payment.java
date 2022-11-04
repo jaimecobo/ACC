@@ -38,4 +38,16 @@ public class CreditCard_Payment implements Serializable {
 		// TODO Auto-generated constructor stub
 	}
 
+
+	protected CreditCard_Payment(Customer customer, Reservation reservation, CreditCard creditCard, Date payment_Date,
+			String verification_Number, double amount) {
+		super();
+		this.customer = customer;
+		this.reservation = reservation;
+		this.creditCard = creditCard;
+		this.payment_Date = payment_Date;
+		this.verification_Number = verification_Number;
+		this.amount = amount;
+	}
+
 }
