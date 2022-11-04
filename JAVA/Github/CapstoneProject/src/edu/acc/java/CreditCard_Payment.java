@@ -1,5 +1,7 @@
 package edu.acc.java;
 
-public class CreditCard_Payment {	
+import java.io.Serializable;
+
+public class CreditCard_Payment implements Serializable {
 	
 }
