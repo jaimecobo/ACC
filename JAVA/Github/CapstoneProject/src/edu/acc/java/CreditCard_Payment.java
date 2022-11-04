@@ -9,6 +9,7 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.ManyToOne;
 
+
 @Entity
 public class CreditCard_Payment implements Serializable {
 
@@ -23,5 +24,6 @@ public class CreditCard_Payment implements Serializable {
 	@ManyToOne(cascade = CascadeType.ALL)
 	private Customer customer;
 	private Reservation reservation;
+	private CreditCard creditCard;
 	
 }
