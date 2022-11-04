@@ -6,6 +6,7 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.ManyToOne;
 
 
 @Entity
@@ -19,5 +20,7 @@ public class CreditCard_Payment implements Serializable {
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	private long id_CreditCard_Payment;
+	@ManyToOne(cascade = CascadeType.ALL)
+	private Customer customer;
 	
 }
