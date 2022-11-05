@@ -43,5 +43,55 @@ public class Cash_Payment implements Serializable{
 		this.payment_Date = payment_Date;
 		this.amount = amount;
 	}
+
+
+	protected long getId_Cash_Payment() {
+		return id_Cash_Payment;
+	}
+
+
+	protected void setId_Cash_Payment(long id_Cash_Payment) {
+		this.id_Cash_Payment = id_Cash_Payment;
+	}
+
+
+	protected Customer getCustomer() {
+		return customer;
+	}
+
+
+	protected void setCustomer(Customer customer) {
+		this.customer = customer;
+	}
+
+
+	protected Reservation getReservation() {
+		return reservation;
+	}
+
+
+	protected void setReservation(Reservation reservation) {
+		this.reservation = reservation;
+	}
+
+
+	protected Date getPayment_Date() {
+		return payment_Date;
+	}
+
+
+	protected void setPayment_Date(Date payment_Date) {
+		this.payment_Date = payment_Date;
+	}
+
+
+	protected double getAmount() {
+		return amount;
+	}
+
+
+	protected void setAmount(double amount) {
+		this.amount = amount;
+	}
 	
 }
