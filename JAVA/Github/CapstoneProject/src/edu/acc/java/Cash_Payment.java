@@ -34,5 +34,14 @@ public class Cash_Payment implements Serializable{
 		super();
 		// TODO Auto-generated constructor stub
 	}
+
+
+	protected Cash_Payment(Customer customer, Reservation reservation, Date payment_Date, double amount) {
+		super();
+		this.customer = customer;
+		this.reservation = reservation;
+		this.payment_Date = payment_Date;
+		this.amount = amount;
+	}
 	
 }
