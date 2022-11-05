@@ -28,5 +28,11 @@ public class Cash_Payment implements Serializable{
 	@Temporal(value = TemporalType.TIMESTAMP)
 	private Date payment_Date;
 	private double amount;
-
+	
+	
+	protected Cash_Payment() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+	
 }
