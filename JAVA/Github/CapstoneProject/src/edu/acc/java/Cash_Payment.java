@@ -27,5 +27,6 @@ public class Cash_Payment implements Serializable{
 	private Reservation reservation;
 	@Temporal(value = TemporalType.TIMESTAMP)
 	private Date payment_Date;
+	private double amount;
 
 }
