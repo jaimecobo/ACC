@@ -9,7 +9,6 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.ManyToOne;
-import javax.persistence.Temporal;
 
 @Entity
 public class Check_Payment implements Serializable{
@@ -25,4 +24,6 @@ public class Check_Payment implements Serializable{
 	private Customer customer;
 	private Reservation reservation;
 	private int check_Number;
+	private String check_Bank;
+	
 }
