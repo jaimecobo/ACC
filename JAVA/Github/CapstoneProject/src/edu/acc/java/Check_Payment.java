@@ -51,4 +51,84 @@ public class Check_Payment implements Serializable{
 		this.amount = amount;
 	}
 
+
+	protected long getId_Check_Payment() {
+		return id_Check_Payment;
+	}
+
+
+	protected void setId_Check_Payment(long id_Check_Payment) {
+		this.id_Check_Payment = id_Check_Payment;
+	}
+
+
+	protected Customer getCustomer() {
+		return customer;
+	}
+
+
+	protected void setCustomer(Customer customer) {
+		this.customer = customer;
+	}
+
+
+	protected Reservation getReservation() {
+		return reservation;
+	}
+
+
+	protected void setReservation(Reservation reservation) {
+		this.reservation = reservation;
+	}
+
+
+	protected int getCheck_Number() {
+		return check_Number;
+	}
+
+
+	protected void setCheck_Number(int check_Number) {
+		this.check_Number = check_Number;
+	}
+
+
+	protected String getCheck_Bank() {
+		return check_Bank;
+	}
+
+
+	protected void setCheck_Bank(String check_Bank) {
+		this.check_Bank = check_Bank;
+	}
+
+
+	protected String getCheck_Name() {
+		return check_Name;
+	}
+
+
+	protected void setCheck_Name(String check_Name) {
+		this.check_Name = check_Name;
+	}
+
+
+	protected Date getCheck_Date() {
+		return check_Date;
+	}
+
+
+	protected void setCheck_Date(Date check_Date) {
+		this.check_Date = check_Date;
+	}
+
+
+	protected double getAmount() {
+		return amount;
+	}
+
+
+	protected void setAmount(double amount) {
+		this.amount = amount;
+	}
+	
 }
