@@ -1,6 +1,7 @@
 package edu.acc.java;
 
 import java.io.Serializable;
+import java.util.Date;
 
 import javax.persistence.CascadeType;
 import javax.persistence.Entity;
@@ -21,4 +22,6 @@ public class Check_Payment implements Serializable{
 	private long id_Check_Payment;
 	@ManyToOne(cascade = CascadeType.ALL)
 	private Customer customer;
+	private Reservation reservation;
+
 }
