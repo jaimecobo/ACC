@@ -25,5 +25,6 @@ public class Check_Payment implements Serializable{
 	private Reservation reservation;
 	private int check_Number;
 	private String check_Bank;
+	private String check_Name;
 	
 }
