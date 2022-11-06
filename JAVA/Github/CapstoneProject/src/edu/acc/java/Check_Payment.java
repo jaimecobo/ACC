@@ -30,5 +30,12 @@ public class Check_Payment implements Serializable{
 	private String check_Name;
 	@Temporal(value = TemporalType.TIMESTAMP)
 	private Date check_Date;
+	private double amount;
+	
+	
+	protected Check_Payment() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
 	
 }
