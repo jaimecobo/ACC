@@ -37,5 +37,18 @@ public class Check_Payment implements Serializable{
 		super();
 		// TODO Auto-generated constructor stub
 	}
-	
+
+
+	protected Check_Payment(Customer customer, Reservation reservation, int check_Number, String check_Bank,
+			String check_Name, Date check_Date, double amount) {
+		super();
+		this.customer = customer;
+		this.reservation = reservation;
+		this.check_Number = check_Number;
+		this.check_Bank = check_Bank;
+		this.check_Name = check_Name;
+		this.check_Date = check_Date;
+		this.amount = amount;
+	}
+
 }
