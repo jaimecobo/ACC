@@ -9,6 +9,8 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.ManyToOne;
+import javax.persistence.Temporal;
+import javax.persistence.TemporalType;
 
 @Entity
 public class Check_Payment implements Serializable{
@@ -26,5 +28,7 @@ public class Check_Payment implements Serializable{
 	private int check_Number;
 	private String check_Bank;
 	private String check_Name;
+	@Temporal(value = TemporalType.TIMESTAMP)
+	private Date check_Date;
 	
 }
