@@ -49,4 +49,71 @@ public class CreditCard implements Serializable{
 			this.zipCode = zipCode;
 		}
 
+
+		protected long getId_CreditCard() {
+			return id_CreditCard;
+		}
+
+
+		protected void setId_CreditCard(long id_CreditCard) {
+			this.id_CreditCard = id_CreditCard;
+		}
+		
+		protected Customer getCustomer() {
+			return customer;
+		}
+
+		protected void setCustomer(Customer customer) {
+			this.customer = customer;
+		}
+
+		@Enumerated(EnumType.STRING)
+		protected CreditCardType getCardType() {
+			return cardType;
+		}
+
+		protected void setCardType(CreditCardType cardType) {
+			this.cardType = cardType;
+		}
+
+
+		protected String getName() {
+			return name;
+		}
+
+
+		protected void setName(String name) {
+			this.name = name;
+		}
+
+
+		protected String getNumber() {
+			return number;
+		}
+
+
+		protected void setNumber(String number) {
+			this.number = number;
+		}
+
+
+		protected int getCcv() {
+			return ccv;
+		}
+
+
+		protected void setCcv(int ccv) {
+			this.ccv = ccv;
+		}
+
+
+		protected int getZipCode() {
+			return zipCode;
+		}
+
+
+		protected void setZipCode(int zipCode) {
+			this.zipCode = zipCode;
+		}
+	
 }
