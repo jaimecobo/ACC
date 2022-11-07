@@ -27,5 +27,6 @@ public class CreditCard implements Serializable{
 		private CreditCardType cardType;		//{VISA, MASTERCARD, AMERICAN_EXPRESS, DISCOVER, OTHER}
 		private String name;
 		private String number;
+		private int ccv;	
 		
 }
