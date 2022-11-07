@@ -4,6 +4,8 @@ import java.io.Serializable;
 
 import javax.persistence.CascadeType;
 import javax.persistence.Entity;
+import javax.persistence.EnumType;
+import javax.persistence.Enumerated;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
@@ -21,5 +23,7 @@ public class CreditCard implements Serializable{
 		private long id_CreditCard;
 		@ManyToOne(cascade = CascadeType.ALL)
 		private Customer customer;
-
+		@Enumerated(EnumType.STRING)
+		private CreditCardType cardType;		//{VISA, MASTERCARD, AMERICAN_EXPRESS, DISCOVER, OTHER}
+		
 }
