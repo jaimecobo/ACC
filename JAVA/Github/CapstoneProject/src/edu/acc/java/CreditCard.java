@@ -25,5 +25,6 @@ public class CreditCard implements Serializable{
 		private Customer customer;
 		@Enumerated(EnumType.STRING)
 		private CreditCardType cardType;		//{VISA, MASTERCARD, AMERICAN_EXPRESS, DISCOVER, OTHER}
+		private String name;
 		
 }
