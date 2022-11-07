@@ -35,5 +35,18 @@ public class CreditCard implements Serializable{
 			super();
 			// TODO Auto-generated constructor stub
 		}
+		
+		
+
+		protected CreditCard(Customer customer, CreditCardType cardType, String name, String number, int ccv,
+				int zipCode) {
+			super();
+			this.customer = customer;
+			this.cardType = cardType;
+			this.name = name;
+			this.number = number;
+			this.ccv = ccv;
+			this.zipCode = zipCode;
+		}
 
 }
