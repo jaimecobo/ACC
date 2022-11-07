@@ -29,5 +29,11 @@ public class CreditCard implements Serializable{
 		private String number;
 		private int ccv;	
 		private int zipCode;
+		
+		
+		protected CreditCard() {
+			super();
+			// TODO Auto-generated constructor stub
+		}
 
 }
