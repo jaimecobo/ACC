@@ -28,5 +28,6 @@ public class CreditCard implements Serializable{
 		private String name;
 		private String number;
 		private int ccv;	
-		
+		private int zipCode;
+
 }
