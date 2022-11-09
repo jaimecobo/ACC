@@ -39,6 +39,12 @@ public class Customer implements Serializable{
 	private Date birthday;
 	@Temporal(value = TemporalType.TIMESTAMP)
 	private Date account_Creation_Date;
-
+	
+	
+	protected Customer() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+	
 }
 
