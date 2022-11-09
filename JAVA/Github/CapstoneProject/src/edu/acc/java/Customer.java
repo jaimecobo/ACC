@@ -20,6 +20,7 @@ public class Customer implements Serializable{
 	private long id_Customer;
 	private String firstName;
 	private String lastName;
+	private String userName;
 
 }
 
