@@ -46,5 +46,25 @@ public class Customer implements Serializable{
 		// TODO Auto-generated constructor stub
 	}
 	
+	protected Customer(String firstName, String lastName, String userName, String password, String address,
+			String email, Document_Type document_Type, String document_Number, String phoneNumber, String company_Name,
+			String origin_Nationality, String occupation, Date birthday, Date account_Creation_Date) {
+		super();
+		this.firstName = firstName;
+		this.lastName = lastName;
+		this.userName = userName;
+		this.password = password;
+		this.address = address;
+		this.email = email;
+		this.document_Type = document_Type;
+		this.document_Number = document_Number;
+		this.phoneNumber = phoneNumber;
+		this.company_Name = company_Name;
+		this.origin_Nationality = origin_Nationality;
+		this.occupation = occupation;
+		this.birthday = birthday;
+		this.account_Creation_Date = account_Creation_Date;
+	}
+
 }
 
