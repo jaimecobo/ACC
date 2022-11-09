@@ -9,6 +9,7 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
+
 @Entity
 public class Customer implements Serializable{
 	
@@ -31,6 +32,7 @@ public class Customer implements Serializable{
 	private String phoneNumber;
 	private String company_Name;
 	private String origin_Nationality;
+	private String occupation;
 	
 }
 
