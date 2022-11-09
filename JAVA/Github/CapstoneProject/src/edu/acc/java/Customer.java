@@ -21,6 +21,7 @@ public class Customer implements Serializable{
 	private String lastName;
 	private String userName;
 	private String password;					//TODO Encryption
+	private String address;
 	
 }
 
