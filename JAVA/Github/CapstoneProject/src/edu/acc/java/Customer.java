@@ -29,6 +29,7 @@ public class Customer implements Serializable{
 	private Document_Type document_Type;		//{PASSPORT, DRIVER_LICENSE, ID_CARD, OTHER}
 	private String document_Number;
 	private String phoneNumber;
-	
+	private String company_Name;
+
 }
 
