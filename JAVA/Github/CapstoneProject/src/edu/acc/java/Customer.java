@@ -66,5 +66,150 @@ public class Customer implements Serializable{
 		this.account_Creation_Date = account_Creation_Date;
 	}
 
+
+	protected long getId_Customer() {
+		return id_Customer;
+	}
+
+
+	protected void setId_Customer(long id_Customer) {
+		this.id_Customer = id_Customer;
+	}
+
+
+	protected String getFirstName() {
+		return firstName;
+	}
+
+
+	protected void setFirstName(String firstName) {
+		this.firstName = firstName;
+	}
+
+
+	protected String getLastName() {
+		return lastName;
+	}
+
+
+	protected void setLastName(String lastName) {
+		this.lastName = lastName;
+	}
+
+	protected String getUserName() {
+		return userName;
+	}
+
+	protected void setUserName(String userName) {
+		this.userName = userName;
+	}
+
+	protected String getPassword() {
+		return password;
+	}
+
+	protected void setPassword(String password) {
+		this.password = password;
+	}
+
+	protected String getAddress() {
+		return address;
+	}
+
+
+	protected void setAddress(String address) {
+		this.address = address;
+	}
+
+
+	protected String getEmail() {
+		return email;
+	}
+
+
+	protected void setEmail(String email) {
+		this.email = email;
+	}
+
+	@Enumerated(EnumType.STRING)
+	protected Document_Type getDocument_Type() {
+		return document_Type;
+	}
+
+
+	protected void setDocument_Type(Document_Type document_Type) {
+		this.document_Type = document_Type;
+	}
+
+
+	protected String getDocument_Number() {
+		return document_Number;
+	}
+
+
+	protected void setDocument_Number(String document_Number) {
+		this.document_Number = document_Number;
+	}
+
+
+	protected String getPhoneNumber() {
+		return phoneNumber;
+	}
+
+
+	protected void setPhoneNumber(String phoneNumber) {
+		this.phoneNumber = phoneNumber;
+	}
+
+
+	protected String getCompany_Name() {
+		return company_Name;
+	}
+
+
+	protected void setCompany_Name(String company_Name) {
+		this.company_Name = company_Name;
+	}
+
+
+	protected String getOrigin_Nationality() {
+		return origin_Nationality;
+	}
+
+
+	protected void setOrigin_Nationality(String origin_Nationality) {
+		this.origin_Nationality = origin_Nationality;
+	}
+
+
+	protected String getOccupation() {
+		return occupation;
+	}
+
+
+	protected void setOccupation(String occupation) {
+		this.occupation = occupation;
+	}
+
+
+	protected Date getBirthday() {
+		return birthday;
+	}
+
+
+	protected void setBirthday(Date birthday) {
+		this.birthday = birthday;
+	}
+
+
+	protected Date getAccount_Creation_Date() {
+		return account_Creation_Date;
+	}
+
+
+	protected void setAccount_Creation_Date(Date account_Creation_Date) {
+		this.account_Creation_Date = account_Creation_Date;
+	}
+	
 }
 
