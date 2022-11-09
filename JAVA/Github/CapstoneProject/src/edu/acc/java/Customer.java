@@ -37,6 +37,8 @@ public class Customer implements Serializable{
 	private String occupation;
 	@Temporal(value = TemporalType.TIMESTAMP)
 	private Date birthday;
-	
+	@Temporal(value = TemporalType.TIMESTAMP)
+	private Date account_Creation_Date;
+
 }
 
