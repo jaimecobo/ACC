@@ -28,6 +28,7 @@ public class Customer implements Serializable{
 	@Enumerated(EnumType.STRING)
 	private Document_Type document_Type;		//{PASSPORT, DRIVER_LICENSE, ID_CARD, OTHER}
 	private String document_Number;
+	private String phoneNumber;
 	
 }
 
