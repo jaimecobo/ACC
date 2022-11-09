@@ -1,6 +1,7 @@
 package edu.acc.java;
 
 import java.io.Serializable;
+import java.util.Date;
 
 import javax.persistence.Entity;
 import javax.persistence.EnumType;
@@ -8,7 +9,8 @@ import javax.persistence.Enumerated;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
-
+import javax.persistence.Temporal;
+import javax.persistence.TemporalType;
 
 @Entity
 public class Customer implements Serializable{
@@ -33,6 +35,8 @@ public class Customer implements Serializable{
 	private String company_Name;
 	private String origin_Nationality;
 	private String occupation;
+	@Temporal(value = TemporalType.TIMESTAMP)
+	private Date birthday;
 	
 }
 
