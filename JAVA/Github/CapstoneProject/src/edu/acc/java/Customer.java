@@ -30,6 +30,7 @@ public class Customer implements Serializable{
 	private String document_Number;
 	private String phoneNumber;
 	private String company_Name;
-
+	private String origin_Nationality;
+	
 }
 
