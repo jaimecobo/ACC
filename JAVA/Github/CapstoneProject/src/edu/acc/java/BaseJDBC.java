@@ -13,5 +13,11 @@ public interface BaseJDBC {
 	 * @param user valid MySQL user for Connection
 	 */
 	void setUser(String user);
-	
+
+	/**
+	 * 
+	 * @param pswd MySQL password for user for Connection
+	 */
+	void setPswd(String pswd);
+
 }
