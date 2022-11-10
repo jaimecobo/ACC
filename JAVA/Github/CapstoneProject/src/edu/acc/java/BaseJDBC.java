@@ -32,4 +32,12 @@ public interface BaseJDBC {
 	 */
 	ResultSet executeQuery(String query) throws SQLException;
 
+	/**
+	 * 
+	 * @param query the SQL syntax query to execute
+	 * @return int for number of rows affected
+	 * @throws SQLException
+	 */
+	int executeUpdate(String query) throws SQLException;
+
 }
