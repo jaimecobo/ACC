@@ -8,4 +8,10 @@ public interface BaseJDBC {
 	 */
 	boolean isAvailable();
 
+	/**
+	 * 
+	 * @param user valid MySQL user for Connection
+	 */
+	void setUser(String user);
+	
 }
