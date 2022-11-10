@@ -47,4 +47,10 @@ public interface BaseJDBC {
 	 */
 	Connection openDB();
 
+	/**
+	 * 
+	 * @param ex SQLException to print nested stack traces to console
+	 */
+	void printTrace(SQLException ex);
+
 }
