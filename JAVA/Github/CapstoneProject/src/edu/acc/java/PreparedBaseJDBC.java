@@ -24,4 +24,13 @@ public interface PreparedBaseJDBC extends BaseJDBC {
 	 */
 	ResultSet executeQuery(String query, String[] parms) throws SQLException;
 
+	/**
+	 * 
+	 * @param query the SQL syntax query to execute
+	 * @param parms the SQL parameters to substitute
+	 * @return int for number of rows affected
+	 * @throws SQLException
+	 */
+	int executeUpdate(String query, String[] parms) throws SQLException;
+
 }
