@@ -1,5 +1,6 @@
 package edu.acc.java;
 
+import java.sql.Connection;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
@@ -39,5 +40,11 @@ public interface BaseJDBC {
 	 * @throws SQLException
 	 */
 	int executeUpdate(String query) throws SQLException;
+
+	/**
+	 * 
+	 * @return Connection object if DB opened successfully, else null
+	 */
+	Connection openDB();
 
 }
