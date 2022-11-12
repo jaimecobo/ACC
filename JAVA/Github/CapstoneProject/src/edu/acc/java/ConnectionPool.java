@@ -1,5 +1,8 @@
 package edu.acc.java;
 
+import java.sql.Connection;
+import java.sql.SQLException;
+
 import javax.naming.InitialContext;
 import javax.naming.NamingException;
 import javax.sql.DataSource;
@@ -25,4 +28,15 @@ public class ConnectionPool {
 		return pool;
 	}
 	
+	public Connection getConnection() {
+
+		try {
+			return dataSource.getConnection();
+		}
+		catch (SQLException ex) {
+			printTrace(ex);
+			return null;
+		}
+	}  
+
 }
