@@ -39,4 +39,13 @@ public class ConnectionPool {
 		}
 	}  
 
+	public void freeConnection(Connection c) {
+		try {
+			c.close();
+		}
+		catch (SQLException ex) {
+		printTrace(ex);
+		}
+	}
+
 }
