@@ -17,5 +17,12 @@ public class ConnectionPool {
 			System.out.println(e);
 		}
 	}
-
+	
+	public static synchronized ConnectionPool getInstance() {
+		if (pool == null) {
+			pool = new ConnectionPool();
+		}
+		return pool;
+	}
+	
 }
