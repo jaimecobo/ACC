@@ -47,5 +47,12 @@ public class ConnectionPool {
 		printTrace(ex);
 		}
 	}
+	
+
+	public void printTrace(SQLException ex) {
+		for (Throwable t : ex) {
+			t.printStackTrace(System.out);  // stack trace to console
+		}
+	}
 
 }
