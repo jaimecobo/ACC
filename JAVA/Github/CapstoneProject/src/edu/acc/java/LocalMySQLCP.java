@@ -22,4 +22,9 @@ public class LocalMySQLCP implements PreparedBaseJDBC {
 		this.user = user;
 	}
 
+	@Override
+	public void setPswd(String pswd) {
+		this.pswd = pswd;
+	}
+
 }
