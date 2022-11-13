@@ -72,4 +72,10 @@ public class LocalMySQLCP implements PreparedBaseJDBC {
 		return count;
 	}
 	
+	public Connection connectionPool() {
+		ConnectionPool pool = ConnectionPool.getInstance();
+		Connection conn = pool.getConnection();
+		return conn;
+	}
+
 }
