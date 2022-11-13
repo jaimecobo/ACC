@@ -1,6 +1,8 @@
 package edu.acc.java;
 
 import java.sql.Connection;
+import java.sql.ResultSet;
+import java.sql.SQLException;
 
 public class LocalMySQLCP implements PreparedBaseJDBC {
 
@@ -27,4 +29,10 @@ public class LocalMySQLCP implements PreparedBaseJDBC {
 		this.pswd = pswd;
 	}
 
+	@Override
+	public ResultSet executeQuery(String query) 
+			throws SQLException {
+		throw new SQLException("must supply substitution parameters for SQL query");
+	}
+	
 }
