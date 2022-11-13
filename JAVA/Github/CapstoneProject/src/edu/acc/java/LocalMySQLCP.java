@@ -11,5 +11,10 @@ public class LocalMySQLCP implements PreparedBaseJDBC {
 	public LocalMySQLCP() {
 		this.conn = connectionPool();  // if needed, user can alter userid/password and call openDB()
 	}
-	
+
+	@Override
+	public boolean isAvailable() {
+		return this.conn == null ? false : true;
+	}
+
 }
