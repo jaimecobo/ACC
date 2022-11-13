@@ -1,6 +1,7 @@
 package edu.acc.java;
 
 import java.sql.Connection;
+import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
@@ -76,6 +77,24 @@ public class LocalMySQLCP implements PreparedBaseJDBC {
 		ConnectionPool pool = ConnectionPool.getInstance();
 		Connection conn = pool.getConnection();
 		return conn;
+	}
+
+	@Override
+	public Connection openDB() {
+		Connection conn = null;
+
+		try {
+			Class.forName("com.mysql.jdbc.Driver");
+			conn = DriverManager.getConnection(myDB, user, pswd);
+		}
+		catch (ClassNotFoundException ex) {
+			System.out.println("<br>Can't load JDBC driver");  // log error to console
+		}
+		catch (SQLException ex) {
+			printTrace(ex);
+		}
+
+		return conn;  
 	}
 
 }
