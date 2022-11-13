@@ -6,6 +6,16 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
+//import javax.sql.DataSource;
+
+
+/**
+ * 
+ * 
+ * Separates MySQL database concerns from servlet business logic.
+ * This impl uses PreparedStatement for SQL Injection hardening.
+ *
+ */
 public class LocalMySQLCP implements PreparedBaseJDBC {
 
 	private Connection conn;  // database Connection
@@ -95,6 +105,13 @@ public class LocalMySQLCP implements PreparedBaseJDBC {
 		}
 
 		return conn;  
+	}
+
+	@Override
+	public void printTrace(SQLException ex) {
+		for (Throwable t : ex) {
+			t.printStackTrace(System.out);  // stack trace to console
+		}
 	}
 
 }
