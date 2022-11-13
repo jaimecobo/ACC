@@ -17,4 +17,9 @@ public class LocalMySQLCP implements PreparedBaseJDBC {
 		return this.conn == null ? false : true;
 	}
 
+	@Override
+	public void setUser(String user) {
+		this.user = user;
+	}
+
 }
