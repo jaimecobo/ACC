@@ -51,4 +51,10 @@ public class LocalMySQLCP implements PreparedBaseJDBC {
 		return users;
 	}
 
+	@Override
+	public int executeUpdate(String query) 
+			throws SQLException {
+		throw new SQLException("must supply substitution parameters for SQL query");
+	}
+
 }
