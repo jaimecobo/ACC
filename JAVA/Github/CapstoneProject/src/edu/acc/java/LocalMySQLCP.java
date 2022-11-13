@@ -56,5 +56,20 @@ public class LocalMySQLCP implements PreparedBaseJDBC {
 			throws SQLException {
 		throw new SQLException("must supply substitution parameters for SQL query");
 	}
-
+	
+	@Override
+	public int executeUpdate(String query, String[] parms) 
+			throws SQLException {
+		PreparedStatement statement = this.conn.prepareStatement(query);
+		if (parms != null) {
+			int i = 1;
+			for (String parm : parms) {
+				statement.setString(i, parm);
+				i++;
+			}
+		}
+		int count = statement.executeUpdate();
+		return count;
+	}
+	
 }
