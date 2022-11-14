@@ -1,5 +1,7 @@
 package edu.acc.java;
 
-public class DB_Connector06 extends HttpServlet{
+import javax.servlet.http.HttpServlet;
 
+public class DB_Connector06 extends HttpServlet{
+	
 }
