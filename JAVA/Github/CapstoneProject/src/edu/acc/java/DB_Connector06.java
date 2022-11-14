@@ -36,6 +36,26 @@ public class DB_Connector06 extends HttpServlet{
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
+		response.getWriter().append("Served at: ").append(request.getContextPath());
+		
+		
+		String city = "Dallas";
+		String population = "1400000";
+		String sql = "insert into cities (name, population) values (?,?)";
+		String[] parms;
+		int rowCount;
+	
+		try {
+			out.println("<br>" + city + " not found -- inserting");
+			sql = "insert into cities (name, population) values (?,?)";
+		    parms = new String[]{city, population};  
+			rowCount = localDB.executeUpdate(sql, parms);
+		
+		
+			
+			
+		localDB.executeUpdate(updateCities);
+		
 	}
 
 	/**
@@ -44,6 +64,7 @@ public class DB_Connector06 extends HttpServlet{
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
 		doGet(request, response);
+		
 	}
 
 }
