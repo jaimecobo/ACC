@@ -8,5 +8,6 @@ import javax.servlet.http.HttpServlet;
  */
 @WebServlet("/DB_Connector06")
 public class DB_Connector06 extends HttpServlet{
-	
+	private static final long serialVersionUID = 1L;
+       
 }
