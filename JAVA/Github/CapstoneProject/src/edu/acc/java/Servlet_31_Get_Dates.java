@@ -56,6 +56,18 @@ public class Servlet_31_Get_Dates extends HttpServlet {
 		try {
 		SimpleDateFormat formatter = new SimpleDateFormat("MM/dd/yyyy");
 		Date dateStr = formatter.parse(dateFrom);
+		String formattedDate = formatter.format(dateStr);
+		out.println("<br> MM/dd/yyyy date is ==> " + formattedDate);
+		Date date1 = formatter.parse(formattedDate);
+		formatter = new SimpleDateFormat("dd-MMM-yyyy");
+		formattedDate = formatter.format(date1);
+		out.println("<br> dd-MMM-yyyy date is ==> " + formattedDate);
+		
+		formatter = new SimpleDateFormat("MM/dd/yyyy");
+		dateStr = formatter.parse(dateTo);
+		formattedDate = formatter.format(dateStr);
+		Date date2 = formatter.parse(formattedDate);
+		
 		} catch (ParseException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
