@@ -68,6 +68,10 @@ public class Servlet_31_Get_Dates extends HttpServlet {
 		formattedDate = formatter.format(dateStr);
 		Date date2 = formatter.parse(formattedDate);
 		
+		
+		/* Subtract dates */
+		long diff = Math.abs(date1.getTime() - date2.getTime());\
+		
 		} catch (ParseException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
