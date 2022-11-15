@@ -70,7 +70,8 @@ public class Servlet_31_Get_Dates extends HttpServlet {
 		
 		
 		/* Subtract dates */
-		long diff = Math.abs(date1.getTime() - date2.getTime());\
+		long diff = Math.abs(date1.getTime() - date2.getTime());
+		long diffDays = diff / (24 * 60 * 60 * 1000);
 		
 		} catch (ParseException e) {
 			// TODO Auto-generated catch block
