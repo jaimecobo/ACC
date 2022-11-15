@@ -2,6 +2,8 @@ package edu.acc.java;
 
 import java.io.IOException;
 import java.io.PrintWriter;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -45,13 +47,18 @@ public class Servlet_31_Get_Dates extends HttpServlet {
 		String dateFrom = request.getParameter("from");
 		String dateTo = request.getParameter("to");
 		
-
-		
 		out.println("dateFrom = " + dateFrom);
 		out.print("<br>");
 		out.println("dateTo = " + dateTo);
 		out.print("<br>");
-		
+
+		try {
+		SimpleDateFormat formatter = new SimpleDateFormat("MM/dd/yyyy");
+		} catch (ParseException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+			
 	}
-		
+	
 }
