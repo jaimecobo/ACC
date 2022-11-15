@@ -42,6 +42,9 @@ public class Servlet_31_Get_Dates extends HttpServlet {
 		PrintWriter out  = response.getWriter();	
 		response.setContentType("text/html");
 		
+		String dateFrom = request.getParameter("from");
+		String dateTo = request.getParameter("to");
+		
 	}
 
 }
