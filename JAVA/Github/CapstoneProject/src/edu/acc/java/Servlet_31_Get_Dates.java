@@ -45,6 +45,13 @@ public class Servlet_31_Get_Dates extends HttpServlet {
 		String dateFrom = request.getParameter("from");
 		String dateTo = request.getParameter("to");
 		
-	}
 
+		
+		out.println("dateFrom = " + dateFrom);
+		out.print("<br>");
+		out.println("dateTo = " + dateTo);
+		out.print("<br>");
+		
+	}
+		
 }
