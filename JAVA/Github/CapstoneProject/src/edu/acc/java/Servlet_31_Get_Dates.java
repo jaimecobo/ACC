@@ -4,6 +4,7 @@ import java.io.IOException;
 import java.io.PrintWriter;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
+import java.util.Date;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -54,11 +55,12 @@ public class Servlet_31_Get_Dates extends HttpServlet {
 
 		try {
 		SimpleDateFormat formatter = new SimpleDateFormat("MM/dd/yyyy");
+		Date dateStr = formatter.parse(dateFrom);
 		} catch (ParseException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-			
+		
 	}
 	
 }
