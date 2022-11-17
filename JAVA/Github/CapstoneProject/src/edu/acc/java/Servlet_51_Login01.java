@@ -1,6 +1,8 @@
 package edu.acc.java;
 
-public class Servlet_51_Login01 {
-	
+import javax.servlet.http.HttpServlet;
+
+public class Servlet_51_Login01 extends HttpServlet {
+
 }
 
