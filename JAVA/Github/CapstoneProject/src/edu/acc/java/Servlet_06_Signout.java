@@ -8,5 +8,6 @@ import javax.servlet.http.HttpServlet;
  */
 @WebServlet("/sign_Out")
 public class Servlet_06_Signout extends HttpServlet {
-
+	private static final long serialVersionUID = 1L;
+     
 }
