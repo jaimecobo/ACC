@@ -10,5 +10,13 @@
 	@WebServlet("/Customers_Info")
 	public class Servlet_18_Customers_Info extends HttpServlet {
 		private static final long serialVersionUID = 1L;
+	       
+	    /**
+	     * @see HttpServlet#HttpServlet()
+	     */
+	    public Servlet_18_Customers_Info() {
+	        super();
+	        // TODO Auto-generated constructor stub
+	    }
 
 	}
