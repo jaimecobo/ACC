@@ -1,7 +1,7 @@
    	package edu.acc.java;
 
 	import java.io.IOException;
-	import java.io.PrintWriter;
+//	import java.io.PrintWriter;
 
 	import javax.servlet.ServletException;
 	import javax.servlet.annotation.WebServlet;
@@ -39,13 +39,16 @@
 		 */
 		protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 			// TODO Auto-generated method stub
-			doGet(request, response);
+//			doGet(request, response);
 			
-			PrintWriter out  = response.getWriter();	
+//			PrintWriter out  = response.getWriter();	
 			response.setContentType("text/html");
 
-			String stat = "null";
-						
+//			String stat = "null";
+			//=================================================================================================================
+			//=================================================================================================================
+			
+			
 		}
 
 	}
