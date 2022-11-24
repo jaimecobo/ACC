@@ -69,16 +69,16 @@
 				Class.forName("com.mysql.jdbc.Driver");
 		        Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/hotels360", "root", "sesame");
 		        
-		        PreparedStatement pst = conn.prepareStatement("Select * from reservation");
+//		        PreparedStatement pst = conn.prepareStatement("Select * from reservation");
 		        PreparedStatement pst = conn.prepareStatement("SELECT * FROM reservation WHERE departure_Date > '" + current_Date + "'");
-		        PreparedStatement pst = conn.prepareStatement("Select * from reservation_dates where status is null");
-		        pst.setString(1, stat);
+//		        PreparedStatement pst = conn.prepareStatement("Select * from reservation_dates where status is null");
+//		        pst.setString(1, stat);
 		        ResultSet rs = pst.executeQuery();
-		        System.out.println("1111111111111111111111111111111111");
+//		        System.out.println("1111111111111111111111111111111111");
 		        int i = 0;
-		        System.out.println("i = " + i);
+//		        System.out.println("i = " + i);
 		        while (rs.next()) {
-		        	System.out.println("2222222222222222222222222222222222");
+//		        	System.out.println("2222222222222222222222222222222222");
 		        	id_reservation_dates.add(rs.getString(1));
 		        	departureDates.add(rs.getString(2));
 		        	entryDates.add(rs.getString(3));
@@ -86,8 +86,8 @@
 		        	strBuilder.append(id_reservation_dates.get(i) + "</td><td>" + entryDates.get(i) + " </td><td>" + departureDates.get(i) + "</td> <td>" + status.get(i) + "</td> <td>" 
 		            		+ "</td></tr>" + "<tr><td>");
 		        	i++;
-		        	System.out.println("3333333333333333333333333333333333333");
-		        	System.out.println("i = " + i + " --- " + strBuilder.toString());
+//		        	System.out.println("3333333333333333333333333333333333333");
+//		        	System.out.println("i = " + i + " --- " + strBuilder.toString());
 		        }
 		        future_Reservations_String = strBuilder.toString();
 		        request.getSession().setAttribute("future_Reservations_String", future_Reservations_String);
@@ -102,6 +102,8 @@
 			
 			//=================================================================================================================
 			//=================================================================================================================
+			
+			
 			
 		}
 
