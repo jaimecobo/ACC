@@ -1,5 +1,7 @@
 	package edu.acc.java;
 
-	public class Servlet_14_Current_Reservation {
+	import javax.servlet.http.HttpServlet;
+
+	public class Servlet_14_Current_Reservation extends HttpServlet {
 
 	}
