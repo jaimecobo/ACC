@@ -30,6 +30,7 @@ public class Servlet_16_Query_Reservations extends HttpServlet {
 		// TODO Auto-generated method stub
 //		response.getWriter().append("Served at: ").append(request.getContextPath());
 		
+		request.getRequestDispatcher("05_management_Options.jsp").forward(request, response);
 	}
 
 
