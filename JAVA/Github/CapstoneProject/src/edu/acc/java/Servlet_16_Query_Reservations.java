@@ -8,6 +8,7 @@ import javax.servlet.http.HttpServlet;
  */
 @WebServlet("/Servlet_16_Query_Reservations")
 public class Servlet_16_Query_Reservations extends HttpServlet {
+	private static final long serialVersionUID = 1L;
 
 }
 
