@@ -42,7 +42,11 @@ public class Servlet_16_Query_Reservations extends HttpServlet {
 //		doGet(request, response);
 		
 //		PrintWriter out  = response.getWriter();	
+		response.setContentType("text/html");
 		
+		String id_reservation = request.getParameter("resrvNum");
+	
+	}
 
 }
 
