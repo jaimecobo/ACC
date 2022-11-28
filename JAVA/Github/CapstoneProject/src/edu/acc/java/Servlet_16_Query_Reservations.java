@@ -66,6 +66,13 @@ public class Servlet_16_Query_Reservations extends HttpServlet {
 	        PreparedStatement pst = conn.prepareStatement("Select departure_date, entry_date, status from reservation where id_reservation=?");
 	        pst.setString(1, id_reservation);
 	        ResultSet rs = pst.executeQuery();
+	        
+	        if (rs.next()) {
+	        	departureDates.add(rs.getString(1));
+	        	entryDates.add(rs.getString(2));
+	        	status.add(rs.getString(3));
+	        	
+	        }
 	     
 		}
 		catch (ClassNotFoundException | SQLException ex) {
