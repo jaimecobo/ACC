@@ -47,12 +47,15 @@ public class Servlet_16_Query_Reservations extends HttpServlet {
 		String id_reservation = request.getParameter("resrvNum");
 		
 		try {
-
+			
 		}
 		catch (ClassNotFoundException | SQLException ex) {
+	        	System.out.println("ERROR in Catch");
 	        	ex.printStackTrace();
 	    }
+		
 	}
+
 }
 
 
