@@ -72,8 +72,14 @@ public class Servlet_16_Query_Reservations extends HttpServlet {
 	        	entryDates.add(rs.getString(2));
 	        	status.add(rs.getString(3));
 	        	
+	        	if((status.get(0).equals("Approved"))) {
+	        		query_Reservations_String = "Reservation N° : \"" + id_reservation + "\"  From: " + entryDates.get(0) + "  To: " + departureDates.get(0) + " is approved.";
+		        	request.getSession().setAttribute("query_Reservations_String", query_Reservations_String);
+			        response.sendRedirect("16_Query_Reservations.jsp");
+	        	}
+				
 	        }
-	     
+	       
 		}
 		catch (ClassNotFoundException | SQLException ex) {
 	        	System.out.println("ERROR in Catch");
