@@ -82,13 +82,19 @@ public class Servlet_16_Query_Reservations extends HttpServlet {
 		        	request.getSession().setAttribute("query_Reservations_String", query_Reservations_String);
 			        response.sendRedirect("16_Query_Reservations.jsp");
 	        	}
+	        	else if ((status.get(0).equals("Pending")) | (status.get(0).equals("null"))) {
+	        		query_Reservations_String = "Reservation N° : \" " + id_reservation + " \"  From: " + entryDates.get(0) + "  To: " + departureDates.get(0) + " is pending.";
+		        	request.getSession().setAttribute("query_Reservations_String", query_Reservations_String);
+			        response.sendRedirect("16_Query_Reservations.jsp");
+			        
+	        	}
+				
 	        }
-	        
+		        
 		}
 		catch (ClassNotFoundException | SQLException ex) {
 	        	System.out.println("ERROR in Catch");
 	        	ex.printStackTrace();
-				
 	    }
 		
 	}
