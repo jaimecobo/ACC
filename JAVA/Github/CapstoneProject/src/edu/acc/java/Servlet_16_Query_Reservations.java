@@ -2,6 +2,10 @@ package edu.acc.java;
 
 import java.io.IOException;
 //import java.io.PrintWriter;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
@@ -55,12 +59,21 @@ public class Servlet_16_Query_Reservations extends HttpServlet {
 			List<String> departureDates = new ArrayList<String>();
 			List<String> status = new ArrayList<String>();
 			String query_Reservations_String;
-	        
+
+	
+			Class.forName("com.mysql.jdbc.Driver");
+	        Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/hotels360", "root", "sesame");
+	        PreparedStatement pst = conn.prepareStatement("Select departure_date, entry_date, status from reservation where id_reservation=?");
+	        pst.setString(1, id_reservation);
+	        ResultSet rs = pst.executeQuery();
+	     
 		}
 		catch (ClassNotFoundException | SQLException ex) {
 	        	System.out.println("ERROR in Catch");
 	        	ex.printStackTrace();
+				
 	    }
+		
 	}
 
 }
