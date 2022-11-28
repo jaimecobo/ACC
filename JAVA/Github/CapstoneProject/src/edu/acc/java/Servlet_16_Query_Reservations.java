@@ -33,6 +33,13 @@ public class Servlet_16_Query_Reservations extends HttpServlet {
 		request.getRequestDispatcher("05_management_Options.jsp").forward(request, response);
 	}
 
+	/**
+	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
+	 */
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		// TODO Auto-generated method stub
+
+	}
 
 }
 
