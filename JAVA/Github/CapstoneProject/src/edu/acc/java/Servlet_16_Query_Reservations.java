@@ -2,6 +2,9 @@ package edu.acc.java;
 
 import java.io.IOException;
 //import java.io.PrintWriter;
+import java.sql.SQLException;
+import java.util.ArrayList;
+import java.util.List;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -48,12 +51,16 @@ public class Servlet_16_Query_Reservations extends HttpServlet {
 		
 		try {
 			
+			List<String> entryDates = new ArrayList<String>();
+			List<String> departureDates = new ArrayList<String>();
+			List<String> status = new ArrayList<String>();
+			String query_Reservations_String;
+	        
 		}
 		catch (ClassNotFoundException | SQLException ex) {
 	        	System.out.println("ERROR in Catch");
 	        	ex.printStackTrace();
 	    }
-		
 	}
 
 }
