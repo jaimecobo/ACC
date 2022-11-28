@@ -88,9 +88,14 @@ public class Servlet_16_Query_Reservations extends HttpServlet {
 			        response.sendRedirect("16_Query_Reservations.jsp");
 			        
 	        	}
-				
 	        }
-		        
+		    else {
+				query_Reservations_String = "Reservation N°: \"" + id_reservation + "\"  doesn't exist.";
+				request.setAttribute("query_Reservations_String", query_Reservations_String);
+				request.getRequestDispatcher("16_Query_Reservations.jsp").forward(request, response);
+			}
+	        
+	     
 		}
 		catch (ClassNotFoundException | SQLException ex) {
 	        	System.out.println("ERROR in Catch");
