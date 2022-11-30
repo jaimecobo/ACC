@@ -1,6 +1,8 @@
 package edu.acc.java;
 
-public class Servlet_04_LogOut_Customer_or_User {
+import javax.servlet.http.HttpServlet;
+
+public class Servlet_04_LogOut_Customer_or_User extends HttpServlet {
 
 }
 
