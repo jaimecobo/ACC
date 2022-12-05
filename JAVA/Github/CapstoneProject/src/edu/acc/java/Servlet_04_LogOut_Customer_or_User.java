@@ -7,6 +7,7 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
 
 /**
  * Servlet implementation class Servlet_04_LogOut_Customer
@@ -29,6 +30,12 @@ public class Servlet_04_LogOut_Customer_or_User extends HttpServlet {
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
+		
+		HttpSession session = request.getSession(false);
+		if (session != null) {
+		    session.invalidate();
+		}
+		response.sendRedirect("01_index.jsp");
 		
 	}
 
