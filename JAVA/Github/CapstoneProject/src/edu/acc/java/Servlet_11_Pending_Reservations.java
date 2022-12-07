@@ -1,7 +1,8 @@
 package edu.acc.java;
 
-public class Servlet_11_Pending_Reservations {
+import javax.servlet.http.HttpServlet;
+
+public class Servlet_11_Pending_Reservations extends HttpServlet {
 
 }
-
 
