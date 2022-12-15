@@ -52,9 +52,18 @@ public class Servlet_11_Pending_Reservations extends HttpServlet {
 		String stat = "Pending";
 
 		try {
+			List<String> id_Customer = new ArrayList<String>();
+			List<String> id_reservation_dates = new ArrayList<String>();
+			List<String> entryDates = new ArrayList<String>();
+			List<String> departureDates = new ArrayList<String>();
+			List<String> status = new ArrayList<String>();
+			List<String> Balance = new ArrayList<String>();
+			StringBuilder strBuilder = new StringBuilder();
+			String reservation_string = "";
+	
 			Class.forName("com.mysql.jdbc.Driver");
 	        Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/hotels360", "root", "sesame");
-	        PreparedStatement pst = conn.prepareStatement("Select * from reservation_dates");
+//	        PreparedStatement pst = conn.prepareStatement("Select * from reservation_dates");
 	        pst.setString(1, stat);
 	        	
 		}
