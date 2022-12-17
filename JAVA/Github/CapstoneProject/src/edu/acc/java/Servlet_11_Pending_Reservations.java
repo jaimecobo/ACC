@@ -7,6 +7,8 @@ import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.util.ArrayList;
+import java.util.List;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -51,7 +53,7 @@ public class Servlet_11_Pending_Reservations extends HttpServlet {
 		response.setContentType("text/html");
 
 		String stat = "Pending";
-		
+
 		try {
 			List<String> id_Customer = new ArrayList<String>();
 			List<String> id_reservation_dates = new ArrayList<String>();
@@ -69,6 +71,10 @@ public class Servlet_11_Pending_Reservations extends HttpServlet {
 	        pst.setString(1, stat);
 	        ResultSet rs = pst.executeQuery();
 	        
+	        while (rs.next()) {
+	        	
+	        }
+	        	
 		}
 		catch (ClassNotFoundException | SQLException ex) {
 	        	System.out.println("ERROR in Catch");
