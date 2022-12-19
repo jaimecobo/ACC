@@ -72,10 +72,11 @@ public class Servlet_11_Pending_Reservations extends HttpServlet {
 	        PreparedStatement pst = conn.prepareStatement("Select * from reservation where status=?");
 	        pst.setString(1, stat);
 	        ResultSet rs = pst.executeQuery();
-
+	        System.out.println("1111111111111111111111111111111111");
 	        int i = 0;
+	        System.out.println("i = " + i);
 	        while (rs.next()) {
-
+	        	System.out.println("2222222222222222222222222222222222");
 	        	id_reservation_dates.add(rs.getString(1));
 	        	departureDates.add(rs.getString(2));
 	        	entryDates.add(rs.getString(3));
@@ -89,7 +90,8 @@ public class Servlet_11_Pending_Reservations extends HttpServlet {
 //		        		+ "</td></tr>" + "<tr><td>");
 	        	
 	        	i++;
-	        	
+	        	System.out.println("3333333333333333333333333333333333333");
+	        	System.out.println("i = " + i + " --- " + strBuilder.toString());
 	        }
 	        reservation_string = strBuilder.toString();
 	        request.getSession().setAttribute("reservation_string", reservation_string);
