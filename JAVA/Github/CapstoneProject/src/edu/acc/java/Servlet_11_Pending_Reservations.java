@@ -72,8 +72,10 @@ public class Servlet_11_Pending_Reservations extends HttpServlet {
 	        PreparedStatement pst = conn.prepareStatement("Select * from reservation where status=?");
 	        pst.setString(1, stat);
 	        ResultSet rs = pst.executeQuery();
+
 	        int i = 0;
 	        while (rs.next()) {
+
 	        	id_reservation_dates.add(rs.getString(1));
 	        	departureDates.add(rs.getString(2));
 	        	entryDates.add(rs.getString(3));
@@ -81,13 +83,13 @@ public class Servlet_11_Pending_Reservations extends HttpServlet {
 	        	Balance.add(rs.getString(6));
 	        	status.add(rs.getString(7));
 	        	strBuilder.append(id_Customer.get(i) + "</td><td>" + id_reservation_dates.get(i) + "</td><td>" + entryDates.get(i) + " </td><td>" + departureDates.get(i) + "</td> <td>" 
-		        		+ status.get(i) + "</td> <td>" 
-		        		+ "<input class=\"btn btn-primary\" type=\"submit\" name=\"submit\" value=\"Approve\"> "
-		        		+ "<input class=\"btn btn-danger\" type=\"submit\" name=\"submit\" value=\"Deny\">"
-		        		+ "</td></tr>" + "<tr><td>");
-	        	  			
+//		        		+ status.get(i) + "</td> <td>" 
+//		        		+ "<input class=\"btn btn-primary\" type=\"submit\" name=\"submit\" value=\"Approve\"> "
+//		        		+ "<input class=\"btn btn-danger\" type=\"submit\" name=\"submit\" value=\"Deny\">"
+//		        		+ "</td></tr>" + "<tr><td>");
+	        	
 	        	i++;
-
+	        	
 	        }
 	        reservation_string = strBuilder.toString();
 	        request.getSession().setAttribute("reservation_string", reservation_string);
@@ -102,6 +104,8 @@ public class Servlet_11_Pending_Reservations extends HttpServlet {
 		
 		//=================================================================================================================
 		//=================================================================================================================
+		
+		
 		
 	}
 
