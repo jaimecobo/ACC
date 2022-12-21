@@ -89,6 +89,15 @@ public class Servlet_11_Pending_Reservations extends HttpServlet {
 //		        		+ "<input class=\"btn btn-danger\" type=\"submit\" name=\"submit\" value=\"Deny\">"
 //		        		+ "</td></tr>" + "<tr><td>");
 	        	
+	        	+ status.get(i) + "</td> <td>" 
+    			+"<form action=\"Servlet_Approve\" method=\"post\">"
+        		+ "<input class=\"btn btn-primary\" type=\"submit\" name=\"" + id_reservation_dates.get(i) + "\" id=\"submit\" value=\"Approve\"> "
+    			+"</form></td>"
+    			+"<td><form action=\"Servlet_Deny\" method=\"post\">"
+        		+ "<input class=\"btn btn-danger\" type=\"submit\" name=\"" + id_reservation_dates.get(i) + "\" id=\"submit\" value=\"Deny\">"
+        		+"</form></td>"
+        		+ "</td></tr>" + "<tr><td>");
+	        			
 	        	i++;
 	        	System.out.println("3333333333333333333333333333333333333");
 	        	System.out.println("i = " + i + " --- " + strBuilder.toString());
@@ -107,10 +116,6 @@ public class Servlet_11_Pending_Reservations extends HttpServlet {
 		//=================================================================================================================
 		//=================================================================================================================
 		
-		
-		
 	}
 
 }
-
-
