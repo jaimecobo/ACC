@@ -7,6 +7,7 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.ManyToMany;
 import javax.persistence.ManyToOne;
 
 @Entity
@@ -21,5 +22,7 @@ public class Reservation implements Serializable {
 	private long id_Reservation;
 	@ManyToOne(cascade = CascadeType.ALL)
 	private int id_Customer;
+	@ManyToMany(cascade = CascadeType.ALL)
+	private Room room_Number;
 
 }
