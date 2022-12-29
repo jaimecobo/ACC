@@ -9,6 +9,8 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.ManyToMany;
 import javax.persistence.ManyToOne;
+import javax.persistence.Temporal;
+import javax.persistence.TemporalType;
 
 @Entity
 public class Reservation implements Serializable {
@@ -24,5 +26,7 @@ public class Reservation implements Serializable {
 	private int id_Customer;
 	@ManyToMany(cascade = CascadeType.ALL)
 	private Room room_Number;
+	@Temporal(value = TemporalType.TIMESTAMP)
+	private String entry_Date;
 
 }
