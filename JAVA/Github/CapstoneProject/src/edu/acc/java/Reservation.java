@@ -28,5 +28,7 @@ public class Reservation implements Serializable {
 	private Room room_Number;
 	@Temporal(value = TemporalType.TIMESTAMP)
 	private String entry_Date;
-
+	@Temporal(value = TemporalType.TIMESTAMP)
+	private String departure_Date;
+	
 }
