@@ -31,5 +31,6 @@ public class Reservation implements Serializable {
 	@Temporal(value = TemporalType.TIMESTAMP)
 	private String departure_Date;
 	private double initial_Payment;
+	private double balance;
 	
 }
