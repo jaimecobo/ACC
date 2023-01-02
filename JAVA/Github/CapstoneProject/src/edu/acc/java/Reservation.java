@@ -32,5 +32,6 @@ public class Reservation implements Serializable {
 	private String departure_Date;
 	private double initial_Payment;
 	private double balance;
+	private String status;
 	
 }
