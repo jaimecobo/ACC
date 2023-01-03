@@ -33,5 +33,11 @@ public class Reservation implements Serializable {
 	private double initial_Payment;
 	private double balance;
 	private String status;
-	
+
+
+	protected Reservation() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
 }
