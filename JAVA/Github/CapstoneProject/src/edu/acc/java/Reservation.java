@@ -1,6 +1,7 @@
 package edu.acc.java;
 
 import java.io.Serializable;
+import java.util.Date;
 
 import javax.persistence.CascadeType;
 import javax.persistence.Entity;
@@ -33,6 +34,8 @@ public class Reservation implements Serializable {
 	private double initial_Payment;
 	private double balance;
 	private String status;
+	
+	
 
 
 	protected Reservation() {
@@ -40,4 +43,15 @@ public class Reservation implements Serializable {
 		// TODO Auto-generated constructor stub
 	}
 
+
+	protected Reservation(Customer id_Customer, Room room_Number, Date entry_Date, Date departure_Date,
+			double initial_Payment) {
+		super();
+		this.id_Customer = id_Customer;
+		this.room_Number = room_Number;
+		this.entry_Date = entry_Date;
+		this.departure_Date = departure_Date;
+		this.initial_Payment = initial_Payment;
+	}
+	
 }
