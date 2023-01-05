@@ -37,21 +37,20 @@ public class Reservation implements Serializable {
 	
 	
 
-
 	protected Reservation() {
 		super();
 		// TODO Auto-generated constructor stub
 	}
+	
 
-
-	protected Reservation(Customer id_Customer, Room room_Number, Date entry_Date, Date departure_Date,
-			double initial_Payment) {
-		super();
-		this.id_Customer = id_Customer;
-		this.room_Number = room_Number;
-		this.entry_Date = entry_Date;
-		this.departure_Date = departure_Date;
-		this.initial_Payment = initial_Payment;
-	}
+//	protected Reservation(Customer id_Customer, Room room_Number, Date entry_Date, Date departure_Date,
+//			double initial_Payment) {
+//		super();
+//		this.id_Customer = id_Customer;
+//		this.room_Number = room_Number;
+//		this.entry_Date = entry_Date;
+//		this.departure_Date = departure_Date;
+//		this.initial_Payment = initial_Payment;
+//	}
 	
 }
