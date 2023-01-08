@@ -9,5 +9,13 @@ import javax.servlet.http.HttpServlet;
 @WebServlet("/Pending_Reservations_01")
 public class Servlet_11_Pending_Reservations_01 extends HttpServlet {
 	private static final long serialVersionUID = 1L;
-
+       
+    /**
+     * @see HttpServlet#HttpServlet()
+     */
+    public Servlet_11_Pending_Reservations_01() {
+        super();
+        // TODO Auto-generated constructor stub
+    }
+	
 }
