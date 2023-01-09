@@ -1,6 +1,8 @@
 package edu.acc.java;
 
 import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -30,9 +32,12 @@ public class Servlet_11_Pending_Reservations_01 extends HttpServlet {
 		response.setContentType("text/html");
 
 		String stat = "Pending";
-		
-		try {
 	
+		try {
+			List<String> id_Customer = new ArrayList<String>();
+
+	        }
+	            	
 		}
 		catch (ClassNotFoundException | SQLException ex) {
 	        	System.out.println("ERROR in Catch");
