@@ -36,6 +36,7 @@ public class Servlet_11_Pending_Reservations_01 extends HttpServlet {
 		try {
 			List<String> id_Customer = new ArrayList<String>();
 			List<String> id_reservation_dates = new ArrayList<String>();
+			List<String> entryDates = new ArrayList<String>();
 
 	        }
 	            	
