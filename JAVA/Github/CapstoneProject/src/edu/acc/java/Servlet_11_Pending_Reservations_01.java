@@ -30,7 +30,12 @@ public class Servlet_11_Pending_Reservations_01 extends HttpServlet {
 		response.setContentType("text/html");
 
 		String stat = "Pending";
-
+		
+		try {
+	
+		}
+		catch () {
+	    }
 	}
 
 }
