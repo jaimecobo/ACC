@@ -29,6 +29,8 @@ public class Servlet_11_Pending_Reservations_01 extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		response.setContentType("text/html");
 
+		String stat = "Pending";
+
 	}
 
 }
