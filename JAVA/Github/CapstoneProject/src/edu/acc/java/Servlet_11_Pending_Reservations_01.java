@@ -34,7 +34,7 @@ public class Servlet_11_Pending_Reservations_01 extends HttpServlet {
 		try {
 	
 		}
-		catch () {
+		catch (ClassNotFoundException | SQLException ex) {
 	    }
 	}
 
