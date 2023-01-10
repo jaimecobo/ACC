@@ -1,6 +1,7 @@
 package edu.acc.java;
 
 import java.io.IOException;
+import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -32,7 +33,7 @@ public class Servlet_11_Pending_Reservations_01 extends HttpServlet {
 		response.setContentType("text/html");
 
 		String stat = "Pending";
-	
+		
 		try {
 			List<String> id_Customer = new ArrayList<String>();
 			List<String> id_reservation_dates = new ArrayList<String>();
@@ -41,8 +42,9 @@ public class Servlet_11_Pending_Reservations_01 extends HttpServlet {
 			List<String> status = new ArrayList<String>();
 			List<String> Balance = new ArrayList<String>();
 
-	        }
-	            	
+	
+			Class.forName("com.mysql.jdbc.Driver");
+	        	
 		}
 		catch (ClassNotFoundException | SQLException ex) {
 	        	System.out.println("ERROR in Catch");
