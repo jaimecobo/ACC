@@ -1,6 +1,8 @@
 package edu.acc.java;
 
 import java.io.IOException;
+import java.sql.Connection;
+import java.sql.DriverManager;
 import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
@@ -44,6 +46,7 @@ public class Servlet_11_Pending_Reservations_01 extends HttpServlet {
 
 	
 			Class.forName("com.mysql.jdbc.Driver");
+	        Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/hotels360", "root", "sesame");
 	        	
 		}
 		catch (ClassNotFoundException | SQLException ex) {
