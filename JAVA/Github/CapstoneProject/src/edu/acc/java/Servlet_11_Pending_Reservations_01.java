@@ -49,6 +49,7 @@ public class Servlet_11_Pending_Reservations_01 extends HttpServlet {
 			Class.forName("com.mysql.jdbc.Driver");
 	        Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/hotels360", "root", "sesame");
 	        PreparedStatement pst = conn.prepareStatement("Select * from reservation where status=?");
+	        pst.setString(1, stat);
 	        	
 		}
 		catch (ClassNotFoundException | SQLException ex) {
