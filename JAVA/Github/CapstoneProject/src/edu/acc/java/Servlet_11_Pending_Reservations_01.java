@@ -53,7 +53,10 @@ public class Servlet_11_Pending_Reservations_01 extends HttpServlet {
 	        pst.setString(1, stat);
 	        ResultSet rs = pst.executeQuery();
 	        int i = 0;
-	        ArrayList<Reservation> reservationList = new ArrayList<>(); 
+	        ArrayList<Reservation> reservationList = new ArrayList<>();
+	        while (rs.next()) {
+	        		        	
+	        }   
 	        	
 		}
 		catch (ClassNotFoundException | SQLException ex) {
