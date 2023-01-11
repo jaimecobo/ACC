@@ -57,6 +57,7 @@ public class Servlet_11_Pending_Reservations_01 extends HttpServlet {
 	        while (rs.next()) {
 	        	id_reservation_dates.add(rs.getString(1));
 	        	departureDates.add(rs.getString(2));
+	        	entryDates.add(rs.getString(3));
 	        		        	
 	        }   
 	        	
