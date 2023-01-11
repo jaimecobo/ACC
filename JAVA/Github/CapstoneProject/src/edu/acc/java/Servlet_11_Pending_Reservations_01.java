@@ -65,6 +65,7 @@ public class Servlet_11_Pending_Reservations_01 extends HttpServlet {
 	        	
 	        	Reservation reservation = new Reservation();
 	        	reservation.setId_Reservation((Integer.parseInt(id_reservation_dates.get(i))));
+	        	reservation.setDeparture_Date(departureDates.get(i));
 	        	
 	        }   
 	        	
