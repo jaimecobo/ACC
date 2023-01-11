@@ -61,7 +61,10 @@ public class Servlet_11_Pending_Reservations_01 extends HttpServlet {
 	        	id_Customer.add(rs.getString(4));
 	        	Balance.add(rs.getString(6));
 	        	status.add(rs.getString(7));
-	        		        	
+	        	
+	        	
+	        	Reservation reservation = new Reservation();
+	        	
 	        }   
 	        	
 		}
