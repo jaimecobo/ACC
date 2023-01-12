@@ -75,6 +75,7 @@ public class Servlet_11_Pending_Reservations_01 extends HttpServlet {
 	        }
 	        
 	        request.setAttribute("reservationList", reservationList);
+	        request.getRequestDispatcher("/11_Pending_Reservations_01.jsp").forward(request, response);      
 	        	
 		}
 		catch (ClassNotFoundException | SQLException ex) {
