@@ -67,9 +67,10 @@ public class Servlet_11_Pending_Reservations_01 extends HttpServlet {
 	        	reservation.setId_Reservation((Integer.parseInt(id_reservation_dates.get(i))));
 	        	reservation.setDeparture_Date(departureDates.get(i));
 	        	reservation.setEntry_Date(entryDates.get(i));
+	        	reservation.setId_Customer((Integer.parseInt(id_Customer.get(i))));
 	        	
-	        }   
-	        	
+	        }
+	        	        	
 		}
 		catch (ClassNotFoundException | SQLException ex) {
 	        	System.out.println("ERROR in Catch");
