@@ -71,6 +71,7 @@ public class Servlet_11_Pending_Reservations_01 extends HttpServlet {
 	        	reservation.setBalance((Double.parseDouble(Balance.get(i))));
 	        	reservation.setStatus(status.get(i));
 	        	
+	        	reservationList.add(reservation);
 	        }
 	        	        	
 		}
