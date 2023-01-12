@@ -73,7 +73,9 @@ public class Servlet_11_Pending_Reservations_01 extends HttpServlet {
 	        	
 	        	reservationList.add(reservation);
 	        }
-	        	        	
+	        
+	        request.setAttribute("reservationList", reservationList);
+	        	
 		}
 		catch (ClassNotFoundException | SQLException ex) {
 	        	System.out.println("ERROR in Catch");
