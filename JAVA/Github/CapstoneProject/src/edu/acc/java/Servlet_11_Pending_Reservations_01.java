@@ -1,7 +1,7 @@
 package edu.acc.java;
 
 import java.io.IOException;
-import java.io.PrintWriter;
+//import java.io.PrintWriter;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
@@ -92,7 +92,7 @@ public class Servlet_11_Pending_Reservations_01 extends HttpServlet {
 		// TODO Auto-generated method stub
 //		doGet(request, response);
 		
-		PrintWriter out  = response.getWriter();	
+//		PrintWriter out  = response.getWriter();	
 
 		
 	}
