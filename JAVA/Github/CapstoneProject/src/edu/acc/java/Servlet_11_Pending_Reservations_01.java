@@ -93,6 +93,7 @@ public class Servlet_11_Pending_Reservations_01 extends HttpServlet {
 //		doGet(request, response);
 		
 //		PrintWriter out  = response.getWriter();	
+		response.setContentType("text/html");
 
 		
 	}
