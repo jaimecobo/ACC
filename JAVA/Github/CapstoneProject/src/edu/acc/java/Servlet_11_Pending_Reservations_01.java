@@ -97,11 +97,10 @@ public class Servlet_11_Pending_Reservations_01 extends HttpServlet {
 
 		String stat = "Pending";
 		
-		try {	
-		
-		}
-		catch () {
+		try {
 	
+		}
+		catch (ClassNotFoundException) {
 	    }
 		
 	}
