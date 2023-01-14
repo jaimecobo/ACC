@@ -104,7 +104,7 @@ public class Servlet_11_Pending_Reservations_01 extends HttpServlet {
 			List<String> departureDates = new ArrayList<String>();
 			List<String> status = new ArrayList<String>();
 			List<String> Balance = new ArrayList<String>();
-			StringBuilder strBuilder = new StringBuilder();
+//			StringBuilder strBuilder = new StringBuilder();
 			String reservation_string = "";
 	        	
 		}
