@@ -103,7 +103,8 @@ public class Servlet_11_Pending_Reservations_01 extends HttpServlet {
 			List<String> entryDates = new ArrayList<String>();
 			List<String> departureDates = new ArrayList<String>();
 			List<String> status = new ArrayList<String>();
-  	
+			List<String> Balance = new ArrayList<String>();
+	        	
 		}
 		catch (ClassNotFoundException | SQLException ex) {
 	        	System.out.println("ERROR in Catch");
