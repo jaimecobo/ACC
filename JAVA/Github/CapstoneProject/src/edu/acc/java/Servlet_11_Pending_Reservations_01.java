@@ -98,7 +98,8 @@ public class Servlet_11_Pending_Reservations_01 extends HttpServlet {
 		String stat = "Pending";
 		
 		try {
-
+			List<String> id_Customer = new ArrayList<String>();
+  	
 		}
 		catch (ClassNotFoundException | SQLException ex) {
 	        	System.out.println("ERROR in Catch");
