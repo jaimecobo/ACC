@@ -107,7 +107,8 @@ public class Servlet_11_Pending_Reservations_01 extends HttpServlet {
 //			StringBuilder strBuilder = new StringBuilder();
 //			String reservation_string = "";
 	
-			Class.forName("com.mysql.jdbc.Driver");	      
+			Class.forName("com.mysql.jdbc.Driver");
+	        Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/hotels360", "root", "sesame");	      
 	        	
 		}
 		catch (ClassNotFoundException | SQLException ex) {
