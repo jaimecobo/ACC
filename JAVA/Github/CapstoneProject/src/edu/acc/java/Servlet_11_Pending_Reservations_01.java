@@ -108,7 +108,8 @@ public class Servlet_11_Pending_Reservations_01 extends HttpServlet {
 //			String reservation_string = "";
 	
 			Class.forName("com.mysql.jdbc.Driver");
-	        Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/hotels360", "root", "sesame");	      
+	        Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/hotels360", "root", "sesame");
+	        PreparedStatement pst = conn.prepareStatement("Select * from reservation_dates");	      
 	        	
 		}
 		catch (ClassNotFoundException | SQLException ex) {
