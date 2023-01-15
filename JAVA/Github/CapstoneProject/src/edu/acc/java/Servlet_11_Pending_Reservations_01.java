@@ -106,6 +106,8 @@ public class Servlet_11_Pending_Reservations_01 extends HttpServlet {
 			List<String> Balance = new ArrayList<String>();
 //			StringBuilder strBuilder = new StringBuilder();
 //			String reservation_string = "";
+	
+			Class.forName("com.mysql.jdbc.Driver");	      
 	        	
 		}
 		catch (ClassNotFoundException | SQLException ex) {
