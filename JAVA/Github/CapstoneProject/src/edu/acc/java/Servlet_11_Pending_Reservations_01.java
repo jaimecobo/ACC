@@ -115,6 +115,7 @@ public class Servlet_11_Pending_Reservations_01 extends HttpServlet {
 	        ResultSet rs = pst.executeQuery();
 	        System.out.println("1111111111111111111111111111111111");
 	        int i = 0;
+	        System.out.println("i = " + i);
 	        	
 		}
 		catch (ClassNotFoundException | SQLException ex) {
