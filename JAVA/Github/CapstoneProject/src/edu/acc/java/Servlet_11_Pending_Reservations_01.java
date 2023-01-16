@@ -112,14 +112,14 @@ public class Servlet_11_Pending_Reservations_01 extends HttpServlet {
 //	        PreparedStatement pst = conn.prepareStatement("Select * from reservation_dates");
 	        PreparedStatement pst = conn.prepareStatement("Select * from reservation where status=?");
 	        pst.setString(1, stat);
-	      
+	        ResultSet rs = pst.executeQuery();
 	        	
 		}
 		catch (ClassNotFoundException | SQLException ex) {
 	        	System.out.println("ERROR in Catch");
 	        	ex.printStackTrace();
 	    }
-		
+			
 	}
 
 }
