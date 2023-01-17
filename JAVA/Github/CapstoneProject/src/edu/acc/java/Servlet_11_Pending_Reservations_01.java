@@ -123,6 +123,7 @@ public class Servlet_11_Pending_Reservations_01 extends HttpServlet {
 	        }
 	        
 	        request.setAttribute("reservationList", reservationList);
+	        request.getRequestDispatcher("/11_Pending_Reservations_01.jsp").forward(request, response);
 //	        reservation_string = strBuilder.toString();
 //	        request.getSession().setAttribute("reservation", reservation);
 //	        
