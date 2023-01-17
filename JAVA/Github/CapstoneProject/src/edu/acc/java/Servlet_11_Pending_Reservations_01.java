@@ -38,6 +38,8 @@ public class Servlet_11_Pending_Reservations_01 extends HttpServlet {
 		response.setContentType("text/html");
 
 		String stat = "Pending";
+		//=================================================================================================================
+		//=================================================================================================================
 		
 		try {
 			List<String> id_Customer = new ArrayList<String>();
@@ -96,6 +98,8 @@ public class Servlet_11_Pending_Reservations_01 extends HttpServlet {
 		response.setContentType("text/html");
 
 		String stat = "Pending";
+		//=================================================================================================================
+		//=================================================================================================================
 		
 		try {
 			List<String> id_Customer = new ArrayList<String>();
@@ -119,22 +123,16 @@ public class Servlet_11_Pending_Reservations_01 extends HttpServlet {
 //	        Reservation reservation = new Reservation();
 	        ArrayList<Reservation> reservationList = new ArrayList<>();
 	        while (rs.next()) {
-
-	        }
-	        
-	        request.setAttribute("reservationList", reservationList);
-	        request.getRequestDispatcher("/11_Pending_Reservations_01.jsp").forward(request, response);
-//	        reservation_string = strBuilder.toString();
-//	        request.getSession().setAttribute("reservation", reservation);
-//	        
-//	        response.sendRedirect("11_Pending_Reservations.jsp");
 	        	
 		}
 		catch (ClassNotFoundException | SQLException ex) {
 	        	System.out.println("ERROR in Catch");
 	        	ex.printStackTrace();
 	    }
-
+		
+		//=================================================================================================================
+		//=================================================================================================================
+		
 	}
 
 }
