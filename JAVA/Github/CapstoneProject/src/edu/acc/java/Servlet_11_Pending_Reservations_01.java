@@ -123,6 +123,7 @@ public class Servlet_11_Pending_Reservations_01 extends HttpServlet {
 //	        Reservation reservation = new Reservation();
 	        ArrayList<Reservation> reservationList = new ArrayList<>();
 	        while (rs.next()) {
+	        	System.out.println("2222222222222222222222222222222222");
 	        	
 		}
 		catch (ClassNotFoundException | SQLException ex) {
