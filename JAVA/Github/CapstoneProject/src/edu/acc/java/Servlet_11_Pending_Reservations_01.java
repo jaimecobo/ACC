@@ -136,6 +136,7 @@ public class Servlet_11_Pending_Reservations_01 extends HttpServlet {
 	        }
 	        
 	        reservation_string = strBuilder.toString();
+	        request.getSession().setAttribute("reservation", reservation);
 	        	
 		}
 		catch (ClassNotFoundException | SQLException ex) {
