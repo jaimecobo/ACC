@@ -124,7 +124,8 @@ public class Servlet_11_Pending_Reservations_01 extends HttpServlet {
 	        ArrayList<Reservation> reservationList = new ArrayList<>();
 	        while (rs.next()) {
 	        	System.out.println("2222222222222222222222222222222222");
-
+	        	id_reservation_dates.add(rs.getString(1));
+	        	
 	        }
 	        
 	        request.setAttribute("reservationList", reservationList);
