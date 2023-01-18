@@ -124,17 +124,11 @@ public class Servlet_11_Pending_Reservations_01 extends HttpServlet {
 	        ArrayList<Reservation> reservationList = new ArrayList<>();
 	        while (rs.next()) {
 	        	System.out.println("2222222222222222222222222222222222");
-	        	id_reservation_dates.add(rs.getString(1));
-	        	departureDates.add(rs.getString(2));
-	        	entryDates.add(rs.getString(3));
-	        	id_Customer.add(rs.getString(4));
-	        	Balance.add(rs.getString(6));
-	        	status.add(rs.getString(7));
-	        	
-	        	
-	        	
+=
 	        }
 	        
+	        request.setAttribute("reservationList", reservationList);
+			
 //	        reservation_string = strBuilder.toString();
 //	        request.getSession().setAttribute("reservation", reservation);
 //	        
