@@ -131,6 +131,11 @@ public class Servlet_11_Pending_Reservations_01 extends HttpServlet {
 	        	Balance.add(rs.getString(6));
 	        	status.add(rs.getString(7));
 	        	
+				
+	        	Reservation reservation = new Reservation(	Long.parseLong(rs.getString(1)), 
+				
+	        											);
+	        	
 	        }
 	        
 	        request.setAttribute("reservationList", reservationList);
@@ -148,8 +153,6 @@ public class Servlet_11_Pending_Reservations_01 extends HttpServlet {
 		
 		//=================================================================================================================
 		//=================================================================================================================
-		
-		
 		
 	}
 
