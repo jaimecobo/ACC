@@ -144,6 +144,12 @@ public class Servlet_11_Pending_Reservations_01 extends HttpServlet {
 //	        	strBuilder.append(reservation.getId_Reservation() + "</td><td>" + reservation.getEntry_Date()  + "</td><td>" + reservation.getDeparture_Date()   + "</td><td>" +
 //	        	reservation.getStatus() + "</td><td>" + reservation.getBalance() + "</td> <td>");
 	        	
+				
+	        	strBuilder.append(id_Customer.get(i) + "</td><td>" + id_reservation_dates.get(i) + "</td><td>" + entryDates.get(i) + " </td><td>" + departureDates.get(i) + "</td> <td>" 
+		        		+ status.get(i) + "</td> <td>" 
+		        		+ "<input class=\"btn btn-primary\" type=\"submit\" name=\"submit\" value=\"Approve\"> "
+		        		+ "<input class=\"btn btn-danger\" type=\"submit\" name=\"submit\" value=\"Deny\">"
+		        		+ "</td></tr>" + "<tr><td>");
 	        	
 	        	i++;
 	        	System.out.println("3333333333333333333333333333333333333");
