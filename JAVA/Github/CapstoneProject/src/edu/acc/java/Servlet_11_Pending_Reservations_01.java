@@ -135,6 +135,7 @@ public class Servlet_11_Pending_Reservations_01 extends HttpServlet {
 	        	Reservation reservation = new Reservation(	Long.parseLong(rs.getString(1)), 
 	        												rs.getInt(4),
 	        												rs.getString(3),
+	        												rs.getString(2),
 	        											);
 	        	
 	        }
