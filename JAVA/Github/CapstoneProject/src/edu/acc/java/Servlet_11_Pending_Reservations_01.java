@@ -139,7 +139,11 @@ public class Servlet_11_Pending_Reservations_01 extends HttpServlet {
 	        												rs.getDouble(6),
 	        												rs.getString(7)
 	        											);
-	        	reservationList.add(reservation);	        	
+	        	reservationList.add(reservation);
+	        	
+	        	strBuilder.append(reservation.getId_Reservation() + "</td><td>" + reservation.getEntry_Date()  + "</td><td>" + reservation.getDeparture_Date()   + "</td><td>" +
+	        	reservation.getStatus() + "</td><td>" + reservation.getBalance() + "</td> <td>");
+	        	
 	        	
 	        }
 	        
