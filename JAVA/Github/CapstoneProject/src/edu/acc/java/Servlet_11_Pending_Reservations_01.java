@@ -146,6 +146,7 @@ public class Servlet_11_Pending_Reservations_01 extends HttpServlet {
 	        	
 	        	i++;
 	        	System.out.println("3333333333333333333333333333333333333");
+	        	System.out.println("i = " + i + " --- " + strBuilder.toString());
 	        	
 	        }
 	        
