@@ -136,6 +136,7 @@ public class Servlet_11_Pending_Reservations_01 extends HttpServlet {
 	        												rs.getInt(4),
 	        												rs.getString(3),
 	        												rs.getString(2),
+	        												rs.getDouble(6),
 	        											);
 	        	
 	        }
