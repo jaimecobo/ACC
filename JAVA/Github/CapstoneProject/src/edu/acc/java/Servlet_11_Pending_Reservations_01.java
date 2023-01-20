@@ -131,7 +131,6 @@ public class Servlet_11_Pending_Reservations_01 extends HttpServlet {
 	        	Balance.add(rs.getString(6));
 	        	status.add(rs.getString(7));
 	        	
-	        	
 //	        	Reservation reservation = new Reservation(	Long.parseLong(rs.getString(1)), 
 //	        												rs.getInt(4),
 //	        												rs.getString(3),
@@ -142,20 +141,18 @@ public class Servlet_11_Pending_Reservations_01 extends HttpServlet {
 	        	reservationList.add(reservation);
 	        	
 	        	
-	        	
-	        	
-	        	
 //	        	strBuilder.append(reservation.getId_Reservation() + "</td><td>" + reservation.getEntry_Date()  + "</td><td>" + reservation.getDeparture_Date()   + "</td><td>" +
 //	        	reservation.getStatus() + "</td><td>" + reservation.getBalance() + "</td> <td>");
 	        	
 	        	
 	        	
-//	        	strBuilder.append(id_Customer.get(i) + "</td><td>" + id_reservation_dates.get(i) + "</td><td>" + entryDates.get(i) + " </td><td>" + departureDates.get(i) + "</td> <td>" 
+	        	strBuilder.append(id_Customer.get(i) + "</td><td>" + id_reservation_dates.get(i) + "</td><td>" + entryDates.get(i) + " </td><td>" + departureDates.get(i) + "</td> <td>" 
 //		        		+ status.get(i) + "</td> <td>" 
 //		        		+ "<input class=\"btn btn-primary\" type=\"submit\" name=\"submit\" value=\"Approve\"> "
 //		        		+ "<input class=\"btn btn-danger\" type=\"submit\" name=\"submit\" value=\"Deny\">"
 //		        		+ "</td></tr>" + "<tr><td>");
 	        	
+				
 	        	i++;
 	        	System.out.println("3333333333333333333333333333333333333");
 //	        	System.out.println("i = " + i + " --- " + strBuilder.toString());
@@ -177,7 +174,7 @@ public class Servlet_11_Pending_Reservations_01 extends HttpServlet {
 		
 		//=================================================================================================================
 		//=================================================================================================================
-		
+
 	}
 
 }
