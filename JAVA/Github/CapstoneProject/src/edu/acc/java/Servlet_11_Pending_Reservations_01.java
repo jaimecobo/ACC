@@ -152,7 +152,9 @@ public class Servlet_11_Pending_Reservations_01 extends HttpServlet {
 //		        		+ "<input class=\"btn btn-danger\" type=\"submit\" name=\"submit\" value=\"Deny\">"
 //		        		+ "</td></tr>" + "<tr><td>");
 	        	
-				
+	        
+						+ status.get(i) + "</td> <td>" + Balance.get(i) + "</td> <td>"
+						
 	        	i++;
 	        	System.out.println("3333333333333333333333333333333333333");
 //	        	System.out.println("i = " + i + " --- " + strBuilder.toString());
