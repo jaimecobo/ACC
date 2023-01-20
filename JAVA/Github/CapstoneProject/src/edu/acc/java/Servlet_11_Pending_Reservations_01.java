@@ -159,6 +159,7 @@ public class Servlet_11_Pending_Reservations_01 extends HttpServlet {
 	        			+"</form></td>"
 	        			+"<td><form action=\"Servlet_Deny\" method=\"post\">"
 	            		+ "<input class=\"btn btn-danger\" type=\"submit\" name=\"submit\" id=\"submit\" value=\"Deny\">"
+	            		+"</form></td>"
 						
 	        	i++;
 	        	System.out.println("3333333333333333333333333333333333333");
