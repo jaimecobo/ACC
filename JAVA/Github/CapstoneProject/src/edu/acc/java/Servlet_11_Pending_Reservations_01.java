@@ -139,8 +139,7 @@ public class Servlet_11_Pending_Reservations_01 extends HttpServlet {
 //	        												rs.getString(7)
 //	        											);
 	        	reservationList.add(reservation);
-	        	
-	        	
+	        	 	
 //	        	strBuilder.append(reservation.getId_Reservation() + "</td><td>" + reservation.getEntry_Date()  + "</td><td>" + reservation.getDeparture_Date()   + "</td><td>" +
 //	        	reservation.getStatus() + "</td><td>" + reservation.getBalance() + "</td> <td>");
 	        	
@@ -152,16 +151,15 @@ public class Servlet_11_Pending_Reservations_01 extends HttpServlet {
 //		        		+ "<input class=\"btn btn-danger\" type=\"submit\" name=\"submit\" value=\"Deny\">"
 //		        		+ "</td></tr>" + "<tr><td>");
 	        	
-	        
-						+ status.get(i) + "</td> <td>" + Balance.get(i) + "</td> <td>"
-	        			+"<form action=\"Servlet_Approve\" method=\"post\">"
-	            		+ "<input class=\"btn btn-primary\" type=\"submit\" name=\"submit \" id=\"submit\" value=\"Approve\"> "
-	        			+"</form></td>"
-	        			+"<td><form action=\"Servlet_Deny\" method=\"post\">"
-	            		+ "<input class=\"btn btn-danger\" type=\"submit\" name=\"submit\" id=\"submit\" value=\"Deny\">"
-	            		+"</form></td>"
-	            		+ "</td></tr>" + "<tr><td>");
-						
+	        			
+//	        			+ status.get(i) + "</td> <td>" + Balance.get(i) + "</td> <td>"
+//	        			+"<form action=\"Servlet_Approve\" method=\"post\">"
+//	            		+ "<input class=\"btn btn-primary\" type=\"submit\" name=\"submit \" id=\"submit\" value=\"Approve\"> "
+//	        			+"</form></td>"
+//	        			+"<td><form action=\"Servlet_Deny\" method=\"post\">"
+//	            		+ "<input class=\"btn btn-danger\" type=\"submit\" name=\"submit\" id=\"submit\" value=\"Deny\">"
+//	            		+"</form></td>"
+//	            		+ "</td></tr>" + "<tr><td>");
 	        	i++;
 	        	System.out.println("3333333333333333333333333333333333333");
 //	        	System.out.println("i = " + i + " --- " + strBuilder.toString());
@@ -183,7 +181,7 @@ public class Servlet_11_Pending_Reservations_01 extends HttpServlet {
 		
 		//=================================================================================================================
 		//=================================================================================================================
-
+		
 	}
 
 }
