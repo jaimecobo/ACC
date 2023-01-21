@@ -152,6 +152,7 @@ public class Servlet_11_Pending_Reservations_01 extends HttpServlet {
 //		        		+ "</td></tr>" + "<tr><td>");
 	        	
 	        	+ status.get(i) + "</td> <td>" 
+    			+"<form action=\"Servlet_Approve\" method=\"post\">"
 	        			
 //	        			+ status.get(i) + "</td> <td>" + Balance.get(i) + "</td> <td>"
 //	        			+"<form action=\"Servlet_Approve\" method=\"post\">"
