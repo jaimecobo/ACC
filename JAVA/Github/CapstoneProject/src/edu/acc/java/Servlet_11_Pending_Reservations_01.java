@@ -153,6 +153,7 @@ public class Servlet_11_Pending_Reservations_01 extends HttpServlet {
 	        	
 	        	+ status.get(i) + "</td> <td>" 
     			+"<form action=\"Servlet_Approve\" method=\"post\">"
+        		+ "<input class=\"btn btn-primary\" type=\"submit\" name=\"" + id_reservation_dates.get(i) + "\" id=\"submit\" value=\"Approve\"> "
 	        			
 //	        			+ status.get(i) + "</td> <td>" + Balance.get(i) + "</td> <td>"
 //	        			+"<form action=\"Servlet_Approve\" method=\"post\">"
