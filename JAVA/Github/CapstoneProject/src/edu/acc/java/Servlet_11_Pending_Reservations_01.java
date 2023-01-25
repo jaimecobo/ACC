@@ -133,7 +133,8 @@ public class Servlet_11_Pending_Reservations_01 extends HttpServlet {
 	        	
 	        	
 	        	Reservation reservation = new Reservation();
-
+	        	reservation.setId_Reservation((Integer.parseInt(id_reservation_dates.get(i))));
+	        	
 //	        	Reservation reservation = new Reservation(	Long.parseLong(rs.getString(1)), 
 //	        												rs.getInt(4),
 //	        												rs.getString(3),
@@ -144,8 +145,7 @@ public class Servlet_11_Pending_Reservations_01 extends HttpServlet {
 
 	        	reservationList.add(reservation);
 	        	
-	        	
-	        	
+	
 //	        	strBuilder.append(reservation.getId_Reservation() + "</td><td>" + reservation.getEntry_Date()  + "</td><td>" + reservation.getDeparture_Date()   + "</td><td>" +
 //	        	reservation.getStatus() + "</td><td>" + reservation.getBalance() + "</td> <td>");
 	        	
@@ -177,7 +177,7 @@ public class Servlet_11_Pending_Reservations_01 extends HttpServlet {
 	        	i++;
 	        	System.out.println("3333333333333333333333333333333333333");
 //	        	System.out.println("i = " + i + " --- " + strBuilder.toString());
-	
+	        
 	        }
 	        
 	        request.setAttribute("reservationList", reservationList);
