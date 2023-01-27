@@ -154,6 +154,7 @@ public class Servlet_11_Pending_Reservations_01 extends HttpServlet {
 	        	
 	        	System.out.println("Id: " + reservation.getId_Reservation() + " Customer: " + reservation.getId_Customer() + " Entry: " + reservation.getEntry_Date() + " Departure: "
 	        			+ reservation.getDeparture_Date() + " Balance: " + reservation.getBalance() + " Status: " + reservation.getStatus());
+	        	System.out.println("*******************************************************");
 	        	
 	        	
 //	        	strBuilder.append(reservation.getId_Reservation() + "</td><td>" + reservation.getEntry_Date()  + "</td><td>" + reservation.getDeparture_Date()   + "</td><td>" +
@@ -187,7 +188,14 @@ public class Servlet_11_Pending_Reservations_01 extends HttpServlet {
 	        	i++;
 	        	System.out.println("3333333333333333333333333333333333333");
 //	        	System.out.println("i = " + i + " --- " + strBuilder.toString());
+	        	
+	        	
+//	        	request.setAttribute("reservation", reservation);
+//	    		this.getServletContext().getRequestDispatcher("/11_Pending_Reservations_01.jsp").forward(request, response);
 	        
+//	        	 request.getSession().setAttribute("reservation", reservation);
+//	        	 request.getRequestDispatcher("/11_Pending_Reservations_01.jsp").forward(request, response);
+//	        	 response.sendRedirect("11_Pending_Reservations_01.jsp");
 	        }
 	        
 	        request.setAttribute("reservationList", reservationList);
