@@ -156,6 +156,10 @@ public class Servlet_11_Pending_Reservations_01 extends HttpServlet {
 	        			+ reservation.getDeparture_Date() + " Balance: " + reservation.getBalance() + " Status: " + reservation.getStatus());
 	        	System.out.println("*******************************************************");
 	        	
+	        	System.out.println("Id: " +  reservationList.get(i).getId_Reservation()  + " Customer: " + reservationList.get(i).getId_Customer() + " Entry: " + reservationList.get(i).getEntry_Date() + " Departure: "
+	        			+ reservationList.get(i).getDeparture_Date() + " Balance: " + reservationList.get(i).getBalance() + " Status: " + reservationList.get(i).getStatus());
+	        	System.out.println("*******************************************************");
+	        	
 	        	
 //	        	strBuilder.append(reservation.getId_Reservation() + "</td><td>" + reservation.getEntry_Date()  + "</td><td>" + reservation.getDeparture_Date()   + "</td><td>" +
 //	        	reservation.getStatus() + "</td><td>" + reservation.getBalance() + "</td> <td>");
