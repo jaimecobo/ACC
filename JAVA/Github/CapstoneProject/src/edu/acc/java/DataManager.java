@@ -5,7 +5,7 @@ import java.sql.Connection;
 
 public class DataManager
 {
-    protected void close()
+    protected void close(Connection connection)
     {
 		
     }
