@@ -1,8 +1,7 @@
 package edu.acc.java;
 
-
 import java.sql.Connection;
-import java.sql.SQLException;
+import java.sql.ResultSet;
 
 public class DataManager
 {
@@ -12,10 +11,8 @@ public class DataManager
             try {
                 connection.close();
             } catch (SQLException ignored) {
-				
             }
         }
     }
-
 }
 
