@@ -7,7 +7,7 @@ public class DataManager
 {
     protected void close(Connection connection)
     {
-        if () {
+        if (connection != null) {
             
         }
     }
