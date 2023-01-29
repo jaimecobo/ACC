@@ -10,7 +10,7 @@ public class DataManager
     {
         if (connection != null) {
             try {
-               
+                connection.close();
             } catch (SQLException ignored) {
 				
             }
