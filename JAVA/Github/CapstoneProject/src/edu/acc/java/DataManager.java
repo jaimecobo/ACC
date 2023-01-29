@@ -11,7 +11,7 @@ public class DataManager
         if (connection != null) {
             try {
                
-            } catch () {
+            } catch (SQLException ignored) {
 				
             }
         }
