@@ -8,7 +8,11 @@ public class DataManager
     protected void close(Connection connection)
     {
         if (connection != null) {
-            
+            try {
+				
+            } catch () {
+				
+            }
         }
     }
 
