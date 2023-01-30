@@ -18,7 +18,8 @@ public class DataManager
 
     protected void close(Statement statement)
     {
-        
+        if () {
+        }
     }
 }
 
