@@ -20,7 +20,7 @@ public class DataManager
     {
         if (statement != null) {
             try {
-            } catch () {
+            } catch (SQLException ignored) {
             }
         }
     }
