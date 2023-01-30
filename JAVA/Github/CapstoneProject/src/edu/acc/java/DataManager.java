@@ -20,6 +20,7 @@ public class DataManager
     {
         if (statement != null) {
             try {
+                statement.close();
             } catch (SQLException ignored) {
             }
         }
