@@ -15,7 +15,7 @@ public class DataManager
         }
     }
 
-    protected void close()
+    protected void close(Statement statement)
     {
         
     }
