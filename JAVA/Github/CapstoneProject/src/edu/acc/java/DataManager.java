@@ -29,7 +29,9 @@ public class DataManager
 
     protected void close(ResultSet results)
     {
-        
+        if () {
+            
+        }
     }
 }
 
