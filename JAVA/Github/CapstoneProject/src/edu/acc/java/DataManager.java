@@ -31,7 +31,8 @@ public class DataManager
     {
         if (results != null) {
             try {
-            } 
+            } catch () {
+            }
         }
     }
 }
