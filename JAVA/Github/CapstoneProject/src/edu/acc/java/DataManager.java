@@ -31,7 +31,7 @@ public class DataManager
     {
         if (results != null) {
             try {
-            } catch () {
+            } catch (SQLException ignored) {
             }
         }
     }
