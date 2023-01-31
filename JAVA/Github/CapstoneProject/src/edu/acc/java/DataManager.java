@@ -26,7 +26,7 @@ public class DataManager
         }
     }
 
-    protected void close()
+    protected void close(ResultSet results)
     {
         
     }
