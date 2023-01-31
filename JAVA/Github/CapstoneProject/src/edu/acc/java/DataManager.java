@@ -25,5 +25,10 @@ public class DataManager
             }
         }
     }
+
+    protected void close()
+    {
+        
+    }
 }
 
