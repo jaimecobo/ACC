@@ -30,7 +30,8 @@ public class DataManager
     protected void close(ResultSet results)
     {
         if (results != null) {
-            
+            try {
+            } 
         }
     }
 }
