@@ -1,5 +1,6 @@
 package edu.acc.java;
 
+import javax.servlet.annotation.WebServlet;
 
 /**
  * Servlet implementation class Servlet_Check_Reservation
