@@ -18,9 +18,8 @@ public class Servlet_03_Check_Reservation extends HttpServlet {
         // TODO Auto-generated constructor stub
     }
 
-	protected void doGet(HttpServletRequest) {
+	protected void doGet(HttpServletRequest request) {
 		// TODO Auto-generated method stub
-		
 	}
 
 }
