@@ -31,6 +31,7 @@ public class Servlet_03_Check_Reservation extends HttpServlet {
 //		response.getWriter().append("Served at: ").append(request.getContextPath());
 		
 		request.getRequestDispatcher("02_reservation_Form.jsp").forward(request, response);
+		
 	}
 
 }
