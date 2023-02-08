@@ -44,6 +44,7 @@ public class Servlet_03_Check_Reservation extends HttpServlet {
 		
 //		PrintWriter out  = response.getWriter();	
 		response.setContentType("text/html");
+		String id_reservation = request.getParameter("resrvNum");
 		
 	}
 
