@@ -42,7 +42,7 @@ public class Servlet_03_Check_Reservation extends HttpServlet {
 		// TODO Auto-generated method stub
 //		doGet(request, response);
 		
-		PrintWriter out  = response.getWriter();	
+//		PrintWriter out  = response.getWriter();	
 		
 	}
 
