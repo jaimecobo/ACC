@@ -43,6 +43,7 @@ public class Servlet_03_Check_Reservation extends HttpServlet {
 //		doGet(request, response);
 		
 //		PrintWriter out  = response.getWriter();	
+		response.setContentType("text/html");
 		
 	}
 
