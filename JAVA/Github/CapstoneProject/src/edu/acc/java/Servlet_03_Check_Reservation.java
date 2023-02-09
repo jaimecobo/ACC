@@ -46,13 +46,13 @@ public class Servlet_03_Check_Reservation extends HttpServlet {
 		response.setContentType("text/html");
 		String id_reservation = request.getParameter("resrvNum");
 		
-		LocalMySQLCP localDB = new LocalMySQLCP();
+//		LocalMySQLCP localDB = new LocalMySQLCP();
 		
 		
 		
 		String sql;
 		String[] parms;
-			
+		
 	}
 
 }
