@@ -52,9 +52,13 @@ public class Servlet_03_Check_Reservation extends HttpServlet {
 		
 //		String sql;
 //		String[] parms;
-		
+
 		DataManager dt = new DataManager();
-		
+		try {
+		}
+		catch () {
+	    }
+	
 	}
 
 }
