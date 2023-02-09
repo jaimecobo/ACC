@@ -50,7 +50,7 @@ public class Servlet_03_Check_Reservation extends HttpServlet {
 		
 		
 		
-		String sql;
+//		String sql;
 		String[] parms;
 		
 	}
