@@ -2,6 +2,7 @@ package edu.acc.java;
 
 import java.io.IOException;
 //import java.io.PrintWriter;
+import java.sql.SQLException;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -58,8 +59,8 @@ public class Servlet_03_Check_Reservation extends HttpServlet {
 		//=================================================================================================================
 		DataManager dt = new DataManager();
 		try {
-				        
-		}
+			
+	    }  
 		catch (ClassNotFoundException | SQLException ex) {
 	        	System.out.println("ERROR in Catch");
 	        	ex.printStackTrace();
