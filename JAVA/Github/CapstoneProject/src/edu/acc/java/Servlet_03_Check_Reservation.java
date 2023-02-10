@@ -61,6 +61,7 @@ public class Servlet_03_Check_Reservation extends HttpServlet {
 				        
 		}
 		catch (ClassNotFoundException | SQLException ex) {
+	        	System.out.println("ERROR in Catch");
 	    }finally {
 			
 			dt.close(rs);
