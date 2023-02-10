@@ -65,6 +65,7 @@ public class Servlet_03_Check_Reservation extends HttpServlet {
 			
 			dt.close(rs);
 			dt.close(pst);
+			dt.close(conn);
 		}
 		
 	}
