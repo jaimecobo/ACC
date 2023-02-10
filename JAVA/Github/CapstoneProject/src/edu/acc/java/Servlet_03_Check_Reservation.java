@@ -60,7 +60,7 @@ public class Servlet_03_Check_Reservation extends HttpServlet {
 		try {
 				        
 		}
-		catch () {
+		catch (ClassNotFoundException) {
 	    }finally {
 			
 			dt.close(rs);
