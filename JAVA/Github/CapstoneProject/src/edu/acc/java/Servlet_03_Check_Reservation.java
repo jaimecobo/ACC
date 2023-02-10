@@ -58,12 +58,12 @@ public class Servlet_03_Check_Reservation extends HttpServlet {
 		//=================================================================================================================
 		DataManager dt = new DataManager();
 		try {
-
+				        
 		}
 		catch () {
-			
 	    }finally {
 			
+			dt.close(rs);
 		}
 		
 	}
