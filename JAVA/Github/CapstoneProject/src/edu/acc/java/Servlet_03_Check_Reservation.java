@@ -61,13 +61,13 @@ public class Servlet_03_Check_Reservation extends HttpServlet {
 		//=================================================================================================================
 		DataManager dt = new DataManager();
 		try {
+			
 			List<String> entryDates = new ArrayList<String>();
 			List<String> departureDates = new ArrayList<String>();
 			List<String> status = new ArrayList<String>();
 			String query_Reservations_String;
-			String stat = "Pending";
-	
-	        
+//			String stat = "Pending";
+
 		}
 		catch (ClassNotFoundException | SQLException ex) {
 	        	System.out.println("ERROR in Catch");
@@ -81,7 +81,7 @@ public class Servlet_03_Check_Reservation extends HttpServlet {
 		
 		//=================================================================================================================
 		//=================================================================================================================
-
+		
 	}
 
 }
