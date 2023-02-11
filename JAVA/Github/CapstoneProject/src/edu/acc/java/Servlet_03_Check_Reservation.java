@@ -6,7 +6,6 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
-
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -63,6 +62,7 @@ public class Servlet_03_Check_Reservation extends HttpServlet {
 		DataManager dt = new DataManager();
 		try {
 			List<String> entryDates = new ArrayList<String>();
+			List<String> departureDates = new ArrayList<String>();
 	
 	        
 		}
