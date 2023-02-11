@@ -64,6 +64,7 @@ public class Servlet_03_Check_Reservation extends HttpServlet {
 			List<String> entryDates = new ArrayList<String>();
 			List<String> departureDates = new ArrayList<String>();
 			List<String> status = new ArrayList<String>();
+			String query_Reservations_String;
 	
 	        
 		}
