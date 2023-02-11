@@ -74,7 +74,7 @@ public class Servlet_03_Check_Reservation extends HttpServlet {
 	        	ex.printStackTrace();
 	    }finally {
 			
-			dt.close(rs);
+//			dt.close(rs);
 			dt.close(pst);
 			dt.close(conn);
 		}
