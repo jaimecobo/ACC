@@ -58,9 +58,9 @@ public class Servlet_03_Check_Reservation extends HttpServlet {
 		//=================================================================================================================
 		//=================================================================================================================
 		DataManager dt = new DataManager();
-		try {
-			
-	    }  
+		try {	
+	        
+		}
 		catch (ClassNotFoundException | SQLException ex) {
 	        	System.out.println("ERROR in Catch");
 	        	ex.printStackTrace();
@@ -70,6 +70,9 @@ public class Servlet_03_Check_Reservation extends HttpServlet {
 			dt.close(pst);
 			dt.close(conn);
 		}
+		
+		//=================================================================================================================
+		//=================================================================================================================
 		
 	}
 
