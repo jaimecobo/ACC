@@ -67,6 +67,8 @@ public class Servlet_03_Check_Reservation extends HttpServlet {
 			List<String> status = new ArrayList<String>();
 			String query_Reservations_String;
 //			String stat = "Pending";
+	
+			Class.forName("com.mysql.jdbc.Driver");
 	        
 		}
 		catch (ClassNotFoundException | SQLException ex) {
@@ -81,7 +83,7 @@ public class Servlet_03_Check_Reservation extends HttpServlet {
 		
 		//=================================================================================================================
 		//=================================================================================================================
-	
+		
 	}
 
 }
