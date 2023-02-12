@@ -69,6 +69,7 @@ public class Servlet_03_Check_Reservation extends HttpServlet {
 //			String stat = "Pending";
 	
 			Class.forName("com.mysql.jdbc.Driver");
+	        Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/hotels360", "root", "sesame");
 	        
 		}
 		catch (ClassNotFoundException | SQLException ex) {
