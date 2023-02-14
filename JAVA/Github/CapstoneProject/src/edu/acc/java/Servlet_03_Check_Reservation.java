@@ -39,7 +39,7 @@ public class Servlet_03_Check_Reservation extends HttpServlet {
 //		response.getWriter().append("Served at: ").append(request.getContextPath());
 		
 		request.getRequestDispatcher("02_reservation_Form.jsp").forward(request, response);
-		
+
 	}
 
 	/**
@@ -77,6 +77,10 @@ public class Servlet_03_Check_Reservation extends HttpServlet {
 	        PreparedStatement pst = conn.prepareStatement("Select departure_date, entry_date, status from reservation where id_reservation=?");
 	        pst.setString(1, id_reservation);
 	        ResultSet rs = pst.executeQuery();
+	        
+	        if (rs.next()) {	        	
+	        	
+	        }
 	        
 		}
 		catch (ClassNotFoundException | SQLException ex) {
