@@ -90,9 +90,8 @@ public class Servlet_03_Check_Reservation extends HttpServlet {
 //		        	System.out.println("LAST PRINTLN");
 		        	request.getSession().setAttribute("query_Reservations_String", query_Reservations_String);
 			        response.sendRedirect("16_Query_Reservations.jsp");
+					
 	        	}
-	
-	        }
 	        
 		}
 		catch (ClassNotFoundException | SQLException ex) {
