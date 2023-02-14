@@ -83,7 +83,7 @@ public class Servlet_03_Check_Reservation extends HttpServlet {
 	        	entryDates.add(rs.getString(2));
 	        	status.add(rs.getString(3));
 	        	
-	        	if((status.get(0).equals("Approved")) & (!status.get(0).equals("null"))) {
+//	        	if((status.get(0).equals("Approved")) & (!status.get(0).equals("null"))) {}
 	        	
 	        }
 	        
