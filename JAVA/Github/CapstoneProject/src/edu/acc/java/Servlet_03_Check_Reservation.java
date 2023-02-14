@@ -81,6 +81,7 @@ public class Servlet_03_Check_Reservation extends HttpServlet {
 	        if (rs.next()) {
 	        	departureDates.add(rs.getString(1));
 	        	entryDates.add(rs.getString(2));
+	        	status.add(rs.getString(3));	        	
 	        	
 	        }
 	        
