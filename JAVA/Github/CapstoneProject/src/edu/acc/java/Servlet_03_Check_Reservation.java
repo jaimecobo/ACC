@@ -87,7 +87,7 @@ public class Servlet_03_Check_Reservation extends HttpServlet {
 	        	if((status.get(0).equals("Approved"))) {
 	        		query_Reservations_String = "Your reservation N° : \"" + id_reservation + "\"  From: " + entryDates.get(0) + "  To: " + departureDates.get(0) + " is approved.";
 //		        	System.out.println("Your reservation number : \" " + id_reservation_dates + " \"  From: " + entryDates.get(0) + "  To: " + departureDates.get(0) + " is approved.");
-		        	System.out.println("LAST PRINTLN");
+//		        	System.out.println("LAST PRINTLN");
 		        	request.getSession().setAttribute("query_Reservations_String", query_Reservations_String);
 			        response.sendRedirect("16_Query_Reservations.jsp");
 	        	}
