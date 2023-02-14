@@ -78,7 +78,8 @@ public class Servlet_03_Check_Reservation extends HttpServlet {
 	        pst.setString(1, id_reservation);
 	        ResultSet rs = pst.executeQuery();
 	        
-	        if (rs.next()) {	        	
+	        if (rs.next()) {
+	        	departureDates.add(rs.getString(1));	        	
 	        	
 	        }
 	        
