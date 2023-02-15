@@ -99,6 +99,7 @@ public class Servlet_03_Check_Reservation extends HttpServlet {
 					
 	        	}
 	        	else if ((status.get(0).equals("Pending")) | (status.get(0).equals("null"))) {
+	        		query_Reservations_String = "Your reservation N° : \" " + id_reservation + " \"  From: " + entryDates.get(0) + "  To: " + departureDates.get(0) + " is pending.";
 					
 	        	}
 	        }
