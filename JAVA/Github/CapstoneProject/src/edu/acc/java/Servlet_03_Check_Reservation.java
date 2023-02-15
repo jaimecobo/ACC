@@ -98,7 +98,7 @@ public class Servlet_03_Check_Reservation extends HttpServlet {
 			        response.sendRedirect("16_Query_Reservations.jsp");
 					
 	        	}
-	        	else if ((status.get(0).equals("Pending"))) {
+	        	else if ((status.get(0).equals("Pending")) | (status.get(0).equals("null"))) {
 					
 	        	}
 	        }
