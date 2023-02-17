@@ -107,7 +107,7 @@ public class Servlet_03_Check_Reservation extends HttpServlet {
 				
 	        }
 		    else {
-		        	query_Reservations_String = "Reservation N°: ";
+		        	query_Reservations_String = "Reservation N°: \"" + id_reservation;
 	        
 			}
 	        
