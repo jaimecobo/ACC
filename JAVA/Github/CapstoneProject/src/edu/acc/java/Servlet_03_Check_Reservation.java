@@ -109,7 +109,7 @@ public class Servlet_03_Check_Reservation extends HttpServlet {
 		    else {
 		        	query_Reservations_String = "Reservation N°: \"" + id_reservation + "\"  doesn't exist.";
 		        	request.setAttribute("query_Reservations_String", query_Reservations_String);
-		        	request.getRequestDispatcher();
+		        	request.getRequestDispatcher("16_Query_Reservations.jsp");
 	        
 			}
 	        
