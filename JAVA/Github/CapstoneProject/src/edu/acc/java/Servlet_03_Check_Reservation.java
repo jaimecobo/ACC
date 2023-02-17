@@ -104,8 +104,12 @@ public class Servlet_03_Check_Reservation extends HttpServlet {
 					
 			        response.sendRedirect("16_Query_Reservations.jsp");
 	        	}
+				
 	        }
-		    
+		    else {
+	        
+			}
+	        
 		}
 		catch (ClassNotFoundException | SQLException ex) {
 	        	System.out.println("ERROR in Catch");
