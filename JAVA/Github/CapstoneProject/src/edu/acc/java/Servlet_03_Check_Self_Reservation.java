@@ -33,7 +33,7 @@
 			// TODO Auto-generated method stub
 //			response.getWriter().append("Served at: ").append(request.getContextPath());
 			
-			request.getRequestDispatcher();
+			request.getRequestDispatcher("02_reservation_Form.jsp");
 			
 		}
 
