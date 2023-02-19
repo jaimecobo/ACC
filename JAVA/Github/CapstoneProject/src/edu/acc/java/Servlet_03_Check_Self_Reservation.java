@@ -16,8 +16,9 @@
 	    public Servlet_03_Check_Self_Reservation() {
 	        super();
 	        // TODO Auto-generated constructor stub
+			
 	    }
 	    
 	    String id_Customer02 = "";
-	    
+
 	}
