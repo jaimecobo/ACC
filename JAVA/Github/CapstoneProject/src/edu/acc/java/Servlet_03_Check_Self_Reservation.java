@@ -20,5 +20,11 @@
 	    }
 	    
 	    String id_Customer02 = "";
+	    
+		
+		protected void doGet() {
+			// TODO Auto-generated method stub
+			
+		}
 
 	}
