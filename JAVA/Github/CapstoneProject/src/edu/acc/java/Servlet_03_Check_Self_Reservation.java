@@ -25,7 +25,7 @@
 		/**
 		 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
 		 */
-		protected void doGet(HttpServletRequest request) {
+		protected void doGet(HttpServletRequest request, HttpServletResponse response) {
 			// TODO Auto-generated method stub
 			
 		}
