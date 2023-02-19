@@ -21,7 +21,9 @@
 	    
 	    String id_Customer02 = "";
 	    
-		
+		/**
+		 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
+		 */
 		protected void doGet() {
 			// TODO Auto-generated method stub
 			
