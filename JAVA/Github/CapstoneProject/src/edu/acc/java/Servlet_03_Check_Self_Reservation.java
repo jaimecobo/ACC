@@ -51,7 +51,7 @@
 			
 			HttpSession session=request.getSession(false);  
 	        id_Customer02 = (String)session.getAttribute("id_Customer01");
-	        System.out.println("the id_Customer is " + id_Customer02);
+	        System.out.println("the id_Customer is " + id_Customer02 + " at doPost method in Check_Self_Reservation Servlet.");
 	        
 		}
 
