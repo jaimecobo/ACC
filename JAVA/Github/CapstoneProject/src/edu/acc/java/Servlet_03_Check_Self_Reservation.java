@@ -46,7 +46,9 @@
 //			doGet(request, response);
 			
 //			PrintWriter out  = response.getWriter();	
-			response.setContentType("text/html");  
+			response.setContentType("text/html");
+			
+			HttpSession session=request.getSession(false);  
 	        
 		}
 
