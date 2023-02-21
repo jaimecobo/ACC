@@ -50,6 +50,7 @@
 			response.setContentType("text/html");
 			
 			HttpSession session=request.getSession(false);  
+	        id_Customer02 = (String)session.getAttribute("id_Customer01");
 	        
 		}
 
