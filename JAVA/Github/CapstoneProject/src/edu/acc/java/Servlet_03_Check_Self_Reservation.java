@@ -53,6 +53,9 @@
 	        id_Customer02 = (String)session.getAttribute("id_Customer01");
 	        System.out.println("the id_Customer is " + id_Customer02 + " at doPost method in Check_Self_Reservation Servlet.");
 	        
+			
+			String id_reservation = request.getParameter("resrvNum");
+												
 		}
 
 	}
