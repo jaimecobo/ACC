@@ -75,6 +75,7 @@
 				}
 				catch (ClassNotFoundException | SQLException ex) {
 						System.out.println("ERROR in Catch");
+						ex.printStackTrace();
 						
 				}
 
