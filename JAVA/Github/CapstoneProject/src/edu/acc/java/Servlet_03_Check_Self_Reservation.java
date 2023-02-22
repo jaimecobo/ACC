@@ -54,7 +54,7 @@
 	        System.out.println("the id_Customer is " + id_Customer02 + " at doPost method in Check_Self_Reservation Servlet.");
 	        
 			
-			String id_reservation = request.getParameter("resrvNum");
+//			String id_reservation = request.getParameter("resrvNum");
 												
 		}
 
