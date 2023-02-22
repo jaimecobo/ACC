@@ -80,6 +80,7 @@
 				}
 				finally {			
 					dt.close(rs);
+					dt.close(pst);
 					
 				}
 
