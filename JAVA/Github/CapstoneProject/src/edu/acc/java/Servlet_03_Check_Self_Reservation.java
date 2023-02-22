@@ -56,7 +56,7 @@
 			
 //			String id_reservation = request.getParameter("resrvNum");
 			
-			LocalMySQLCP localDB = new LocalMySQLCP();
+//			LocalMySQLCP localDB = new LocalMySQLCP();
 									
 		}
 
