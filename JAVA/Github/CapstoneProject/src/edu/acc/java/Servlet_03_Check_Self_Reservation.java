@@ -73,7 +73,7 @@
 				try {
 				
 				}
-				catch (ClassNotFoundException) {
+				catch (ClassNotFoundException | SQLException ex) {
 						System.out.println("ERROR in Catch");
 						
 				}
