@@ -74,6 +74,7 @@
 				
 				}
 				catch (ClassNotFoundException) {
+						System.out.println("ERROR in Catch");
 						
 				}
 
