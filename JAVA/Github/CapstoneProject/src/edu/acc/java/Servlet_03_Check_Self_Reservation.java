@@ -73,7 +73,7 @@
 				try {
 				
 				}
-				catch () {
+				catch (ClassNotFoundException) {
 						
 				}
 
