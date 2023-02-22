@@ -61,7 +61,7 @@
 			
 			
 //			String sql;
-			String[] parms;
+//			String[] parms;
 						
 		}
 
