@@ -60,7 +60,7 @@
 			
 			
 			
-			String sql;
+//			String sql;
 						
 		}
 
