@@ -68,7 +68,7 @@
 			//=================================================================================================================
 	        DataManager dt = new DataManager();
 	        String reservation_string = "";
-	        if() {
+	        if(id_Customer02 != null) {
 
 	        }
 			
