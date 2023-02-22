@@ -78,7 +78,8 @@
 						ex.printStackTrace();
 						
 				}
-				finally {
+				finally {			
+					dt.close(rs);
 					
 				}
 
