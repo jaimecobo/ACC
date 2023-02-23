@@ -80,9 +80,9 @@
 						
 				}
 				finally {
-					dt.close(rs);
-					dt.close(pst);
-					dt.close(conn);
+	//				dt.close(rs);
+	//				dt.close(pst);
+	//				dt.close(conn);
 	
 				}
 			
