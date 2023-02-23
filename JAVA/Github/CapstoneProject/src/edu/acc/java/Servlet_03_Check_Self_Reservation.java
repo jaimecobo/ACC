@@ -76,6 +76,7 @@
 				try {
 					List<String> id_Reservation = new ArrayList<String>();
 					List<String> entryDates = new ArrayList<String>();
+					List<String> departureDates = new ArrayList<String>();
 
 				}
 				catch (ClassNotFoundException | SQLException ex) {
