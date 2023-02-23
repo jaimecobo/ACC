@@ -72,7 +72,8 @@
 	        if(id_Customer02 != null) {
 			
 				try {
-					
+					List<String> id_Reservation = new ArrayList<String>();
+
 				}
 				catch (ClassNotFoundException | SQLException ex) {
 						System.out.println("ERROR in Catch");
@@ -91,7 +92,7 @@
 			//=================================================================================================================
 			
 	        }
-			
+
 		}
 
 	}
