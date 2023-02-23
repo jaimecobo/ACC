@@ -2,6 +2,7 @@
 
 	import java.io.IOException;
 //	import java.io.PrintWriter;
+	import java.sql.SQLException;
 
 	import javax.servlet.ServletException;
 	import javax.servlet.annotation.WebServlet;
@@ -71,20 +72,20 @@
 	        if(id_Customer02 != null) {
 			
 				try {
-				
+	
 				}
 				catch (ClassNotFoundException | SQLException ex) {
 						System.out.println("ERROR in Catch");
 						ex.printStackTrace();
 						
 				}
-				finally {			
+				finally {
 					dt.close(rs);
 					dt.close(pst);
 					dt.close(conn);
-					
+	
 				}
-
+			
 	        }
 			
 		}
