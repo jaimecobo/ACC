@@ -86,6 +86,7 @@
 					Class.forName("com.mysql.jdbc.Driver");
 					Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/hotels360", "root", "sesame");
 					PreparedStatement pst = conn.prepareStatement("Select id_Reservation, departure_date, entry_date, status from reservation where id_Customer=?");
+					pst.setString();
 
 				}
 				catch (ClassNotFoundException | SQLException ex) {
