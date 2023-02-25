@@ -2,6 +2,7 @@
 
 	import java.io.IOException;
 //	import java.io.PrintWriter;
+	import java.sql.Connection;
 	import java.sql.SQLException;
 	import java.util.ArrayList;
 	import java.util.List;
@@ -82,7 +83,7 @@
 			
 					Class.forName("com.mysql.jdbc.Driver");
 					Connection conn;
-
+					
 				}
 				catch (ClassNotFoundException | SQLException ex) {
 						System.out.println("ERROR in Catch");
