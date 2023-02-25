@@ -78,6 +78,7 @@
 					List<String> entryDates = new ArrayList<String>();
 					List<String> departureDates = new ArrayList<String>();
 					List<String> status = new ArrayList<String>();
+					StringBuilder strBuilder = new StringBuilder();
 			
 				}
 				catch (ClassNotFoundException | SQLException ex) {
