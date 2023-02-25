@@ -77,7 +77,8 @@
 					List<String> id_Reservation = new ArrayList<String>();
 					List<String> entryDates = new ArrayList<String>();
 					List<String> departureDates = new ArrayList<String>();
-
+					List<String> status = new ArrayList<String>();
+			
 				}
 				catch (ClassNotFoundException | SQLException ex) {
 						System.out.println("ERROR in Catch");
@@ -96,7 +97,7 @@
 			//=================================================================================================================
 			
 	        }
-
+			
 		}
 
 	}
