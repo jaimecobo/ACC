@@ -81,6 +81,7 @@
 					StringBuilder strBuilder = new StringBuilder();
 			
 					Class.forName("com.mysql.jdbc.Driver");
+					Connection conn;
 
 				}
 				catch (ClassNotFoundException | SQLException ex) {
