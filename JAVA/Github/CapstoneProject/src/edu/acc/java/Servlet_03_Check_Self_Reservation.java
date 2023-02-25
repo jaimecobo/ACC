@@ -80,8 +80,8 @@
 					List<String> status = new ArrayList<String>();
 					StringBuilder strBuilder = new StringBuilder();
 			
-					Class.forName();
-					
+					Class.forName("com.mysql.jdbc.Driver");
+
 				}
 				catch (ClassNotFoundException | SQLException ex) {
 						System.out.println("ERROR in Catch");
