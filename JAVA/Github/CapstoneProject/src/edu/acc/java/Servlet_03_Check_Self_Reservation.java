@@ -80,6 +80,8 @@
 					List<String> status = new ArrayList<String>();
 					StringBuilder strBuilder = new StringBuilder();
 			
+					Class.forName();
+					
 				}
 				catch (ClassNotFoundException | SQLException ex) {
 						System.out.println("ERROR in Catch");
