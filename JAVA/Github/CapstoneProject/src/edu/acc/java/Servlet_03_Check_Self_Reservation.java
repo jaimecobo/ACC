@@ -90,6 +90,10 @@
 					pst.setString(1, id_Customer02);
 					ResultSet rs = pst.executeQuery();
 					
+					while () {
+								
+					}
+
 				}
 				catch (ClassNotFoundException | SQLException ex) {
 						System.out.println("ERROR in Catch");
