@@ -90,8 +90,9 @@
 					pst.setString(1, id_Customer02);
 					ResultSet rs = pst.executeQuery();
 					
+					int i = 0;
 					while (rs.next()) {
-								
+						
 					}
 
 				}
