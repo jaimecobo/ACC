@@ -94,6 +94,7 @@
 					while (rs.next()) {
 						id_Reservation.add(rs.getString(1));
 						departureDates.add(rs.getString(2));
+						entryDates.add();
 			
 						i++;
 					}
