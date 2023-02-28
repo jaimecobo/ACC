@@ -92,7 +92,8 @@
 					
 					int i = 0;
 					while (rs.next()) {
-						
+			
+						i++;
 					}
 
 				}
