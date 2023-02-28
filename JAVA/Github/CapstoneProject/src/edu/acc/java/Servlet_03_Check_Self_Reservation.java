@@ -92,7 +92,7 @@
 					
 					int i = 0;
 					while (rs.next()) {
-						id_Reservation.add();
+						id_Reservation.add(rs.getString(1));
 			
 						i++;
 					}
