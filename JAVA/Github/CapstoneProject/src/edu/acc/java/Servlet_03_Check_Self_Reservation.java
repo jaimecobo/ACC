@@ -97,7 +97,7 @@
 						entryDates.add(rs.getString(3));
 						status.add(rs.getString(4));
 									
-						if() {
+						if((status)) {
 						}
 																
 						i++;
