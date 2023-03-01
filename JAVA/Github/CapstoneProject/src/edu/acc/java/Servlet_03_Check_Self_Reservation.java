@@ -98,6 +98,7 @@
 						status.add(rs.getString(4));
 									
 						if((status.get(i).equals("Approved"))) {
+							strBuilder;
 						}
 																
 						i++;
