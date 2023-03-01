@@ -98,7 +98,7 @@
 						status.add(rs.getString(4));
 									
 						if((status.get(i).equals("Approved"))) {
-							strBuilder.append();
+							strBuilder.append("Your reservation N° : \"");
 						}
 																
 						i++;
