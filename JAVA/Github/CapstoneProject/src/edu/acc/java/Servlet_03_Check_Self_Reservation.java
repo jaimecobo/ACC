@@ -100,10 +100,8 @@
 						if((status.get(i).equals("Approved"))) {
 							strBuilder.append("Your reservation N° : \"" + id_Reservation.get(i) + "\"  From: " + entryDates.get(i) + "  To: " + departureDates.get(i) + " is approved." + "</td></tr> <tr><td style =\"color:blue\">");
 						}
-																
-						i++;
-						
-					}
+						else if () {
+						}
 
 				}
 				catch (ClassNotFoundException | SQLException ex) {
@@ -123,7 +121,7 @@
 			//=================================================================================================================
 			
 	        }
-
+	
 		}
 
 	}
