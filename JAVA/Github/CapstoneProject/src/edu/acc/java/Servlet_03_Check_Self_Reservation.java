@@ -101,7 +101,7 @@
 							strBuilder.append("Your reservation N° : \"" + id_Reservation.get(i) + "\"  From: " + entryDates.get(i) + "  To: " + departureDates.get(i) + " is approved." + "</td></tr> <tr><td style =\"color:blue\">");
 						}
 						else if ((status.get(i).equals("Denied"))) {
-							strBuilder.append("Your reservation N° : \"" + id_Reservation.get(i) + "\"  From: " + entryDates.get(i) + "  To: " + departureDates.get(i) + " has been denied.");
+							strBuilder.append("Your reservation N° : \"" + id_Reservation.get(i) + "\"  From: " + entryDates.get(i) + "  To: " + departureDates.get(i) + " has been denied." + "</td></tr> <tr><td style =\"color:blue\">");
 						}
 
 				}
