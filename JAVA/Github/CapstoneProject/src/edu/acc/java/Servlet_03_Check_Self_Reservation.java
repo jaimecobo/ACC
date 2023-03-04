@@ -117,6 +117,7 @@
 						
 					}
 					else {
+						reservation_string;
 	
 					}
 
