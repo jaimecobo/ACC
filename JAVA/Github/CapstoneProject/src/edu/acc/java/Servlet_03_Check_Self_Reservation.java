@@ -118,7 +118,7 @@
 					}
 					else {
 						reservation_string = strBuilder.toString();
-						request.getSession().setAttribute("self_reservation");
+						request.getSession().setAttribute("self_reservation", reservation_string);
 	
 					}
 
