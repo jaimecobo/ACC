@@ -110,7 +110,7 @@
 						i++;
 					}
 					
-					if (strBuilder == null || strBuilder.toString()) {
+					if (strBuilder == null || strBuilder.toString().equals("")) {
 						
 					}
 
