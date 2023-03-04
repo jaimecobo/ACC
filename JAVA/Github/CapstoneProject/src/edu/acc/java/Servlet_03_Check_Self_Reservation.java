@@ -117,7 +117,7 @@
 						
 					}
 					else {
-						reservation_string;
+						reservation_string = strBuilders;
 	
 					}
 
