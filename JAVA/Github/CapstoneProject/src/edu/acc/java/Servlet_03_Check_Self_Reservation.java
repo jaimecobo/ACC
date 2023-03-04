@@ -111,7 +111,7 @@
 					}
 					
 					if (strBuilder == null || strBuilder.toString().equals("")) {
-						reservation_string;
+						reservation_string = "You have no reservations.";
 						
 					}
 
