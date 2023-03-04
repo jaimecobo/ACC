@@ -110,7 +110,7 @@
 						i++;
 					}
 					
-					if () {
+					if (strBuilder == null) {
 						
 					}
 
