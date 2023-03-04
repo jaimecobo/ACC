@@ -110,7 +110,7 @@
 						i++;
 					}
 					
-					if (strBuilder == null) {
+					if (strBuilder == null || strBuilder.toString()) {
 						
 					}
 
