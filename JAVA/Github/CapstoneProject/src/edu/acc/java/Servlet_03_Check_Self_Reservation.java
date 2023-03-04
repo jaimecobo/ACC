@@ -118,6 +118,7 @@
 					}
 					else {
 						reservation_string = strBuilder.toString();
+						request;
 	
 					}
 
