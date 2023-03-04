@@ -113,6 +113,7 @@
 					if (strBuilder == null || strBuilder.toString().equals("")) {
 						reservation_string = "You have no reservations.";
 						request.getSession().setAttribute("self_reservation", reservation_string);
+						response;
 						
 					}
 
