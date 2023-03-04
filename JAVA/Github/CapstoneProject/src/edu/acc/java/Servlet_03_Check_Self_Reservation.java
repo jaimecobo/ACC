@@ -117,7 +117,7 @@
 						
 					}
 					else {
-						reservation_string = strBuilder;
+						reservation_string = strBuilder.toString();
 	
 					}
 
