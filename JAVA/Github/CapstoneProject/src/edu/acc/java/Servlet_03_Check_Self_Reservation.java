@@ -116,6 +116,9 @@
 						response.sendRedirect("02_reservation_Form.jsp");
 						
 					}
+					else {
+	
+					}
 
 				}
 				catch (ClassNotFoundException | SQLException ex) {
@@ -135,7 +138,7 @@
 			//=================================================================================================================
 			
 	        }
-			
+	
 		}
 
 	}
