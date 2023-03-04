@@ -111,6 +111,7 @@
 					}
 					
 					if (strBuilder == null || strBuilder.toString().equals("")) {
+						reservation_string;
 						
 					}
 
