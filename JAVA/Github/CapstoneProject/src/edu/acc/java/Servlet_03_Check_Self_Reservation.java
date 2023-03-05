@@ -143,7 +143,7 @@
 	        }
 			else {
 	        	reservation_string = "";
-	        	request.setAttribute("self_reservation_error");
+	        	request.setAttribute("self_reservation_error", reservation_string);
 	 
 	        }
 			
