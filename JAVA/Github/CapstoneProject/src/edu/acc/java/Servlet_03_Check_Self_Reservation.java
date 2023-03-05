@@ -142,7 +142,7 @@
 			
 	        }
 			else {
-	        	reservation_string = "";
+	        	reservation_string = "<h3 style =\"color:red\">- You are not logged in! -</h3>";
 	        	request.setAttribute("self_reservation_error", reservation_string);
 	        	request.getRequestDispatcher("02_reservation_Form.jsp").forward(request, response);
 				
