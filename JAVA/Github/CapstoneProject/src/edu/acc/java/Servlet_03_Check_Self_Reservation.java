@@ -120,7 +120,7 @@
 						reservation_string = strBuilder.toString();
 						request.getSession().setAttribute("self_reservation", reservation_string);
 						response.sendRedirect("02_reservation_Form.jsp");
-						
+
 					}
 
 				}
@@ -141,7 +141,10 @@
 			//=================================================================================================================
 			
 	        }
-	
+			else {
+	 
+	        }
+			
 		}
 
 	}
