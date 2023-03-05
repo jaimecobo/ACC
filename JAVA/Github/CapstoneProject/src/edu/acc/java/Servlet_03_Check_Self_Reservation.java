@@ -143,7 +143,7 @@
 	        }
 			else {
 	        	reservation_string = "";
-	        	request;
+	        	request.setAttribute();
 	 
 	        }
 			
