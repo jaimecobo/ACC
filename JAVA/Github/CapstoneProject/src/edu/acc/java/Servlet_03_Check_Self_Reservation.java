@@ -142,6 +142,7 @@
 			
 	        }
 			else {
+	        	reservation_string;
 	 
 	        }
 			
