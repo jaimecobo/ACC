@@ -144,7 +144,7 @@
 			else {
 	        	reservation_string = "";
 	        	request.setAttribute("self_reservation_error", reservation_string);
-	        	request;
+	        	request.getRequestDispatcher();
 	        }
 			
 		}
