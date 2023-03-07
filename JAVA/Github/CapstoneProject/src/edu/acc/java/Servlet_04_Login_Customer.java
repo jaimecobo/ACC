@@ -9,5 +9,6 @@ import javax.servlet.http.HttpServlet;
  */
 @WebServlet("/Login01")
 public class Servlet_04_Login_Customer extends HttpServlet {
+	private static final long serialVersionUID = 1L
  
 }
