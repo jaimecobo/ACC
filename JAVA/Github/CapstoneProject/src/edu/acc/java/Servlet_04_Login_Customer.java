@@ -23,7 +23,7 @@ public class Servlet_04_Login_Customer extends HttpServlet {
 	/**
 	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
 	 */
-	protected void doGet(HttpServletRequest request) {
+	protected void doGet(HttpServletRequest request, HttpServletResponse response) {
 		
 	}
 
