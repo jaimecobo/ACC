@@ -29,6 +29,9 @@ public class Servlet_04_Login_Customer extends HttpServlet {
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		
+		
+		request;
+		
 	}
 
 }
