@@ -14,6 +14,7 @@ public class Servlet_04_Login_Customer extends HttpServlet {
 
     public Servlet_04_Login_Customer() {
         // TODO Auto-generated constructor stub
+		
     }
 
 }
