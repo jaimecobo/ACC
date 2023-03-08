@@ -30,7 +30,7 @@ public class Servlet_04_Login_Customer extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		
 		
-		request.getRequestDispatcher("01_index.jsp").forward(request);
+		request.getRequestDispatcher("01_index.jsp").forward(request, response);
 		
 	}
 
