@@ -41,7 +41,7 @@ public class Servlet_04_Login_Customer extends HttpServlet {
 		// TODO Auto-generated method stub
 		doGet(request, response);
 		
-		PrintWriter out;	
+		PrintWriter out  = response.getWriter();	
 
 	}
 
