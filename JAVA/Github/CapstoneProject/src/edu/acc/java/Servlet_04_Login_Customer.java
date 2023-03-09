@@ -34,4 +34,9 @@ public class Servlet_04_Login_Customer extends HttpServlet {
 		
 	}
 
+	protected void doPost() {
+		// TODO Auto-generated method stub	
+
+	}
+
 }
