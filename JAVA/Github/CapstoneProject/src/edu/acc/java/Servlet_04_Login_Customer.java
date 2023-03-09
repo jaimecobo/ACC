@@ -37,7 +37,7 @@ public class Servlet_04_Login_Customer extends HttpServlet {
 	/**
 	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
 	 */
-	protected void doPost(HttpServletRequest request) {
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) {
 		// TODO Auto-generated method stub	
 
 	}
