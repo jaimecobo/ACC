@@ -43,7 +43,8 @@ public class Servlet_04_Login_Customer extends HttpServlet {
 		//doGet(request, response);
 		
 //		PrintWriter out  = response.getWriter();	
-
+		response.setContentType("text/html");
+		
 	}
 
 }
