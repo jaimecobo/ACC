@@ -55,7 +55,9 @@ public class Servlet_04_Login_Customer extends HttpServlet {
 		
 		out.println("Username = " + username);
 		out.print("<br>");
-		out.println("Password = " + password);		
+		out.println("Password = " + password);
+		out.print("<br>");
+		
 	}
 
 }
