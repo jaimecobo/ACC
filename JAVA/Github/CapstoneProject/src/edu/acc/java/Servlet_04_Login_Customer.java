@@ -51,6 +51,7 @@ public class Servlet_04_Login_Customer extends HttpServlet {
 		String password = request.getParameter("password");
 		String id_Customer = "";
 		REMOVE SESSION.REMOVE.ATTIBUITE(SELF_RESERVATION) 
+		REMOVE SESSION.REMOVE.ATTIBUITE(USERNAME) 
 				
 	}
 
