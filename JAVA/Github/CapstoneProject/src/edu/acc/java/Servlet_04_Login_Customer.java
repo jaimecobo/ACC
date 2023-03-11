@@ -54,6 +54,7 @@ public class Servlet_04_Login_Customer extends HttpServlet {
 		REMOVE SESSION.REMOVE.ATTIBUITE(USERNAME) 
 		
 		out.println("Username = " + username);
+		out.print("<br>");
 		
 	}
 
