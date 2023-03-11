@@ -43,14 +43,14 @@ public class Servlet_04_Login_Customer extends HttpServlet {
 		// TODO Auto-generated method stub
 		//doGet(request, response);
 		
-//		PrintWriter out  = response.getWriter();	
+		PrintWriter out  = response.getWriter();	
 		response.setContentType("text/html");
 		DataManager dt = new DataManager();
 		HttpSession session = request.getSession();
 		String username = request.getParameter("username");
 		String password = request.getParameter("password");
 		String id_Customer = "";
-		
+				
 	}
 
 }
