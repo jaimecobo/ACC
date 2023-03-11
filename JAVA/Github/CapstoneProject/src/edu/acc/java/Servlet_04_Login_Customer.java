@@ -45,6 +45,7 @@ public class Servlet_04_Login_Customer extends HttpServlet {
 //		PrintWriter out  = response.getWriter();	
 		response.setContentType("text/html");
 		DataManager dt = new DataManager();
+		HttpSession session;
 		
 	}
 
