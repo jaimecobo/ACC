@@ -49,6 +49,7 @@ public class Servlet_04_Login_Customer extends HttpServlet {
 		HttpSession session = request.getSession();
 		String username = request.getParameter("username");
 		String password = request.getParameter("password");
+		String id_Customer = "";
 		
 	}
 
