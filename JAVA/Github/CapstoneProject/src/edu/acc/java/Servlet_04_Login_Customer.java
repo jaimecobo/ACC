@@ -47,7 +47,7 @@ public class Servlet_04_Login_Customer extends HttpServlet {
 		response.setContentType("text/html");
 		DataManager dt = new DataManager();
 		HttpSession session = request.getSession();
-		String username;
+		String username = request.getParameter("username");
 		
 	}
 
