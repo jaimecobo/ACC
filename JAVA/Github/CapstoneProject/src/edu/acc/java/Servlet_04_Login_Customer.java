@@ -1,7 +1,7 @@
 package edu.acc.java;
 
 import java.io.IOException;
-import java.io.PrintWriter;
+//import java.io.PrintWriter;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -43,20 +43,20 @@ public class Servlet_04_Login_Customer extends HttpServlet {
 		// TODO Auto-generated method stub
 		//doGet(request, response);
 		
-		PrintWriter out  = response.getWriter();	
+//		PrintWriter out  = response.getWriter();	
 		response.setContentType("text/html");
 		DataManager dt = new DataManager();
 		HttpSession session = request.getSession();
 		String username = request.getParameter("username");
 		String password = request.getParameter("password");
 		String id_Customer = "";
-		REMOVE SESSION.REMOVE.ATTIBUITE(SELF_RESERVATION) 
-		REMOVE SESSION.REMOVE.ATTIBUITE(USERNAME) 
+		//REMOVE SESSION.REMOVE.ATTIBUITE(SELF_RESERVATION) 
+		//REMOVE SESSION.REMOVE.ATTIBUITE(USERNAME) 
 		
-		out.println("Username = " + username);
-		out.print("<br>");
-		out.println("Password = " + password);
-		out.print("<br>");
+//		out.println("Username = " + username);
+//		out.print("<br>");
+//		out.println("Password = " + password);
+//		out.print("<br>");
 		
 	}
 
