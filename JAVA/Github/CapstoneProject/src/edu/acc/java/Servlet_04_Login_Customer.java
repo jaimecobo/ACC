@@ -62,7 +62,7 @@ public class Servlet_04_Login_Customer extends HttpServlet {
 		try {
 
 	    }
-		catch (ClassNotFoundException) {
+		catch (ClassNotFoundException | SQLException ex) {
 				
 	    }finally {
 			
