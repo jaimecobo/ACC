@@ -62,6 +62,9 @@ public class Servlet_04_Login_Customer extends HttpServlet {
 		try {
 
 	    }
+		catch () {
+				
+	    }
 		
 	}
 
