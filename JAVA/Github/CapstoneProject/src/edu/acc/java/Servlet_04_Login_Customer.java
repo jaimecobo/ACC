@@ -61,12 +61,13 @@ public class Servlet_04_Login_Customer extends HttpServlet {
 		
 		
 		try {
-
+	
 	    }
 		catch (ClassNotFoundException | SQLException ex) {
+	        	ex.printStackTrace();
 				
 	    }finally {
-			
+
 		}
 		
 	}
