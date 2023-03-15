@@ -64,6 +64,7 @@ public class Servlet_04_Login_Customer extends HttpServlet {
 	
 	    }
 		catch (ClassNotFoundException | SQLException ex) {
+	        	System.out.println("ERROR in Catch");
 	        	ex.printStackTrace();
 				
 	    }finally {
