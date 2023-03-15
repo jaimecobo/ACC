@@ -63,7 +63,7 @@ public class Servlet_04_Login_Customer extends HttpServlet {
 		
 		try {
 			Class.forName("com.mysql.jdbc.Driver");
-	        Connection conn = DriverManager.getConnection();
+	        Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/hotels360", "root", "sesame");
 
 	    } 
 		catch (ClassNotFoundException | SQLException ex) {
