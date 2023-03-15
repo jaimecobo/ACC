@@ -62,6 +62,7 @@ public class Servlet_04_Login_Customer extends HttpServlet {
 		
 		try {
 			Class.forName("com.mysql.jdbc.Driver");
+	        Connection conn;
 
 	    } 
 		catch (ClassNotFoundException | SQLException ex) {
