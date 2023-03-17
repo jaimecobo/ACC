@@ -78,6 +78,7 @@ public class Servlet_04_Login_Customer extends HttpServlet {
 	        	ex.printStackTrace();
 				
 	    }finally {
+			dt.close(rs);
 
 		}
 		
