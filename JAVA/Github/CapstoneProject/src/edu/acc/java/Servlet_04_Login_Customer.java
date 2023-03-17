@@ -69,7 +69,8 @@ public class Servlet_04_Login_Customer extends HttpServlet {
 	        PreparedStatement pst = conn.prepareStatement("Select id_Customer, username, password from customer where username=? and password=?");
 	        pst.setString(1, username);
 	        pst.setString(2, password);
-
+	        ResultSet rs;
+			
 	    }
 		catch (ClassNotFoundException | SQLException ex) {
 	        	System.out.println("ERROR in Catch");
