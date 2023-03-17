@@ -73,7 +73,7 @@ public class Servlet_04_Login_Customer extends HttpServlet {
 	        ResultSet rs = pst.executeQuery();
 	        if (rs.next()) {
 //	           out.println("Correct login credentials");
-	        	id_Customer;
+	        	id_Customer = rs.getString(1);
 				
 	        } 
 			
