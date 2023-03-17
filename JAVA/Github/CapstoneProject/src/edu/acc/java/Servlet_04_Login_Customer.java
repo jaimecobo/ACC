@@ -74,7 +74,7 @@ public class Servlet_04_Login_Customer extends HttpServlet {
 	        if (rs.next()) {
 //	           out.println("Correct login credentials");
 	        	id_Customer = rs.getString(1);
-	        	request.getSession().setAttribute();
+	        	request.getSession().setAttribute("username", username);
 				
 	        } 
 			
