@@ -79,6 +79,7 @@ public class Servlet_04_Login_Customer extends HttpServlet {
 				
 	    }finally {
 			dt.close(rs);
+			dt.close(pst);
 
 		}
 		
