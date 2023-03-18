@@ -79,7 +79,7 @@ public class Servlet_04_Login_Customer extends HttpServlet {
 	        	out.print("<a href='Create_Reservation'>visit</a>");
 	        	
 
-	        	session.setAttribute("id_Customer02");
+	        	session.setAttribute("id_Customer02", id_Customer);
 	        					
 	        } 
 	  
