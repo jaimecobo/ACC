@@ -1,7 +1,7 @@
 package edu.acc.java;
 
 import java.io.IOException;
-//import java.io.PrintWriter;
+import java.io.PrintWriter;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
@@ -48,7 +48,7 @@ public class Servlet_04_Login_Customer extends HttpServlet {
 		// TODO Auto-generated method stub
 		//doGet(request, response);
 		
-//		PrintWriter out  = response.getWriter();	
+		PrintWriter out  = response.getWriter();	
 		response.setContentType("text/html");
 		DataManager dt = new DataManager();
 		HttpSession session = request.getSession();
@@ -58,10 +58,10 @@ public class Servlet_04_Login_Customer extends HttpServlet {
 		//REMOVE SESSION.REMOVE.ATTIBUITE(SELF_RESERVATION) 
 		//REMOVE SESSION.REMOVE.ATTIBUITE(USERNAME) 
 		
-//		out.println("Username = " + username);
-//		out.print("<br>");
-//		out.println("Password = " + password);
-//		out.print("<br>");
+		out.println("Username = " + username);
+		out.print("<br>");
+		out.println("Password = " + password);
+		out.print("<br>");
 		
 		
 		try {
@@ -72,7 +72,7 @@ public class Servlet_04_Login_Customer extends HttpServlet {
 	        pst.setString(2, password);
 	        ResultSet rs = pst.executeQuery();
 	        if (rs.next()) {
-//	           out.println("Correct login credentials");
+	           out.println("Correct login credentials");
 	        	id_Customer = rs.getString(1);
 	        	request.getSession().setAttribute("username", username);
 	        	
