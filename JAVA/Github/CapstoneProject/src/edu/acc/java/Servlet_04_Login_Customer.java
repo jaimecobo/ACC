@@ -76,7 +76,7 @@ public class Servlet_04_Login_Customer extends HttpServlet {
 	        	id_Customer = rs.getString(1);
 	        	request.getSession().setAttribute("username", username);
 	        	
-	        	session.setAttribute();
+	        	session.setAttribute("id_Customer01");
 	        	out.print("<a href='Create_Reservation'>visit</a>");
 	        	
 
