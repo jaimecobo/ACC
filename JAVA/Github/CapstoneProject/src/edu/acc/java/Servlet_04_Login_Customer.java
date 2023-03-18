@@ -77,7 +77,10 @@ public class Servlet_04_Login_Customer extends HttpServlet {
 	        	request.getSession().setAttribute("username", username);
 	        	
 	        	out.print("<a href='Create_Reservation'>visit</a>");
-	        		        					
+	        	
+
+	        	session;
+	        					
 	        } 
 	  
 	    }
