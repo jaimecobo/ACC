@@ -83,7 +83,8 @@ public class Servlet_04_Login_Customer extends HttpServlet {
 	        	out.print("<a href='Check_Self_Reservation'>visit</a>");
 	        	
 	        	
-	        	String id_Customer02;
+	        	String id_Customer02 = (String)session.getAttribute("id_Customer02");
+
 				
 	        } 
 	  
