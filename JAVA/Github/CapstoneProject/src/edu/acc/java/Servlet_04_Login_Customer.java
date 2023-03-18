@@ -85,7 +85,7 @@ public class Servlet_04_Login_Customer extends HttpServlet {
 	        	
 	        	String id_Customer02 = (String)session.getAttribute("id_Customer02");
 
-	        	System.out.println();
+	        	System.out.println("id_Customer02 *** ");
 				
 	        } 
 	  
