@@ -93,7 +93,10 @@ public class Servlet_04_Login_Customer extends HttpServlet {
 	        	System.out.println("id_Customer *** " + id_Customer + " *** as a String in Login_Customer_Servlet.");
 				
 	        } 
-	   
+	        else {
+	        
+	        }
+			
 	    }
 		catch (ClassNotFoundException | SQLException ex) {
 	        	System.out.println("ERROR in Catch");
