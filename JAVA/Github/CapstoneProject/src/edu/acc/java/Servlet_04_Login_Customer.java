@@ -88,7 +88,7 @@ public class Servlet_04_Login_Customer extends HttpServlet {
 	        	String id_Customer01 = (String)session.getAttribute("id_Customer01"); 
 	        	String id_Customer02 = (String)session.getAttribute("id_Customer02");
 
-	        	System.out.println("id_Customer01 *** ");
+	        	System.out.println("id_Customer01 *** " + id_Customer01);
 	        	System.out.println("id_Customer02 *** " + id_Customer02 + " *** as a Sess_Attrib in Login_Customer_Servlet.");
 				
 	        } 
