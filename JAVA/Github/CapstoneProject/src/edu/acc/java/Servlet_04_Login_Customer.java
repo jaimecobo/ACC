@@ -90,7 +90,7 @@ public class Servlet_04_Login_Customer extends HttpServlet {
 
 	        	System.out.println("id_Customer01 *** " + id_Customer01 + " *** as a sessionAttribute in Login_Customer_Servlet.");
 	        	System.out.println("id_Customer02 *** " + id_Customer02 + " *** as a Sess_Attrib in Login_Customer_Servlet.");
-	        	System.out.println("id_Customer *** " + id_Customer);
+	        	System.out.println("id_Customer *** " + id_Customer + " *** as a String in Login_Customer_Servlet.");
 				
 	        } 
 	   
