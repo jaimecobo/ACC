@@ -1,7 +1,7 @@
 package edu.acc.java;
 
 import java.io.IOException;
-import java.io.PrintWriter;
+//import java.io.PrintWriter;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
@@ -48,7 +48,7 @@ public class Servlet_04_Login_Customer extends HttpServlet {
 		// TODO Auto-generated method stub
 		//doGet(request, response);
 		
-		PrintWriter out  = response.getWriter();	
+//		PrintWriter out  = response.getWriter();	
 		response.setContentType("text/html");
 		DataManager dt = new DataManager();
 		HttpSession session = request.getSession();
@@ -58,10 +58,10 @@ public class Servlet_04_Login_Customer extends HttpServlet {
 		//REMOVE SESSION.REMOVE.ATTIBUITE(SELF_RESERVATION) 
 		//REMOVE SESSION.REMOVE.ATTIBUITE(USERNAME) 
 		
-		out.println("Username = " + username);
-		out.print("<br>");
-		out.println("Password = " + password);
-		out.print("<br>");
+//		out.println("Username = " + username);
+//		out.print("<br>");
+//		out.println("Password = " + password);
+//		out.print("<br>");
 		
 		
 		try {
@@ -72,33 +72,26 @@ public class Servlet_04_Login_Customer extends HttpServlet {
 	        pst.setString(2, password);
 	        ResultSet rs = pst.executeQuery();
 	        if (rs.next()) {
-	           out.println("Correct login credentials");
+//	           out.println("Correct login credentials");
 	        	id_Customer = rs.getString(1);
 	        	request.getSession().setAttribute("username", username);
 	        	
 	        	session.setAttribute("id_Customer01", id_Customer);
-	        	out.print("<a href='Create_Reservation'>visit</a>");
+//	        	out.print("<a href='Create_Reservation'>visit</a>");
 	        	
 
-	        	session.setAttribute("id_Customer02", id_Customer);
-	        	out.print("<a href='Check_Self_Reservation'>visit</a>");
+//	        	session.setAttribute("id_Customer02", id_Customer);
+//	        	out.print("<a href='Check_Self_Reservation'>visit</a>");
 	        	
 	        	response.sendRedirect("02_reservation_Form.jsp");
 	        	
 	        	String id_Customer01 = (String)session.getAttribute("id_Customer01"); 
-	        	String id_Customer02 = (String)session.getAttribute("id_Customer02");
+//	        	String id_Customer02 = (String)session.getAttribute("id_Customer02");
 
-	        	System.out.println("id_Customer01 *** " + id_Customer01 + " *** as a sessionAttribute in Login_Customer_Servlet.");
-	        	System.out.println("id_Customer02 *** " + id_Customer02 + " *** as a Sess_Attrib in Login_Customer_Servlet.");
-	        	System.out.println("id_Customer *** " + id_Customer + " *** as a String in Login_Customer_Servlet.");
+	        	System.out.println("id_Customer01 *** ");
+//	        	System.out.println("id_Customer02 *** " + id_Customer02 + " *** as a Sess_Attrib in Login_Customer_Servlet.");
 				
 	        } 
-	        else {
-	        	out.println("Incorrect login credentials");
-	        	String message = "Incorrect login credentials.";
-	        	request;
-	        
-	        }
 			
 	    }
 		catch (ClassNotFoundException | SQLException ex) {
@@ -106,9 +99,9 @@ public class Servlet_04_Login_Customer extends HttpServlet {
 	        	ex.printStackTrace();
 				
 	    }finally {
-			dt.close(rs);
-			dt.close(pst);
-			dt.close(conn);
+//			dt.close(rs);
+//			dt.close(pst);
+//			dt.close(conn);
 
 		}
 		
