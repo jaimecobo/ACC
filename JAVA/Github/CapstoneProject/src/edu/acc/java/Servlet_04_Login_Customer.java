@@ -94,7 +94,7 @@ public class Servlet_04_Login_Customer extends HttpServlet {
 				
 	        } 
 	        else {
-	        	out.println();
+	        	out.println("Incorrect login credentials");
 	        
 	        }
 			
