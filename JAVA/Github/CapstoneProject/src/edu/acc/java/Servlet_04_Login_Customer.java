@@ -97,6 +97,7 @@ public class Servlet_04_Login_Customer extends HttpServlet {
 //	        	out.println("Incorrect login credentials");
 	        	String message = "Incorrect login credentials.";
 	        	request.setAttribute("message", message);
+	        	request;
 	        
 	        }
 			
