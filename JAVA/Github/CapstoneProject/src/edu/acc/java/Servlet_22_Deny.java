@@ -9,5 +9,6 @@ import javax.servlet.http.HttpServlet;
  */
 @WebServlet("/Servlet_Deny")
 public class Servlet_22_Deny extends HttpServlet {
+	private static final long serialVersionUID = 1L;
 
 }
