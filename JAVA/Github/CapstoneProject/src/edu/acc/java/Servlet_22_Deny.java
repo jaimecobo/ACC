@@ -15,6 +15,8 @@ public class Servlet_22_Deny extends HttpServlet {
      * @see HttpServlet#HttpServlet()
      */
     public Servlet_22_Deny() {
+        super();
+        // TODO Auto-generated constructor stub
 		
     }
 
