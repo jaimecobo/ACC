@@ -20,7 +20,7 @@ public class Servlet_22_Deny extends HttpServlet {
 		
     }
 
-	protected void doGet(HttpServletRequest) {
+	protected void doGet(HttpServletRequest request) {
 
 	}
 
