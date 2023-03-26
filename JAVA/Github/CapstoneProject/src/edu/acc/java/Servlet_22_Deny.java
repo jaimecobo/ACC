@@ -43,6 +43,7 @@ public class Servlet_22_Deny extends HttpServlet {
 		System.out.println("id_Reservation = " + id_Reservation);
 		
 		String sql;
+		String[] parms;
 				
 	}
 
