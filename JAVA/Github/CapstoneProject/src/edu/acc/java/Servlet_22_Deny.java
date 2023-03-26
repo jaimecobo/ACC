@@ -39,7 +39,7 @@ public class Servlet_22_Deny extends HttpServlet {
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
 		
-		String id_Reservation = request;
+		String id_Reservation = request.getParameter();
 						
 	}
 
