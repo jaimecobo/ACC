@@ -36,7 +36,7 @@ public class Servlet_22_Deny extends HttpServlet {
 	/**
 	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
 	 */
-	protected void doPost(HttpServletRequest) {
+	protected void doPost(HttpServletRequest request) {
 		// TODO Auto-generated method stub
 		
 	}
