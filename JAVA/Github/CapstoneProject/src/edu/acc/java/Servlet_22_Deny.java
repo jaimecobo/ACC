@@ -40,6 +40,7 @@ public class Servlet_22_Deny extends HttpServlet {
 		// TODO Auto-generated method stub
 		
 		String id_Reservation = request.getParameter("id_Reservation");
+		System.out.println();
 						
 	}
 
