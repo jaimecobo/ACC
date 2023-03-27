@@ -51,7 +51,7 @@ public class Servlet_22_Deny extends HttpServlet {
 		try {
 
 			sql = "update reservation set status='Denied'  WHERE id_Reservation=?";
-		    parms;  
+		    parms = new String[];  
 			
 		}catch(){
 			
