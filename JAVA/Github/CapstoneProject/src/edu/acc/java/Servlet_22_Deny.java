@@ -49,6 +49,8 @@ public class Servlet_22_Deny extends HttpServlet {
 		int rowCount;
 		
 		try {
+
+			sql;
 			
 		}catch(){
 			
