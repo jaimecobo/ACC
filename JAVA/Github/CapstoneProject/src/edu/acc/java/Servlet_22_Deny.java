@@ -46,6 +46,7 @@ public class Servlet_22_Deny extends HttpServlet {
 		String[] parms;
 		LocalMySQLCP localDB = new LocalMySQLCP();
 		DataManager dt = new DataManager();
+		int rowCount;
 				
 	}
 
