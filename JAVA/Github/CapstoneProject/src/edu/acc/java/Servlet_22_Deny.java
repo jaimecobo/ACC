@@ -54,7 +54,7 @@ public class Servlet_22_Deny extends HttpServlet {
 		    parms = new String[]{id_Reservation};  
 			rowCount = localDB.executeUpdate(sql, parms);
 			
-		}catch(SQLException){
+		}catch(SQLException ex){
 			
 		}finally {
 			
