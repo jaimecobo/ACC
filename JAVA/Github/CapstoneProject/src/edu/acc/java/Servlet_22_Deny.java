@@ -56,7 +56,7 @@ public class Servlet_22_Deny extends HttpServlet {
 			rowCount = localDB.executeUpdate(sql, parms);
 			
 		}catch(SQLException ex){
-			System.out.println();
+			System.out.println("ERROR IN Servlet_Create_Reservation TRYING TO INSERT \"DENIED\" STATUS IN THE DB");
 			
 		}finally {
 			
