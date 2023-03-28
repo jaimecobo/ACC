@@ -62,7 +62,7 @@ public class Servlet_22_Deny extends HttpServlet {
 			
 		}finally {
 			
-			dt.close();
+			dt.close(rs);
 
 		}
 				
