@@ -56,6 +56,7 @@ public class Servlet_22_Deny extends HttpServlet {
 			rowCount = localDB.executeUpdate(sql, parms);
 			
 		}catch(SQLException ex){
+			System.out.println();
 			
 		}finally {
 			
