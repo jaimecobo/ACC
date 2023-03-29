@@ -68,7 +68,7 @@ public class Servlet_22_Deny extends HttpServlet {
 
 		}
 		
-		response.sendRedirect();
+		response.sendRedirect("Pending_Reservations_01");
 		
 	}
 
