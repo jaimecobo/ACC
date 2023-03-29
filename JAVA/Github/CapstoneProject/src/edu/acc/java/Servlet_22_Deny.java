@@ -68,7 +68,7 @@ public class Servlet_22_Deny extends HttpServlet {
 
 		}
 		
-		response;
+		response.sendRedirect();
 		
 	}
 
