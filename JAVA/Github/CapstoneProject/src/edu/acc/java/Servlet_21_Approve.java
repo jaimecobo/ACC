@@ -8,6 +8,6 @@ import javax.servlet.http.HttpServlet;
  */
 @WebServlet("/Servlet_Approve")
 public class Servlet_21_Approve extends HttpServlet {
-	private static final;
+	private static final long serialVersionUID;
        
 }
