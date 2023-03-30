@@ -1,5 +1,7 @@
 package edu.acc.java;
 
+import javax.servlet.http.HttpServlet;
+
 /**
  * Servlet implementation class Servlet_Approve
  */
