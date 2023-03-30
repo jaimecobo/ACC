@@ -14,7 +14,8 @@ public class Servlet_21_Approve extends HttpServlet {
      * @see HttpServlet#HttpServlet()
      */
     public Servlet_21_Approve() {
-        
+        super();
+        // TODO Auto-generated constructor stub
     }
 
 }
