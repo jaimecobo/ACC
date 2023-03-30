@@ -10,4 +10,8 @@ import javax.servlet.http.HttpServlet;
 public class Servlet_21_Approve extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
+    public Servlet_21_Approve() {
+        
+    }
+
 }
