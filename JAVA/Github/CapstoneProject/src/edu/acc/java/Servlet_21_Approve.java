@@ -21,7 +21,7 @@ public class Servlet_21_Approve extends HttpServlet {
 	/**
 	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
 	 */
-	protected void doGet() {
+	protected void doGet(HttpServletRequest) {
 
 	}
 
