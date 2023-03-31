@@ -18,4 +18,8 @@ public class Servlet_21_Approve extends HttpServlet {
         // TODO Auto-generated constructor stub
     }
 
+	protected void doGet() {
+
+	}
+
 }
