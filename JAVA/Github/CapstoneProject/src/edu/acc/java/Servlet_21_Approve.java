@@ -32,4 +32,8 @@ public class Servlet_21_Approve extends HttpServlet {
 
 	}
 
+	protected void doPost() {
+		
+	}
+
 }
