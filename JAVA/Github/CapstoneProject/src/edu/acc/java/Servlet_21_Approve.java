@@ -42,6 +42,8 @@ public class Servlet_21_Approve extends HttpServlet {
 		String id_Reservation = request.getParameter("id_Reservation");
 		System.out.println("id_Reservation = " + id_Reservation);
 		
+		response;
+
 		try {
 			
 		}catch(){
