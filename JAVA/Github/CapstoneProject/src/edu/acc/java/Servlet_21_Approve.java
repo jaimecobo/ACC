@@ -37,7 +37,7 @@ public class Servlet_21_Approve extends HttpServlet {
 	 */
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
-		String id[] = new String[];
+		String id[] = new String[1];
 				
 		try {
 			
