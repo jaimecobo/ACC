@@ -50,6 +50,8 @@ public class Servlet_21_Approve extends HttpServlet {
 		int rowCount;
 		
 		try {
+
+			sql;
 			
 		}catch(){
 			
