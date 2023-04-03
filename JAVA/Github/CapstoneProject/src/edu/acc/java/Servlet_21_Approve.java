@@ -45,7 +45,7 @@ public class Servlet_21_Approve extends HttpServlet {
 //		response.sendRedirect("21_underConstruction.html");
 		String sql;
 		String[] parms;
-		LocalMySQLCP localDB = new;
+		LocalMySQLCP localDB = new LocalMySQLCP();
 		
 		try {
 			
