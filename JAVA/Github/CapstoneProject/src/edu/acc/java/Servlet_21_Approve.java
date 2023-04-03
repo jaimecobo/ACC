@@ -52,6 +52,7 @@ public class Servlet_21_Approve extends HttpServlet {
 
 			sql = "update reservation set status='Approved'  WHERE id_Reservation=?";
 		    parms = new String[]{id_Reservation};  
+			rowCount = localDB.executeUpdate(sql, parms);
 			
 		}catch(){
 			
