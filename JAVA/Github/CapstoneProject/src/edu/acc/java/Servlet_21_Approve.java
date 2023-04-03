@@ -40,6 +40,7 @@ public class Servlet_21_Approve extends HttpServlet {
 //		String id[] = new String[1];
 		
 		String id_Reservation = request.getParameter("id_Reservation");
+		System.out.println();
 		
 		try {
 			
