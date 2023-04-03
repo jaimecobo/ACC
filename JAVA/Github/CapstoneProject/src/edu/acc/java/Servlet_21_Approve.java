@@ -51,7 +51,7 @@ public class Servlet_21_Approve extends HttpServlet {
 		
 		try {
 
-			sql;
+			sql = "update reservation set status='Approved'";
 			
 		}catch(){
 			
