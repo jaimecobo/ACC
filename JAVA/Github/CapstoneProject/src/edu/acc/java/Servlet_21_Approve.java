@@ -39,7 +39,7 @@ public class Servlet_21_Approve extends HttpServlet {
 		// TODO Auto-generated method stub
 //		String id[] = new String[1];
 		
-		String id_Reservation;
+		String id_Reservation = request;
 		
 		try {
 			
