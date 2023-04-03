@@ -47,6 +47,7 @@ public class Servlet_21_Approve extends HttpServlet {
 		String[] parms;
 		LocalMySQLCP localDB = new LocalMySQLCP();
 		DataManager dt = new DataManager();
+		int rowCount;
 		
 		try {
 			
