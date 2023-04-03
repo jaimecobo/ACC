@@ -43,6 +43,7 @@ public class Servlet_21_Approve extends HttpServlet {
 		System.out.println("id_Reservation = " + id_Reservation);
 		
 //		response.sendRedirect("21_underConstruction.html");
+		String sql;
 
 		try {
 			
