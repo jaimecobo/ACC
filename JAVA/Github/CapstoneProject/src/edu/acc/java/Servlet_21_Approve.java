@@ -45,13 +45,14 @@ public class Servlet_21_Approve extends HttpServlet {
 //		response.sendRedirect("21_underConstruction.html");
 		String sql;
 		String[] parms;
-
+		LocalMySQLCP;
+		
 		try {
 			
 		}catch(){
 			
 		}finally {
-			
+						
 		}
 		
 	}
