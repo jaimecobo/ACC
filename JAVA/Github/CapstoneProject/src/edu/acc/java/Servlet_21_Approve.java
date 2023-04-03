@@ -51,7 +51,7 @@ public class Servlet_21_Approve extends HttpServlet {
 		try {
 
 			sql = "update reservation set status='Approved'  WHERE id_Reservation=?";
-		    parms;  
+		    parms = new String[]{};  
 			
 		}catch(){
 			
