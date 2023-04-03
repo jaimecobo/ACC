@@ -46,7 +46,7 @@ public class Servlet_21_Approve extends HttpServlet {
 		String sql;
 		String[] parms;
 		LocalMySQLCP localDB = new LocalMySQLCP();
-		DataManager;
+		DataManager dt;
 		
 		try {
 			
