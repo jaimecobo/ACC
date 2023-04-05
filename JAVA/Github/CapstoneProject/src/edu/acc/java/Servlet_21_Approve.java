@@ -1,6 +1,7 @@
 package edu.acc.java;
 
 import java.io.IOException;
+import java.sql.SQLException;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -56,6 +57,7 @@ public class Servlet_21_Approve extends HttpServlet {
 			rowCount = localDB.executeUpdate(sql, parms);
 			
 		}catch(SQLException ex){
+			System;
 			
 		}finally {
 
