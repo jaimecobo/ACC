@@ -48,16 +48,17 @@ public class Servlet_21_Approve extends HttpServlet {
 		LocalMySQLCP localDB = new LocalMySQLCP();
 		DataManager dt = new DataManager();
 		int rowCount;
+		
 		try {
 
 			sql = "update reservation set status='Approved'  WHERE id_Reservation=?";
 		    parms = new String[]{id_Reservation};  
 			rowCount = localDB.executeUpdate(sql, parms);
 			
-		}catch(){
+		}catch(SQLException){
 			
 		}finally {
-						
+
 		}
 		
 	}
