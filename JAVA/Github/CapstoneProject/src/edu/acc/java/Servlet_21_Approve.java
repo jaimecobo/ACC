@@ -57,7 +57,7 @@ public class Servlet_21_Approve extends HttpServlet {
 			rowCount = localDB.executeUpdate(sql, parms);
 			
 		}catch(SQLException ex){
-			System.out.println();
+			System.out.println("ERROR IN Servlet_Create_Reservation TRYING TO INSERT \"APPROVED\" STATUS IN THE DB");
 			
 		}finally {
 
