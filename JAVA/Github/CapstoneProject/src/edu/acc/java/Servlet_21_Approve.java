@@ -57,7 +57,7 @@ public class Servlet_21_Approve extends HttpServlet {
 			rowCount = localDB.executeUpdate(sql, parms);
 			
 		}catch(SQLException ex){
-			System.out;
+			System.out.println();
 			
 		}finally {
 
