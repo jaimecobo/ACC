@@ -55,7 +55,7 @@ public class Servlet_21_Approve extends HttpServlet {
 		    parms = new String[]{id_Reservation};  
 			rowCount = localDB.executeUpdate(sql, parms);
 			
-		}catch(SQLException){
+		}catch(SQLException ex){
 			
 		}finally {
 
