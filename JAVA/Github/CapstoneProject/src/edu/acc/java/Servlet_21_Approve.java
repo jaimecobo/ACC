@@ -68,6 +68,8 @@ public class Servlet_21_Approve extends HttpServlet {
 			dt.close(conn);
 
 		}
+		
+		response;
 
 	}
 
