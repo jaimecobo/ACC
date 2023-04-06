@@ -64,7 +64,7 @@ public class Servlet_21_Approve extends HttpServlet {
 		}finally {
 			
 			dt.close(rs);
-			dt.close();
+			dt.close(pst);
 
 		}
 
