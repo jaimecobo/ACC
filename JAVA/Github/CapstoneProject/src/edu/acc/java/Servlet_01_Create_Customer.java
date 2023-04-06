@@ -1,3 +1,5 @@
+package
+
 public class Servlet_01_Create_Customer {
 	
 }
