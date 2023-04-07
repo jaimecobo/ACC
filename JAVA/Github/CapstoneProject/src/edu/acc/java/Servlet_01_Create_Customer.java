@@ -8,6 +8,6 @@ import javax.servlet.http.HttpServlet;
  */
 @WebServlet("/Create_Customer")
 public class Servlet_01_Create_Customer extends HttpServlet {
-	private static final;
+	private static final long;
 	
 }
