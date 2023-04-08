@@ -21,7 +21,7 @@ public class Servlet_01_Create_Customer extends HttpServlet {
 	/**
 	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
 	 */
-	protected void doGet(HttpServletRequest) {
+	protected void doGet(HttpServletRequest request) {
 		
 	}
 	
