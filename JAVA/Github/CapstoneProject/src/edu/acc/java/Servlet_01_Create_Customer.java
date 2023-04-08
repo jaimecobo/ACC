@@ -18,6 +18,9 @@ public class Servlet_01_Create_Customer extends HttpServlet {
         // TODO Auto-generated constructor stub
     }
 	
+	/**
+	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
+	 */
 	protected void doGet() {
 		
 	}
