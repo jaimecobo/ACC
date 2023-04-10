@@ -28,6 +28,8 @@ public class Servlet_01_Create_Customer extends HttpServlet {
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		
+		request
+		
 	}
 	
 }
