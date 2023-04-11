@@ -31,5 +31,9 @@ public class Servlet_01_Create_Customer extends HttpServlet {
 		request.getRequestDispatcher("01_index.jsp").forward(request, response);
 		
 	}
+
+	protected void doPost() {
+
+	}
 	
 }
