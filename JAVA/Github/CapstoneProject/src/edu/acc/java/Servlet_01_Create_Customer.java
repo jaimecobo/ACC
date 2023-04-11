@@ -35,7 +35,7 @@ public class Servlet_01_Create_Customer extends HttpServlet {
 	/**
 	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
 	 */
-	protected void doPost() {
+	protected void doPost(HttpServletRequest) {
 
 	}
 	
