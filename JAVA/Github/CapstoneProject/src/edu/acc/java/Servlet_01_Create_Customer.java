@@ -42,7 +42,7 @@ public class Servlet_01_Create_Customer extends HttpServlet {
 		response.setContentType("text/html");
 		
 		LocalMySQLCP localDB = new LocalMySQLCP();
-		DataManager dt = new
+		DataManager dt = new DataManager();
 
 	}
 	
