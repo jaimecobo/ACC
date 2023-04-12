@@ -40,6 +40,8 @@ public class Servlet_01_Create_Customer extends HttpServlet {
 		
 		PrintWriter out  = response.getWriter();	
 		response.setContentType("text/html");
+		
+		LocalMySQLCP
 
 	}
 	
