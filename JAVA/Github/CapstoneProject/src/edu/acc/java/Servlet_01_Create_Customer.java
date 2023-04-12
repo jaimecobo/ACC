@@ -39,6 +39,7 @@ public class Servlet_01_Create_Customer extends HttpServlet {
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		
 		PrintWriter out  = response.getWriter();	
+		response
 
 	}
 	
