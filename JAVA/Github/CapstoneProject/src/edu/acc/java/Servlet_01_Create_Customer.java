@@ -44,8 +44,8 @@ public class Servlet_01_Create_Customer extends HttpServlet {
 		LocalMySQLCP localDB = new LocalMySQLCP();
 		DataManager dt = new DataManager();
 		
-		String firstName = 
+		String firstName = request
 	
 	}
-	
+
 }
