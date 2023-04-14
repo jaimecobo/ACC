@@ -45,7 +45,7 @@ public class Servlet_01_Create_Customer extends HttpServlet {
 		DataManager dt = new DataManager();
 		
 		String firstName = request.getParameter("firstName");
-		String lastName = request.getParameter("lastName")
+		String lastName = request.getParameter("lastName");
 	
 	}
 
