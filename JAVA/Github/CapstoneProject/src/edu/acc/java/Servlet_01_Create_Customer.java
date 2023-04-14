@@ -46,7 +46,7 @@ public class Servlet_01_Create_Customer extends HttpServlet {
 		
 		String firstName = request.getParameter("firstName");
 		String lastName = request.getParameter("lastName");
-		String address = request.getParameter()
+		String address = request.getParameter("address")
 
 	}
 	
