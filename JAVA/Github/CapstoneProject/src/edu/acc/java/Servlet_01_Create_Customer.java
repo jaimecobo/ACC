@@ -51,7 +51,7 @@ public class Servlet_01_Create_Customer extends HttpServlet {
 		String doc_Type = request.getParameter("doc_Type");
 		String doc_Number = request.getParameter("doc_Number");
 		String phone = request.getParameter("phone");
-		Date bd = (Date)formatter.parse()
+		Date bd = (Date)formatter.parse("birthday")
 		
 	}
 	
