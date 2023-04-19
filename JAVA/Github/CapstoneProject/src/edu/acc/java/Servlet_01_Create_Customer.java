@@ -55,6 +55,8 @@ public class Servlet_01_Create_Customer extends HttpServlet {
 		Date bd = (Date)formatter.parse("birthday"); 
 		String bday = formatter.format(bd);
 		
+		String
+		
 	}
 	
 }
