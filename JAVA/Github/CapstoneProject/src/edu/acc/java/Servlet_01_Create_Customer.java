@@ -56,7 +56,7 @@ public class Servlet_01_Create_Customer extends HttpServlet {
 		String bday = formatter.format(bd);
 		
 		String birthday = request.getParameter("birthday");
-		Date birthday01 = null
+		Date birthday01 = null;
 		
 	}
 	
