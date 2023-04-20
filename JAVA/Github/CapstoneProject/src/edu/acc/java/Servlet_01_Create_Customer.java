@@ -59,7 +59,9 @@ public class Servlet_01_Create_Customer extends HttpServlet {
 		Date birthday01 = null;
 		try {
 	
-		}
+		} catch () {
+			
+		} 
 				
 	}
 	
