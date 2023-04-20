@@ -58,6 +58,7 @@ public class Servlet_01_Create_Customer extends HttpServlet {
 		String birthday = request.getParameter("birthday");
 		Date birthday01 = null;
 		try {
+			birthday01
 	
 		} catch () {
 			
