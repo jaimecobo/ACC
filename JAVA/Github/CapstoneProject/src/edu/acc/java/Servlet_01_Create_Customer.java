@@ -59,11 +59,12 @@ public class Servlet_01_Create_Customer extends HttpServlet {
 		Date birthday01 = null;
 		try {
 			birthday01 = (Date)formatter.parse("birthday00");
-	
-		} catch () {
+			birthday00
 			
+		} catch () {
+
 		} 
-				
+
 	}
 	
 }
