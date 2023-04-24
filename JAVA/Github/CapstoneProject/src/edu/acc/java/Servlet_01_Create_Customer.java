@@ -69,7 +69,7 @@ public class Servlet_01_Create_Customer extends HttpServlet {
 		
 		birthday = birthday01.toString();
 		request.getParameter(formatter.format("birthday"));
-		String company = request.getParameter
+		String company = request.getParameter()
 
 	}
 	
