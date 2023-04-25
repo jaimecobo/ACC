@@ -71,7 +71,7 @@ public class Servlet_01_Create_Customer extends HttpServlet {
 		request.getParameter(formatter.format("birthday"));
 		String company = request.getParameter("company");
 		String origin = request.getParameter("origin");
-		String
+		String occupation
 
 	}
 	
