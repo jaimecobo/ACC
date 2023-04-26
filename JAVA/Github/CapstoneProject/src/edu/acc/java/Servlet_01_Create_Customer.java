@@ -64,7 +64,7 @@ public class Servlet_01_Create_Customer extends HttpServlet {
 		} catch (ParseException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
-			
+
 		} 
 		
 		birthday = birthday01.toString();
@@ -72,6 +72,7 @@ public class Servlet_01_Create_Customer extends HttpServlet {
 		String company = request.getParameter("company");
 		String origin = request.getParameter("origin");
 		String occupation = request.getParameter("occupation");
+		String
 
 	}
 	
