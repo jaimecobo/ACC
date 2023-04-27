@@ -73,7 +73,7 @@ public class Servlet_01_Create_Customer extends HttpServlet {
 		String origin = request.getParameter("origin");
 		String occupation = request.getParameter("occupation");
 		String dateCreated = new SimpleDateFormat("MM/d/yyyy").format(new Date());
-		String
+		String dateCreated
 
 	}
 	
