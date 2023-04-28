@@ -77,7 +77,7 @@ public class Servlet_01_Create_Customer extends HttpServlet {
 		String userName = request.getParameter("userName");
 		String password = request.getParameter("password");
 		
-		String sql
+		String sql;
 	
 	}
 	
