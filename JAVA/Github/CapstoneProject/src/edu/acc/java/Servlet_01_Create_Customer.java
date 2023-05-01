@@ -87,7 +87,7 @@ public class Servlet_01_Create_Customer extends HttpServlet {
 		out.println("<br>" + "lastName 		: " + lastName);
 		out.println("<br>" + "address 		: " + address);
 		out.println("<br>" + "email 		: " + email);
-		out
+		out.
 
 	}
 	
