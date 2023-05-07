@@ -101,7 +101,7 @@ public class Servlet_01_Create_Customer extends HttpServlet {
 		
 
 		try {
-			Class.forName("com.mysql.")
+			Class.forName("com.mysql.jdbc")
 	        
 	    }
 		catch() {
