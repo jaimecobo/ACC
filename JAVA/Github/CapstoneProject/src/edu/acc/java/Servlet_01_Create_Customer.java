@@ -55,28 +55,28 @@ public class Servlet_01_Create_Customer extends HttpServlet {
 		String doc_Type = request.getParameter("doc_Type");
 		String doc_Number = request.getParameter("doc_Number");
 		String phone = request.getParameter("phone");
-		Date bd = (Date)formatter.parse("birthday"); 
-		String bday = formatter.format(bd);
+//		Date bd = (Date)formatter.parse("birthday"); 
+//		String bday = formatter.format(bd);
 		
 		String birthday = request.getParameter("birthday");
-		Date birthday01 = null;
-		try {
-			birthday01 = (Date)formatter.parse("birthday00");
-			birthday00 = formatter.format(birthday01);
+//		Date birthday01 = null;
+//		try {
+//			birthday01 = (Date)formatter.parse("birthday00");
+//			birthday00 = formatter.format(birthday01);
 
-		} catch (ParseException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
+//		} catch (ParseException e) {
+//			// TODO Auto-generated catch block
+//			e.printStackTrace();
 
-		} 
+//		} 
 		
-		birthday = birthday01.toString();
-		request.getParameter(formatter.format("birthday"));
+//		birthday = birthday01.toString();
+//		request.getParameter(formatter.format("birthday"));
 		String company = request.getParameter("company");
 		String origin = request.getParameter("origin");
 		String occupation = request.getParameter("occupation");
 		String dateCreated = new SimpleDateFormat("MM/d/yyyy").format(new Date());
-		String dateCreated = request.getParameter("dateCreated");
+//		String dateCreated = request.getParameter("dateCreated");
 		String userName = request.getParameter("userName");
 		String password = request.getParameter("password");
 		
@@ -86,25 +86,26 @@ public class Servlet_01_Create_Customer extends HttpServlet {
 		
 		
 		
-		out.println("<br>" + "firstName 	: " + firstName);
-		out.println("<br>" + "lastName 		: " + lastName);
-		out.println("<br>" + "address 		: " + address);
-		out.println("<br>" + "email 		: " + email);
-		out.println("<br>" + "doc_Type 		: " + doc_Type);
-		out.println("<br>" + "doc_Number	: " + doc_Number);
-		out.println("<br>" + "phone			: " + phone);
-		out.println("<br>" + "birthday		: " + birthday);
-		out.println("<br>" + "company		: " + company);
-		out.println("<br>" + "origin		: " + origin);
-		out.println("<br>" + "occupation	: " + occupation);
-		out.println("<br>" + "dateCreated	: " + dateCreated);
-		out.println("<br>" + "userName		: " + userName);
-		out.println("<br>" + "password		: " + password);
+//		out.println("<br>" + "firstName 	: " + firstName);
+//		out.println("<br>" + "lastName 		: " + lastName);
+//		out.println("<br>" + "address 		: " + address);
+//		out.println("<br>" + "email 		: " + email);
+//		out.println("<br>" + "doc_Type 		: " + doc_Type);
+//		out.println("<br>" + "doc_Number	: " + doc_Number);
+//		out.println("<br>" + "phone			: " + phone);
+//		out.println("<br>" + "birthday		: " + birthday);
+//		out.println("<br>" + "company		: " + company);
+//		out.println("<br>" + "origin		: " + origin);
+//		out.println("<br>" + "occupation	: " + occupation);
+//		out.println("<br>" + "dateCreated	: " + dateCreated);
+//		out.println("<br>" + "userName		: " + userName);
+//		out.println("<br>" + "password		: " + password);
 		
 		
 		try {
 			Class.forName("com.mysql.jdbc.Driver");
 	        Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/hotels360", "root", "sesame");
+	        PreparedStatement
 	        
 	    }
 		catch() {
