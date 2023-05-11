@@ -77,7 +77,7 @@ public class Servlet_01_Create_Customer extends HttpServlet {
 		String origin = request.getParameter("origin");
 		String occupation = request.getParameter("occupation");
 		String dateCreated = new SimpleDateFormat("MM/d/yyyy").format(new Date());
-//		String dateCreated = request.getParameter("dateCreated");
+		String dateCreated = request.getParameter("dateCreated");
 		String userName = request.getParameter("userName");
 		String password = request.getParameter("password");
 		
