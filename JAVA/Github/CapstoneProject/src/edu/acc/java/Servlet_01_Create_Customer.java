@@ -69,7 +69,7 @@ public class Servlet_01_Create_Customer extends HttpServlet {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 
-//		} 
+		} 
 		
 //		birthday = birthday01.toString();
 //		request.getParameter(formatter.format("birthday"));
