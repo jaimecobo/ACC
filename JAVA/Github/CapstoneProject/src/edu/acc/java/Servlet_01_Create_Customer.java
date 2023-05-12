@@ -94,7 +94,7 @@ public class Servlet_01_Create_Customer extends HttpServlet {
 		out.println("<br>" + "doc_Type 		: " + doc_Type);
 		out.println("<br>" + "doc_Number	: " + doc_Number);
 		out.println("<br>" + "phone			: " + phone);
-//		out.println("<br>" + "birthday		: " + birthday);
+		out.println("<br>" + "birthday		: " + birthday);
 //		out.println("<br>" + "company		: " + company);
 //		out.println("<br>" + "origin		: " + origin);
 //		out.println("<br>" + "occupation	: " + occupation);
