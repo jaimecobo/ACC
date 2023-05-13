@@ -64,7 +64,6 @@ public class Servlet_01_Create_Customer extends HttpServlet {
 		try {
 			birthday01 = (Date)formatter.parse("birthday00");
 			birthday00 = formatter.format(birthday01);
-
 		} catch (ParseException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
@@ -101,16 +100,17 @@ public class Servlet_01_Create_Customer extends HttpServlet {
 		out.println("<br>" + "dateCreated	: " + dateCreated);
 		out.println("<br>" + "userName		: " + userName);
 		out.println("<br>" + "password		: " + password);
-		
 
+		
 		try {
 			Class.forName("com.mysql.jdbc.Driver");
 	        Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/hotels360", "root", "sesame");
 	        PreparedStatement pst = conn.prepareStatement("Select username from customer where username=?");
-	        
+	        pst
+	           
 	    }
 		catch () {
-				
+	        	
 	    }
 	
 	}
