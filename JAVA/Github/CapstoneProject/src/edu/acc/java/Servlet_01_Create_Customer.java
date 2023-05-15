@@ -109,6 +109,8 @@ public class Servlet_01_Create_Customer extends HttpServlet {
 	        PreparedStatement pst = conn.prepareStatement("Select username from customer where username=?");
 	        pst.setString(1, userName);
 	        ResultSet rs = pst.executeQuery();
+	        
+	        if
 	           
 	    }
 		catch () {
