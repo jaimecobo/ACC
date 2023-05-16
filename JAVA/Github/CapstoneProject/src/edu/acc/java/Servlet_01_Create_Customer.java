@@ -103,7 +103,9 @@ public class Servlet_01_Create_Customer extends HttpServlet {
 		int rowCount;
 		try {
 			
-		}catch()
+		}catch(){
+			
+		}
 
 	}
 	
