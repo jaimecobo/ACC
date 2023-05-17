@@ -104,7 +104,7 @@ public class Servlet_01_Create_Customer extends HttpServlet {
 		try {
 			DateFormat formatter = new SimpleDateFormat("MM/dd/yyyy");
 			String birthday00 = request.getParameter("birthday");
-			Date birthday01
+			Date birthday01;
 
 		}catch(){
 			
