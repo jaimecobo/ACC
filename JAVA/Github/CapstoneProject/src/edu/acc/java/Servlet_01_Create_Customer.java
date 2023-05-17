@@ -98,12 +98,13 @@ public class Servlet_01_Create_Customer extends HttpServlet {
 		out.println("<br>" + "dateCreated	: " + dateCreated);
 		out.println("<br>" + "userName		: " + userName);
 		out.println("<br>" + "password		: " + password);
-
-	
+		
+		
 		int rowCount;
 		try {
 			DateFormat formatter = new SimpleDateFormat("MM/dd/yyyy");
-			
+			String
+
 		}catch(){
 			
 		}
