@@ -103,7 +103,7 @@ public class Servlet_01_Create_Customer extends HttpServlet {
 		int rowCount;
 		try {
 			DateFormat formatter = new SimpleDateFormat("MM/dd/yyyy");
-			String birthday00
+			String birthday00 =
 
 		}catch(){
 			
