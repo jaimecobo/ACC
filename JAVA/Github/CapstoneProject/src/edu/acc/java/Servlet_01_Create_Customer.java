@@ -107,6 +107,7 @@ public class Servlet_01_Create_Customer extends HttpServlet {
 			Date birthday01;
 			
 			try {
+				birthday01
 				
 			} catch () {
 				
