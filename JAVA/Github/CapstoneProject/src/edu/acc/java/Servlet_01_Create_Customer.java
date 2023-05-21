@@ -67,7 +67,7 @@ public class Servlet_01_Create_Customer extends HttpServlet {
 			e.printStackTrace();
 
 		} 
-		
+	
 		birthday = birthday01.toString();
 		request.getParameter(formatter.format("birthday"));
 		String company = request.getParameter("company");
@@ -114,9 +114,9 @@ public class Servlet_01_Create_Customer extends HttpServlet {
 			    e.printStackTrace();
 				
 			}
-		
-		} catch(){
 			
+		} catch(SQLException){
+
 		}
 
 	}
