@@ -68,7 +68,7 @@ public class Servlet_01_Create_Customer extends HttpServlet {
 			e.printStackTrace();
 
 		} 
-	
+		
 		birthday = birthday01.toString();
 		request.getParameter(formatter.format("birthday"));
 		String company = request.getParameter("company");
@@ -99,7 +99,7 @@ public class Servlet_01_Create_Customer extends HttpServlet {
 		out.println("<br>" + "dateCreated	: " + dateCreated);
 		out.println("<br>" + "userName		: " + userName);
 		out.println("<br>" + "password		: " + password);
-	
+		
 	
 		int rowCount;
 		try {
@@ -118,7 +118,8 @@ public class Servlet_01_Create_Customer extends HttpServlet {
 			
 		} catch(SQLException ex){
 			out.println("ERROR catch in Servlet_Create_Customer");
-
+			ex
+			
 		}
 
 	}
