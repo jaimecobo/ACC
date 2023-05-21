@@ -117,7 +117,7 @@ public class Servlet_01_Create_Customer extends HttpServlet {
 			}
 			
 		}catch(SQLException ex){
-			out.println()
+			out.println("")
 
 		}
 
