@@ -117,7 +117,7 @@ public class Servlet_01_Create_Customer extends HttpServlet {
 			}
 			
 			
-			sql = "insert into customer (firstName, lastName, address, email, document_Type, document_Number "
+			sql = "insert into customer (firstName, lastName, address, email, document_Type, document_Number, phoneNumber "
 			
 		} catch(SQLException ex){
 			out.println("ERROR catch in Servlet_Create_Customer");
