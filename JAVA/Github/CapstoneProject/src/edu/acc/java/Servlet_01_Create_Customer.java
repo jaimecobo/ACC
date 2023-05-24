@@ -119,7 +119,7 @@ public class Servlet_01_Create_Customer extends HttpServlet {
 			
 			sql = "insert into customer (firstName, lastName, address, email, document_Type, document_Number, phoneNumber, birthday, company_Name, origin_Nationality, occupation, "
 					+ "account_Creation_Date, userName, password) values (?,?,?,?,?,?,?,?,?,?,?,?,?,?)";
-		    parms =
+		    parms = new
 			
 		}catch(SQLException ex){
 			out.println("ERROR catch in Servlet_Create_Customer");
