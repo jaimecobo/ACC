@@ -68,7 +68,7 @@ public class Servlet_01_Create_Customer extends HttpServlet {
 			e.printStackTrace();
 
 		} 
-		
+	
 		birthday = birthday01.toString();
 		request.getParameter(formatter.format("birthday"));
 		String company = request.getParameter("company");
@@ -99,7 +99,7 @@ public class Servlet_01_Create_Customer extends HttpServlet {
 		out.println("<br>" + "dateCreated	: " + dateCreated);
 		out.println("<br>" + "userName		: " + userName);
 		out.println("<br>" + "password		: " + password);
-	
+
 	
 		int rowCount;
 		try {
@@ -113,14 +113,15 @@ public class Servlet_01_Create_Customer extends HttpServlet {
 				
 			} catch (ParseException e) {
 			    e.printStackTrace();
-				
+
 			}
 			
 			
 			sql = "insert into customer (firstName, lastName, address, email, document_Type, document_Number, phoneNumber, birthday, company_Name, origin_Nationality, occupation, "
 					+ "account_Creation_Date, userName, password) values (?,?,?,?,?,?,?,?,?,?,?,?,?,?)";
+		    parms
 			
-		} catch(SQLException ex){
+		}catch(SQLException ex){
 			out.println("ERROR catch in Servlet_Create_Customer");
 			ex.printStackTrace();
 			localDB.printTrace(ex);
