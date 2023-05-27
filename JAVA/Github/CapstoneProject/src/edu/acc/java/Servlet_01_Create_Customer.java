@@ -106,14 +106,14 @@ public class Servlet_01_Create_Customer extends HttpServlet {
 			DateFormat formatter = new SimpleDateFormat("MM/dd/yyyy");
 			String birthday00 = request.getParameter("birthday");
 			Date birthday01;
-			
+
 			try {
 				birthday01 = formatter.parse(birthday00);
 			    birthday00 = formatter.format(birthday01);
-				
+
 			} catch (ParseException e) {
 			    e.printStackTrace();
-				
+
 			}
 			
 			
@@ -124,12 +124,12 @@ public class Servlet_01_Create_Customer extends HttpServlet {
 			String messageLogin = "Welcome " + userName + " please login";
 			request.getSession().setAttribute("messageLogin", messageLogin);
 	        response.sendRedirect("index.jsp");
-			
-		}catch(SQLException ex){
+
+		} catch(SQLException ex){
 			out.println("ERROR catch in Servlet_Create_Customer");
 			ex.printStackTrace();
 			localDB.printTrace(ex);
-			
+
 		}
 
 	}
