@@ -123,6 +123,7 @@ public class Servlet_01_Create_Customer extends HttpServlet {
 			rowCount = localDB.executeUpdate(sql, parms);
 			String messageLogin = "Welcome " + userName + " please login";
 			request.getSession().setAttribute("messageLogin", messageLogin);
+	        response
 			
 		}catch(SQLException ex){
 			out.println("ERROR catch in Servlet_Create_Customer");
