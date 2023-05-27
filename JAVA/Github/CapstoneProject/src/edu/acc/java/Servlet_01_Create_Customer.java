@@ -99,7 +99,7 @@ public class Servlet_01_Create_Customer extends HttpServlet {
 		out.println("<br>" + "dateCreated	: " + dateCreated);
 		out.println("<br>" + "userName		: " + userName);
 		out.println("<br>" + "password		: " + password);
-
+		
 	
 		int rowCount;
 		try {
@@ -122,6 +122,7 @@ public class Servlet_01_Create_Customer extends HttpServlet {
 		    parms = new String[]{firstName, lastName, address, email, doc_Type, doc_Number, phone, birthday, company, origin, occupation, dateCreated, userName, password};  
 			rowCount = localDB.executeUpdate(sql, parms);
 			String messageLogin = "Welcome " + userName + " please login";
+			request
 			
 		}catch(SQLException ex){
 			out.println("ERROR catch in Servlet_Create_Customer");
