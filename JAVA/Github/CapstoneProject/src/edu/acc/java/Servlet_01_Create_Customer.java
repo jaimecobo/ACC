@@ -114,7 +114,7 @@ public class Servlet_01_Create_Customer extends HttpServlet {
 //			} catch (ParseException e) {
 //			    e.printStackTrace();
 
-			}
+//			}
 			
 			
 			sql = "insert into customer (firstName, lastName, address, email, document_Type, document_Number, phoneNumber, birthday, company_Name, origin_Nationality, occupation, "
