@@ -103,20 +103,20 @@ public class Servlet_01_Create_Customer extends HttpServlet {
 	
 //		int rowCount;
 //		try {
-//			DateFormat formatter = new SimpleDateFormat("MM/dd/yyyy");
-//			String birthday00 = request.getParameter("birthday");
-//			Date birthday01;
+////			DateFormat formatter = new SimpleDateFormat("MM/dd/yyyy");
+////			String birthday00 = request.getParameter("birthday");
+////			Date birthday01;
 
-//			try {
-//				birthday01 = formatter.parse(birthday00);
-//			    birthday00 = formatter.format(birthday01);
+////			try {
+////				birthday01 = formatter.parse(birthday00);
+////			    birthday00 = formatter.format(birthday01);
 
-//			} catch (ParseException e) {
-//			    e.printStackTrace();
+////			} catch (ParseException e) {
+////			    e.printStackTrace();
 
-//			}
-			
-			
+////			}
+//			
+//			
 //			sql = "insert into customer (firstName, lastName, address, email, document_Type, document_Number, phoneNumber, birthday, company_Name, origin_Nationality, occupation, "
 //					+ "account_Creation_Date, userName, password) values (?,?,?,?,?,?,?,?,?,?,?,?,?,?)";
 //		    parms = new String[]{firstName, lastName, address, email, doc_Type, doc_Number, phone, birthday, company, origin, occupation, dateCreated, userName, password};  
