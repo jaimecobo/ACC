@@ -109,7 +109,7 @@ public class Servlet_01_Create_Customer extends HttpServlet {
 
 			try {
 				birthday01 = formatter.parse(birthday00);
-			    birthday00 = formatter.format(birthday01);
+//			    birthday00 = formatter.format(birthday01);
 
 			} catch (ParseException e) {
 			    e.printStackTrace();
