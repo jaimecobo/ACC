@@ -112,7 +112,7 @@ public class Servlet_01_Create_Customer extends HttpServlet {
 //			    birthday00 = formatter.format(birthday01);
 
 			} catch (ParseException e) {
-			    e.printStackTrace();
+//			    e.printStackTrace();
 
 			}
 			
