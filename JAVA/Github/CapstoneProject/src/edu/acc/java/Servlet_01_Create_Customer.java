@@ -128,7 +128,7 @@ public class Servlet_01_Create_Customer extends HttpServlet {
 		}catch(SQLException ex){
 			out.println("ERROR catch in Servlet_Create_Customer");
 			ex.printStackTrace();
-			localDB.printTrace(ex);
+//			localDB.printTrace(ex);
 
 		}
 
