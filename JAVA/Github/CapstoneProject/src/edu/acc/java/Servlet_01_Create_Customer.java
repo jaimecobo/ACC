@@ -126,7 +126,7 @@ public class Servlet_01_Create_Customer extends HttpServlet {
 	        response.sendRedirect("index.jsp");
 
 		}catch(SQLException ex){
-			out.println("ERROR catch in Servlet_Create_Customer");
+//			out.println("ERROR catch in Servlet_Create_Customer");
 //			ex.printStackTrace();
 //			localDB.printTrace(ex);
 
