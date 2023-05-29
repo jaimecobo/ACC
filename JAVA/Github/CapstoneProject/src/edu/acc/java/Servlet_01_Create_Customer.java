@@ -122,7 +122,7 @@ public class Servlet_01_Create_Customer extends HttpServlet {
 		    parms = new String[]{firstName, lastName, address, email, doc_Type, doc_Number, phone, birthday, company, origin, occupation, dateCreated, userName, password};  
 			rowCount = localDB.executeUpdate(sql, parms);
 			String messageLogin = "Welcome " + userName + " please login";
-			request.getSession().setAttribute("messageLogin", messageLogin);
+//			request.getSession().setAttribute("messageLogin", messageLogin);
 //	        response.sendRedirect("index.jsp");
 
 		}catch(SQLException ex){
