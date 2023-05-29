@@ -101,7 +101,7 @@ public class Servlet_01_Create_Customer extends HttpServlet {
 //		out.println("<br>" + "password		: " + password);
 		
 	
-		int rowCount;
+//		int rowCount;
 //		try {
 //			DateFormat formatter = new SimpleDateFormat("MM/dd/yyyy");
 //			String birthday00 = request.getParameter("birthday");
