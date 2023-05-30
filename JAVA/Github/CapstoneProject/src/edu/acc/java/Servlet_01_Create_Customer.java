@@ -100,7 +100,9 @@ public class Servlet_01_Create_Customer extends HttpServlet {
 //		out.println("<br>" + "userName		: " + userName);
 //		out.println("<br>" + "password		: " + password);
 		
-		try
+		try {
+	        
+	    }
 	
 //		int rowCount;
 //		try {
