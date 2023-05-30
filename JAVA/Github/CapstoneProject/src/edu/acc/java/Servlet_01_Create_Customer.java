@@ -100,6 +100,7 @@ public class Servlet_01_Create_Customer extends HttpServlet {
 //		out.println("<br>" + "userName		: " + userName);
 //		out.println("<br>" + "password		: " + password);
 		
+		try
 	
 //		int rowCount;
 //		try {
@@ -125,7 +126,7 @@ public class Servlet_01_Create_Customer extends HttpServlet {
 //			request.getSession().setAttribute("messageLogin", messageLogin);
 //	        response.sendRedirect("index.jsp");
 
-//		}catch(SQLException ex){
+//		} catch(SQLException ex){
 //			out.println("ERROR catch in Servlet_Create_Customer");
 //			ex.printStackTrace();
 //			localDB.printTrace(ex);
