@@ -103,7 +103,7 @@ public class Servlet_01_Create_Customer extends HttpServlet {
 		try {
 	        
 	    } catch (ClassNotFoundException | SQLException ex) {
-	        	System.out.println("")
+	        	System.out.println("ERROR in Catch")
 				
 	    }
 	
