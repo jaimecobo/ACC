@@ -101,7 +101,7 @@ public class Servlet_01_Create_Customer extends HttpServlet {
 //		out.println("<br>" + "password		: " + password);
 		
 		try {
-			Class.forName
+			Class.forName()
 	        
 	    } catch (ClassNotFoundException | SQLException ex) {
 	        	System.out.println("ERROR in Catch");
