@@ -102,6 +102,7 @@ public class Servlet_01_Create_Customer extends HttpServlet {
 		
 		try {
 			Class.forName("com.mysql.jdbc.Driver");
+	        Connection
 	        
 	    } catch (ClassNotFoundException | SQLException ex) {
 	        	System.out.println("ERROR in Catch");
