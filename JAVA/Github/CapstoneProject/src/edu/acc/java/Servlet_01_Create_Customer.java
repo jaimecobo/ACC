@@ -106,7 +106,7 @@ public class Servlet_01_Create_Customer extends HttpServlet {
 		try {
 			Class.forName("com.mysql.jdbc.Driver");
 	        Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/hotels360", "root", "sesame");
-	        PreparedStatement pst = conn
+	        PreparedStatement pst = conn.
 	        
 	    } catch (ClassNotFoundException | SQLException ex) {
 	        	System.out.println("ERROR in Catch");
