@@ -108,6 +108,7 @@ public class Servlet_01_Create_Customer extends HttpServlet {
 	        Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/hotels360", "root", "sesame");
 	        PreparedStatement pst = conn.prepareStatement("Select username from customer where username=?");
 	        pst.setString(1, userName);
+	        ResultSet
 	        
 	    } catch (ClassNotFoundException | SQLException ex) {
 	        	System.out.println("ERROR in Catch");
