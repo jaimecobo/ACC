@@ -111,7 +111,7 @@ public class Servlet_01_Create_Customer extends HttpServlet {
 	        pst.setString(1, userName);
 	        ResultSet rs = pst.executeQuery();
 	        
-	        if (rs) {
+	        if (rs.) {
 				
 	        } 
 	        
