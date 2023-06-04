@@ -112,7 +112,7 @@ public class Servlet_01_Create_Customer extends HttpServlet {
 	        ResultSet rs = pst.executeQuery();
 	        
 	        if (rs.next()) {
-	        	String otherUsername01 = " ** Please choose **"
+	        	String otherUsername01 = " ** Please choose a**"
 				
 	        } 
 	        
