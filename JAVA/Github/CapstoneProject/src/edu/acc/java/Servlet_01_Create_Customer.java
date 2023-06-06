@@ -117,6 +117,7 @@ public class Servlet_01_Create_Customer extends HttpServlet {
 	        	response.sendRedirect("02_Customer_Form.jsp");
 				
 	        } 
+	        else
 	        
 	    } catch (ClassNotFoundException | SQLException ex) {
 	        	System.out.println("ERROR in Catch");
