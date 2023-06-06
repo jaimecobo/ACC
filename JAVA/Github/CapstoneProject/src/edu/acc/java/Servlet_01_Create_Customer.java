@@ -125,7 +125,7 @@ public class Servlet_01_Create_Customer extends HttpServlet {
 					
 	    		} finally {
 	    			dt.close(rs);
-	    			dt.close(pst)
+	    			dt.close(pst);
 					
 	    		}
 				
