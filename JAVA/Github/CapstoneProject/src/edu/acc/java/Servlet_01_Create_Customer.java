@@ -122,7 +122,7 @@ public class Servlet_01_Create_Customer extends HttpServlet {
 	    		try {	    			
 					
 	    		} catch(SQLException ex){
-	    			out.println("ERROR catch in Servlet_Create_Customer")
+	    			out.println("ERROR catch in Servlet_Create_Customer");
 					
 	    		} finally {
 	    			dt.close(rs);
