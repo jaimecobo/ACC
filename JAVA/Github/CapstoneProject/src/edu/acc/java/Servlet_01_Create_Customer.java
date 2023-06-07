@@ -122,6 +122,7 @@ public class Servlet_01_Create_Customer extends HttpServlet {
 	    		try {	    			
 					
 	    		} catch(SQLException ex){
+	    			out
 					
 	    		} finally {
 	    			dt.close(rs);
