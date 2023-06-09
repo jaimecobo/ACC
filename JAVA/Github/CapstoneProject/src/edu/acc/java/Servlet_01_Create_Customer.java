@@ -119,7 +119,7 @@ public class Servlet_01_Create_Customer extends HttpServlet {
 	        } 
 	        else {
 	        	
-	        	int rowCount
+	        	int rowCount;
 	    		try {	    			
 					
 	    		} catch(SQLException ex){
