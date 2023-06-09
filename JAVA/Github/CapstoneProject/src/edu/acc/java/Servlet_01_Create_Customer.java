@@ -121,6 +121,7 @@ public class Servlet_01_Create_Customer extends HttpServlet {
 	        	
 	        	int rowCount;
 	    		try {	    			
+	    			sql
 					
 	    		} catch(SQLException ex){
 	    			out.println("ERROR catch in Servlet_Create_Customer");
