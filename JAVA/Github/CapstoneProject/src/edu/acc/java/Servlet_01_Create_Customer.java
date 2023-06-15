@@ -125,7 +125,7 @@ public class Servlet_01_Create_Customer extends HttpServlet {
 	    					+ "account_Creation_Date, userName, password) values (?,?,?,?,?,?,?,?,?,?,?,?,?,?)";
 	    		    parms = new String[]{firstName, lastName, address, email, doc_Type, doc_Number, phone, birthday, company, origin, occupation, dateCreated, userName, password};  
 	    			rowCount = localDB.executeUpdate(sql, parms);
-	    			String messageLogin = ""
+	    			String messageLogin = "Welcome "
 					
 	    		} catch(SQLException ex){
 	    			out.println("ERROR catch in Servlet_Create_Customer");
