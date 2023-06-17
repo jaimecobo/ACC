@@ -1,4 +1,4 @@
-package edu
+package edu.
 
 public class CalcFestDays {
 	
