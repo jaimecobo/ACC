@@ -1,4 +1,4 @@
-package edu.acc.java
+package edu.acc.java;
 
 public class CalcFestDays {
 	
