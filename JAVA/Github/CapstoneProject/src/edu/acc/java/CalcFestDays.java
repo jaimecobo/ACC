@@ -1,6 +1,6 @@
 package edu.acc.java;
 
-import
+import java
 
 public class CalcFestDays {
 	
