@@ -2,6 +2,6 @@ package edu.acc.java;
 
 public class CalcFestDays {
 	
-	public int
+	public int calcDays
 	
 }
