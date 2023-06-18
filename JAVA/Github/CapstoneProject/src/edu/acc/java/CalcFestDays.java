@@ -4,7 +4,7 @@ import java.util.Date;
 
 public class CalcFestDays {
 	
-	public int calcDays(Date) {
+	public int calcDays(Date entry_Date) {
 		
 	}
 	
