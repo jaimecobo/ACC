@@ -6,7 +6,7 @@ public class CalcFestDays {
 	
 	public int calcDays(Date entry_Date, Date departureDate) {
 		
-		int
+		int festDaysCount
 		
 	}
 	
