@@ -8,7 +8,7 @@ public class CalcFestDays {
 	public int calcDays(Date entry_Date, Date departureDate) {
 		
 		int festDaysCount = 0;
-		SimpleDateFormat
+		SimpleDateFormat formatter
 	
 		return festDaysCount;
 		
