@@ -10,7 +10,7 @@ public class CalcFestDays {
 		
 		int festDaysCount = 0;
 		SimpleDateFormat formatter = new SimpleDateFormat("yyyy-MM-dd");
-		List<Date> dates = new					
+		List<Date> dates = new ArrayList 						
 		
 		return festDaysCount;
 		
