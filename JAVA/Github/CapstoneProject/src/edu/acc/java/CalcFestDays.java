@@ -14,7 +14,7 @@ public class CalcFestDays {
 		List<Date> dates = new ArrayList<Date>();
 		
 		long interval = 24 * 60 * 60 * 1000; 							// 1 day in milliseconds
-		long curTime = entry_Date.getTime 						
+		long curTime = entry_Date.getTime() 						
 		
 		return festDaysCount;
 		
