@@ -13,7 +13,8 @@ public class CalcFestDays {
 		SimpleDateFormat formatter = new SimpleDateFormat("yyyy-MM-dd");
 		List<Date> dates = new ArrayList<Date>();
 		
-		long interval = 24 * 60 * 60 * 1000; 							// 1 day in milliseconds 						
+		long interval = 24 * 60 * 60 * 1000; 							// 1 day in milliseconds
+		long 						
 		
 		return festDaysCount;
 		
