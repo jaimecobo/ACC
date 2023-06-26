@@ -18,7 +18,9 @@ public class CalcFestDays {
 		long endTime = departureDate.getTime(); 						
 		
 
-		while ()
+		while () {
+			
+		}
 		
 		return festDaysCount;
 		
