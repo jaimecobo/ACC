@@ -18,7 +18,7 @@ public class CalcFestDays {
 		long endTime = departureDate.getTime(); 						
 		
 
-		while (curTime <) {
+		while (curTime <=) {
 			
 		}
 		
