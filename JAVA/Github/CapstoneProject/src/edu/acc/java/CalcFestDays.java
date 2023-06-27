@@ -24,7 +24,7 @@ public class CalcFestDays {
 			
 		}
 		
-		for(int i){
+		for(int i=){
 			
 		}
 		
