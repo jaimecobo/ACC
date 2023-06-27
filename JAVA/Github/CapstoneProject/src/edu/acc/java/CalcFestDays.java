@@ -19,7 +19,7 @@ public class CalcFestDays {
 		
 
 		while (curTime <= endTime) {
-		    dates.add(new Date(curTime))
+		    dates.add(new Date(curTime));
 			
 		}
 		
