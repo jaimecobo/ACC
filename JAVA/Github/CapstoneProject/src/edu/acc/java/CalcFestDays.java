@@ -25,7 +25,7 @@ public class CalcFestDays {
 		}
 		
 		for(int i=0; i<dates.size(); i++){
-		    Date lDate = (Date)dates
+		    Date lDate = (Date)dates.
 			
 		}
 		
