@@ -28,7 +28,7 @@ public class CalcFestDays {
 		    Date lDate = (Date)dates.get(i);
 		    String ds = formatter.format(lDate);    			//ds is one of the dates in between entry_Date and departureDate
 		    
-		    for(int j=0; j < festDates.length){
+		    for(int j=0; j < festDates.length;){
                 
 		    }
 			
