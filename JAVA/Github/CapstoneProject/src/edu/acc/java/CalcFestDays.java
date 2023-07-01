@@ -30,7 +30,7 @@ public class CalcFestDays {
 		    
 		    for(int j=0; j < festDates.length; j++){
                 
-                //
+                //check if string array contains the string
                 if(festDates[j].equals(ds)){
                 	festDaysCount++;
 					
