@@ -30,7 +30,7 @@ public class CalcFestDays {
 		    
 		    for(int j=0; j < festDates.length; j++){
                 
-                if(festDates[j]){
+                if(festDates[j].){
 					
                 }
 				
