@@ -7,7 +7,7 @@ import java.util.List;
 
 public class CalcFestDays {
 	
-	String
+	String[]
 	
 	public int calcDays(Date entry_Date, Date departureDate) {
 		
