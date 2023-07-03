@@ -7,7 +7,7 @@ import java.util.List;
 
 public class CalcFestDays {
 	
-	String[] festDates = {"12-24-2017", "12-25-2017", "12-31-2017", "01-1-2018","01-15-2018", };
+	String[] festDates = {"12-24-2017", "12-25-2017", "12-31-2017", "01-1-2018","01-15-2018","02-8-2018" };
 	
 	public int calcDays(Date entry_Date, Date departureDate) {
 		
