@@ -19,7 +19,7 @@ public class CalcFestDays {
 	public int calcDays(Date entry_Date, Date departureDate) {
 		
 		int festDaysCount = 0;
-		SimpleDateFormat formatter = new SimpleDateFormat("MM/")
+		SimpleDateFormat formatter = new SimpleDateFormat("MM/dd")
 		List<Date> dates = new ArrayList<Date>();
 		
 		long interval = 24 * 60 * 60 * 1000; 							// 1 day in milliseconds
