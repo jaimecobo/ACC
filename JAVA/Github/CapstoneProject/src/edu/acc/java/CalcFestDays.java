@@ -20,7 +20,7 @@ public class CalcFestDays {
 	public int calcDays(Date entry_Date, Date departureDate) {
 		
 		int festDaysCount = 0;
-		SimpleDateFormat formatter = new SimpleDateFormat("yyyy-MM-dd");
+//		SimpleDateFormat formatter = new SimpleDateFormat("yyyy-MM-dd");
 		SimpleDateFormat formatter = new SimpleDateFormat("MM/dd/yyyy");			
 		List<Date> dates = new ArrayList<Date>();
 		
