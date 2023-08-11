@@ -15,13 +15,13 @@ public class CalcFestDays {
 	
 	String[] festDates = {"12/24/2017", "12/25/2017", "12/31/2017", "01/1/2018", "01/15/2018", "02/8/2018", "02/19/2018", "03/4/2018", "03/9/2018", "03/10/2018", "03/11/2018", 
 			"03/12/2018", "03/13/2018", "03/14/2018", "03/15/2018", "03/16/2018", "03/17/2018", "03/18/2018", "04/8/2018", "04/28/2018", "05/18/2018", "06/7/2018", "06/8/2018", 
-			"06/9/2018", };
+			"06/9/2018", "06/10/2018" };
 	
 	public int calcDays(Date entry_Date, Date departureDate) {
 		
 		int festDaysCount = 0;
 //		SimpleDateFormat formatter = new SimpleDateFormat("yyyy-MM-dd");
-		SimpleDateFormat formatter = new SimpleDateFormat("MM/dd/yyyy");			
+		SimpleDateFormat formatter = new SimpleDateFormat("MM/dd/yyyy");
 		List<Date> dates = new ArrayList<Date>();
 		
 		long interval = 24 * 60 * 60 * 1000; 							// 1 day in milliseconds
