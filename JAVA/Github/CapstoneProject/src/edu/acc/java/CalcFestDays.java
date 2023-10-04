@@ -24,7 +24,7 @@ public class CalcFestDays {
 		int festDaysCount = 0;
 //		SimpleDateFormat formatter = new SimpleDateFormat("yyyy-MM-dd");
 //		SimpleDateFormat formatter = new SimpleDateFormat("MM/dd/yyyy");		//This format is working fine with the first version, running with blockedDates_part01.js
-		SimpleDateFormat formatter = new SimpleDateFormat("M/d/yy")			
+		SimpleDateFormat formatter = new SimpleDateFormat("M/d/yy");
 		List<Date> dates = new ArrayList<Date>();
 		
 		long interval = 24 * 60 * 60 * 1000; 							// 1 day in milliseconds
