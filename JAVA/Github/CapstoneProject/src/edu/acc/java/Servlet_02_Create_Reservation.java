@@ -10,6 +10,8 @@ import javax.servlet.http.HttpServlet;
 public class Servlet_02_Create_Reservation extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
-    public Servlet_02_Create_Reservation()
+    public Servlet_02_Create_Reservation() {
+		
+    }
 
 }
