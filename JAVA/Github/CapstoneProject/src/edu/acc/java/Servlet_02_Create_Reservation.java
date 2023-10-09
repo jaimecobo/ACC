@@ -17,6 +17,6 @@ public class Servlet_02_Create_Reservation extends HttpServlet {
         super();
         // TODO Auto-generated constructor stub
     }
-    String id_Customer =
+    String id_Customer = ""
 
 }
