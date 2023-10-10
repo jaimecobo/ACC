@@ -22,5 +22,6 @@ public class Servlet_02_Create_Reservation extends HttpServlet {
 	/**
 	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
 	 */
+	protected
 
 }
