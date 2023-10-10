@@ -19,4 +19,8 @@ public class Servlet_02_Create_Reservation extends HttpServlet {
     }
     String id_Customer = "";
 
+	/**
+	 * @see HttpServlet#doGet()
+	 */
+
 }
