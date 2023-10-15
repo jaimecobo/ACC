@@ -32,7 +32,7 @@ public class Servlet_02_Create_Reservation extends HttpServlet {
 		response.getWriter().append("Served at: ").append(request.getContextPath());
 		try {  
 		
-		}catch(Exception e){System.out} 
+		}catch(Exception e){System.out.} 
 		
 	}
 
