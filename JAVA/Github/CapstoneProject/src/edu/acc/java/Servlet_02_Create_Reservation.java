@@ -32,6 +32,7 @@ public class Servlet_02_Create_Reservation extends HttpServlet {
 		response.getWriter().append("Served at: ").append(request.getContextPath());
 		try {
 	        response.setContentType("text/html");  
+	        PrintWriter
 		
 		}catch(Exception e){System.out.println(e);} 
 		
