@@ -37,7 +37,7 @@ public class Servlet_02_Create_Reservation extends HttpServlet {
 	        PrintWriter out = response.getWriter();  
 	          
 	        HttpSession session=request.getSession(false);  
-	        id_Customer = (String)session.getAttribute()
+	        id_Customer = (String)session.getAttribute("")
 		
 		}catch(Exception e){System.out.println(e);} 
 		
