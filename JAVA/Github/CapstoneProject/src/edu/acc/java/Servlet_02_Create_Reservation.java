@@ -38,7 +38,7 @@ public class Servlet_02_Create_Reservation extends HttpServlet {
 	          
 	        HttpSession session=request.getSession(false);  
 	        id_Customer = (String)session.getAttribute("id_Customer01");
-	        System.out.println("the id_Customer is " + )
+	        System.out.println("the id_Customer is " + id_Customer)
 		
 		}catch(Exception e){System.out.println(e);} 
 		
