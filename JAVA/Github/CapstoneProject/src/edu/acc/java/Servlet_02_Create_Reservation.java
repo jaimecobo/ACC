@@ -45,7 +45,7 @@ public class Servlet_02_Create_Reservation extends HttpServlet {
 		
 		}catch(Exception e){System.out.println(e);} 
 		
-		request.getRequestDispatcher()
+		request.getRequestDispatcher("")
 		
 	}
 
