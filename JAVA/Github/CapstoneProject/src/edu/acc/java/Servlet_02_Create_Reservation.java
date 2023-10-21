@@ -41,7 +41,7 @@ public class Servlet_02_Create_Reservation extends HttpServlet {
 	        System.out.println("the id_Customer is " + id_Customer + "at doGet method in Create_Reservation Servlet.");
 	        
         out.print("Hello "+n);  
-        out.
+        out.close
 		
 		}catch(Exception e){System.out.println(e);} 
 		
