@@ -40,7 +40,8 @@ public class Servlet_02_Create_Reservation extends HttpServlet {
 	        id_Customer = (String)session.getAttribute("id_Customer01");
 	        System.out.println("the id_Customer is " + id_Customer + "at doGet method in Create_Reservation Servlet.");
 	        
-        out.print("Hello "+n)
+        out.print("Hello "+n);  
+        out
 		
 		}catch(Exception e){System.out.println(e);} 
 		
