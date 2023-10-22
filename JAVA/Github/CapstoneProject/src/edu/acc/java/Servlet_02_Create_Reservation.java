@@ -36,7 +36,7 @@ public class Servlet_02_Create_Reservation extends HttpServlet {
 	        response.setContentType("text/html");  
 //	        PrintWriter out = response.getWriter();  
 	          
-	        HttpSession session=request.getSession(false);  
+//	        HttpSession session=request.getSession(false);  
 	        id_Customer = (String)session.getAttribute("id_Customer01");
 	        System.out.println("the id_Customer is " + id_Customer + "at doGet method in Create_Reservation Servlet.");
 	        
