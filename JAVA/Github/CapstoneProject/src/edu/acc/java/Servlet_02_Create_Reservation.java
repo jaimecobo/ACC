@@ -34,7 +34,7 @@ public class Servlet_02_Create_Reservation extends HttpServlet {
 //		response.getWriter().append("Served at: ").append(request.getContextPath());try{  
 		try {
 	        response.setContentType("text/html");  
-	        PrintWriter out = response.getWriter();  
+//	        PrintWriter out = response.getWriter();  
 	          
 	        HttpSession session=request.getSession(false);  
 	        id_Customer = (String)session.getAttribute("id_Customer01");
