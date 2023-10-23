@@ -49,6 +49,6 @@ public class Servlet_02_Create_Reservation extends HttpServlet {
 		
 	}
 
-	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException,
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException
 
 }
