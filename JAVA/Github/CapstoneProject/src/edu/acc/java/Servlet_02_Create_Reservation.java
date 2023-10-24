@@ -54,7 +54,7 @@ public class Servlet_02_Create_Reservation extends HttpServlet {
 	 */
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
-		doGet(request)
+		doGet(request,)
 		
 	}
 
