@@ -57,7 +57,7 @@ public class Servlet_02_Create_Reservation extends HttpServlet {
 //		doGet(request, response);
 		
 		PrintWriter out  = response.getWriter();	
-		response.setContentType("text")
+		response.setContentType("text/")
 		
 	}
 
