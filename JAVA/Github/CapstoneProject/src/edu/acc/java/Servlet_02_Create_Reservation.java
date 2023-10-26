@@ -59,7 +59,7 @@ public class Servlet_02_Create_Reservation extends HttpServlet {
 		PrintWriter out  = response.getWriter();	
 		response.setContentType("text/html");
 	
-		String[] festDates = { }
+		String[] festDates = { };
 		
 	}
 
