@@ -66,7 +66,7 @@ public class Servlet_02_Create_Reservation extends HttpServlet {
 				"12/24/2018","12/25/2018", "12/31/2017", "01/01/2019", };
 		*/
 		HttpSession session=request.getSession(false);  
-        id_Customer = (String)session.
+        id_Customer = (String)session.getAttribute
 		
 	}
 
