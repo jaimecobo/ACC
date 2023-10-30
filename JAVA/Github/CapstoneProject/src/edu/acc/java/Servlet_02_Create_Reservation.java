@@ -69,7 +69,7 @@ public class Servlet_02_Create_Reservation extends HttpServlet {
         id_Customer = (String)session.getAttribute("id_Customer01");
         
         if(id_Customer != null) {
-        System.out.println("The id_Customer is " + id_Customer + " at doPost method in Create_Reservation Servlet.")
+        System.out.println("The id_Customer is " + id_Customer + " at doPost method in Create_Reservation Servlet.");
 		
         }
 		
