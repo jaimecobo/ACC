@@ -71,6 +71,8 @@ public class Servlet_02_Create_Reservation extends HttpServlet {
         if(id_Customer != null) {
         System.out.println("The id_Customer is " + id_Customer + " at doPost method in Create_Reservation Servlet.");
 		
+		LocalMySQLCP
+		
         }
 		
 	}
