@@ -73,7 +73,7 @@ public class Servlet_02_Create_Reservation extends HttpServlet {
 		
 		LocalMySQLCP localDB = new LocalMySQLCP();
 		
-		String
+		String departure_Date
 		
         }
 		
