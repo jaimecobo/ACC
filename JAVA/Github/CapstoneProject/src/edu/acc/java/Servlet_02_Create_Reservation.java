@@ -74,7 +74,7 @@ public class Servlet_02_Create_Reservation extends HttpServlet {
 		LocalMySQLCP localDB = new LocalMySQLCP();
 		
 		String departure_Date = request.getParameter("to");
-		String
+		String entry_Date
 		
         }
 		
