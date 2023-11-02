@@ -76,7 +76,7 @@ public class Servlet_02_Create_Reservation extends HttpServlet {
 		String departure_Date = request.getParameter("to");
 		String entry_Date = request.getParameter("from");
 		String departure_Date = request.getParameter("end_date");
-		String entry_Date = request.getParameter("start_date")
+		String entry_Date = request.getParameter("start_date");
 	
         }
 		
