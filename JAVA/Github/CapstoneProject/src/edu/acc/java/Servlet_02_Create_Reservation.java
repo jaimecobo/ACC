@@ -79,6 +79,7 @@ public class Servlet_02_Create_Reservation extends HttpServlet {
 		String entry_Date = request.getParameter("start_date");
 		String status = "Pending";
 		String id_Customer = request.getParameter("idCustomer");
+		String
 	
         }
 		
