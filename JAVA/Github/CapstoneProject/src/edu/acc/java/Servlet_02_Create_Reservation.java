@@ -80,7 +80,7 @@ public class Servlet_02_Create_Reservation extends HttpServlet {
 		String status = "Pending";
 		String id_Customer = request.getParameter("idCustomer");
 		String initial_Paymet = request.getParameter("initialPaymet");
-		String room_Number =
+		String room_Number = request
 	
         }
 		
