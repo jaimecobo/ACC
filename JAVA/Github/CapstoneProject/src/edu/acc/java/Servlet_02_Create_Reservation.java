@@ -82,6 +82,8 @@ public class Servlet_02_Create_Reservation extends HttpServlet {
 		String initial_Paymet = request.getParameter("initialPaymet");
 		String room_Number = request.getParameter("roomNumber");
 	
+		id_Customer
+
         }
 		
 	}
