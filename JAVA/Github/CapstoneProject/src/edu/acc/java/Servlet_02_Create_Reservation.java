@@ -83,7 +83,7 @@ public class Servlet_02_Create_Reservation extends HttpServlet {
 		String room_Number = request.getParameter("roomNumber");
 	
 		id_Customer = "1";
-		initial_Paymet = "0.0"
+		initial_Paymet = "0.0";
 
         }
 		
