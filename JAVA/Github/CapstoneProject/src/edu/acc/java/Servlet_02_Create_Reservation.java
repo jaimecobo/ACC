@@ -87,6 +87,7 @@ public class Servlet_02_Create_Reservation extends HttpServlet {
 		room_Number = "1";
 		
 		String sql;
+		String
 
         }
 		
