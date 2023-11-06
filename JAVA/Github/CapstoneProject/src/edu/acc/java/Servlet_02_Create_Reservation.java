@@ -84,7 +84,7 @@ public class Servlet_02_Create_Reservation extends HttpServlet {
 	
 		id_Customer = "1";
 		initial_Paymet = "0.0";
-		room_Number =
+		room_Number = ""
 
         }
 		
