@@ -90,7 +90,7 @@ public class Servlet_02_Create_Reservation extends HttpServlet {
 		String[] parms;
 		
 		
-		out.println("<br>" + "entry_Date 	: " + entry_Date)
+		out.println("<br>" + "entry_Date 	: " + entry_Date);
 		
         }
 		
