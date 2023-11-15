@@ -97,7 +97,7 @@ public class Servlet_02_Create_Reservation extends HttpServlet {
 		out.println("<br>" + "email 		: " + email);
 		out.println("<br>" + "doc_Type 		: " + doc_Type);
 		out.println("<br>" + "doc_Number	: " + doc_Number);
-		out.println("<>")
+		out.println("<br>")
 		
         }
 		
