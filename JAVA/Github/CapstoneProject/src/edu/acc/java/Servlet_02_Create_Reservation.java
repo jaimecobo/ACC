@@ -2,13 +2,26 @@ package edu.acc.java;
 
 import java.io.IOException;
 import java.io.PrintWriter;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+//import java.sql.Statement;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.ArrayList;
+import java.util.Date;
+import java.util.List;
 
+//import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
+//import javax.swing.JOptionPane;
 
 /**
  * Servlet implementation class Servlet_Create_Reservation
@@ -75,36 +88,36 @@ public class Servlet_02_Create_Reservation extends HttpServlet {
 		
 		String departure_Date = request.getParameter("to");
 		String entry_Date = request.getParameter("from");
-		String departure_Date = request.getParameter("end_date");
-		String entry_Date = request.getParameter("start_date");
+//		String departure_Date = request.getParameter("end_date");
+//		String entry_Date = request.getParameter("start_date");
 		String status = "Pending";
-		String id_Customer = request.getParameter("idCustomer");
-		String initial_Paymet = request.getParameter("initialPaymet");
-		String room_Number = request.getParameter("roomNumber");
+//		String id_Customer = request.getParameter("idCustomer");
+//		String initial_Paymet = request.getParameter("initialPaymet");
+//		String room_Number = request.getParameter("roomNumber");
 	
-		id_Customer = "1";
-		initial_Paymet = "0.0";
-		room_Number = "1";
+//		id_Customer = "1";
+//		initial_Paymet = "0.0";
+//		room_Number = "1";
 		
 		String sql;
 		String[] parms;
 		
 		
-		out.println("<br>" + "entry_Date 	: " + entry_Date);
-		out.println("<br>" + "departure_Date 		: " + departure_Date);
-		out.println("<br>");
-		out.println("<br>" + "address 		: " + address);
-		out.println("<br>" + "email 		: " + email);
-		out.println("<br>" + "doc_Type 		: " + doc_Type);
-		out.println("<br>" + "doc_Number	: " + doc_Number);
-		out.println("<br>" + "phone			: " + phone);
-		out.println("<br>" + "birthday		: " + birthday);
-		out.println("<br>" + "company		: " + company);
-		out.println("<br>" + "origin		: " + origin);
-		out.println("<br>" + "occupation	: " + occupation);
-		out.println("<br>" + "dateCreated	: " + dateCreated);
-		out.println("<br>" + "userName		: " + userName);
-		out.println("<br>" + "password		: " + password);
+//		out.println("<br>" + "entry_Date 	: " + entry_Date);
+//		out.println("<br>" + "departure_Date 		: " + departure_Date);
+//		out.println("<br>");
+//		out.println("<br>" + "address 		: " + address);
+//		out.println("<br>" + "email 		: " + email);
+//		out.println("<br>" + "doc_Type 		: " + doc_Type);
+//		out.println("<br>" + "doc_Number	: " + doc_Number);
+//		out.println("<br>" + "phone			: " + phone);
+//		out.println("<br>" + "birthday		: " + birthday);
+//		out.println("<br>" + "company		: " + company);
+//		out.println("<br>" + "origin		: " + origin);
+//		out.println("<br>" + "occupation	: " + occupation);
+//		out.println("<br>" + "dateCreated	: " + dateCreated);
+//		out.println("<br>" + "userName		: " + userName);
+//		out.println("<br>" + "password		: " + password);
 		
         }
 		
