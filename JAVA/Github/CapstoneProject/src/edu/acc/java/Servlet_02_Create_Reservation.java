@@ -104,7 +104,7 @@ public class Servlet_02_Create_Reservation extends HttpServlet {
 		out.println("<br>" + "occupation	: " + occupation);
 		out.println("<br>" + "dateCreated	: " + dateCreated);
 		out.println("<br>" + "userName		: " + userName);
-		out.println("<br>" + "")
+		out.println("<br>" + "password")
 		
         }
 		
