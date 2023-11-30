@@ -114,7 +114,7 @@ public class Servlet_02_Create_Reservation extends HttpServlet {
 		
 		StringBuilder strBuilder = new StringBuilder();
 		strBuilder.append("{ ");
-		List<Date> dates = new ArrayList<Date>
+		List<Date> dates = new ArrayList<Date>()
 		
         }
 		
