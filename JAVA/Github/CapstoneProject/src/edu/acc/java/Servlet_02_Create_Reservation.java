@@ -119,7 +119,9 @@ public class Servlet_02_Create_Reservation extends HttpServlet {
 		String daysAmount = "";
 		double total = 0.0;
 		
-        }else
+        }else {
+               	
+        }
 		
 	}
 
