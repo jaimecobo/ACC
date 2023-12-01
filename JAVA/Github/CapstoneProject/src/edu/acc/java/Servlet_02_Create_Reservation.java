@@ -117,7 +117,7 @@ public class Servlet_02_Create_Reservation extends HttpServlet {
 		List<Date> dates = new ArrayList<Date>();
 		int festDaysCount = 0;
 		String daysAmount = "";
-		double total =
+		double total = 
 		
         }
 		
