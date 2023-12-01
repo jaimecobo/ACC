@@ -120,7 +120,7 @@ public class Servlet_02_Create_Reservation extends HttpServlet {
 		double total = 0.0;
 		
         }else {
-        	String loginReqMsg = "<h3>- Please log in to make a reservation -</h3>";
+        	String loginReqMsg = "<h3>- Please log in to make a reservation. -</h3>";
                	
         }
 		
