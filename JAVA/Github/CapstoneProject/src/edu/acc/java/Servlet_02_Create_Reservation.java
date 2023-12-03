@@ -122,7 +122,7 @@ public class Servlet_02_Create_Reservation extends HttpServlet {
         }else {
         	String loginReqMsg = "<h3>- Please log in to make a reservation. -</h3>";
         	request.setAttribute("loginReqMsg", loginReqMsg);
-        	request.getRequestDispatcher("02_reservation_Form.jsp").;
+        	request.getRequestDispatcher("02_reservation_Form.jsp").forward;
                	
         }
 		
