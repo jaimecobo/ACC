@@ -119,6 +119,7 @@ public class Servlet_02_Create_Reservation extends HttpServlet {
 		String daysAmount = "";
 		double total = 0.0;
 		/* GETS DATE_FROM AND DATE_TO AND CALCULATES THE NUMBER OF NIGHTS*/
+		try
 		
         }else {
         	String loginReqMsg = "<h3>- Please log in to make a reservation. -</h3>";
