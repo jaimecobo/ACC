@@ -122,7 +122,7 @@ public class Servlet_02_Create_Reservation extends HttpServlet {
 		/* GETS DATE_FROM AND DATE_TO AND CALCULATES THE NUMBER OF NIGHTS*/
 		try {
 			SimpleDateFormat formatter = new SimpleDateFormat("yyyy-MM-dd");	//this format is to test running it with blockedDates_part0123.js
-			SimpleDateFormat formatter = new SimpleDateFormat
+			SimpleDateFormat formatter = new SimpleDateFormat()
 
 			}
 
