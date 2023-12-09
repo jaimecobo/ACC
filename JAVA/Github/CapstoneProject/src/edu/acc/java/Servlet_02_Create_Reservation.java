@@ -127,7 +127,7 @@ public class Servlet_02_Create_Reservation extends HttpServlet {
 			String formattedDate = formatter.format(dateStr);
 
 			} catch (ParseException e) {
-			
+				// TODO Auto-generated catch block
 			}
 
         }else {
