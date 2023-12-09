@@ -126,7 +126,7 @@ public class Servlet_02_Create_Reservation extends HttpServlet {
 			Date dateStr = formatter.parse(entry_Date);
 			String formattedDate = formatter.format(dateStr);
 
-			} catch
+			} catch ()
 
         }else {
         	String loginReqMsg = "<h3>- Please log in to make a reservation. -</h3>";
