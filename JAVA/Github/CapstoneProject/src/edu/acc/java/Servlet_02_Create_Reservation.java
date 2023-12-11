@@ -129,7 +129,7 @@ public class Servlet_02_Create_Reservation extends HttpServlet {
 			Date date1 = formatter.parse(formattedDate);
 			formatter = new SimpleDateFormat("dd-MMM-yyyy");
 			formattedDate = formatter.format(date1);
-			out.println("<br> dd-MMM-yyyy date is ==> " +)
+			out.println("<br> dd-MMM-yyyy date is ==> " + formattedDate)
 
 			} catch (ParseException e) {
 				// TODO Auto-generated catch block
