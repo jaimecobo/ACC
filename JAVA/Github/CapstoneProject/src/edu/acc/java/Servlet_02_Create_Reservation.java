@@ -131,6 +131,8 @@ public class Servlet_02_Create_Reservation extends HttpServlet {
 //			formattedDate = formatter.format(date1);
 //			out.println("<br> dd-MMM-yyyy date is ==> " + formattedDate);
 			
+			formatter
+			
 			} catch (ParseException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
