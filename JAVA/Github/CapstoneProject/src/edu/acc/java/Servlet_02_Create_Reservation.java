@@ -125,12 +125,12 @@ public class Servlet_02_Create_Reservation extends HttpServlet {
 			SimpleDateFormat formatter = new SimpleDateFormat("MM/d/yyyy");		//This format is working fine with the first version, running with blockedDates_part01.js
 			Date dateStr = formatter.parse(entry_Date);
 			String formattedDate = formatter.format(dateStr);
-			out.println("<br> MM/dd/yyyy date is ==> " + formattedDate);
+//			out.println("<br> MM/dd/yyyy date is ==> " + formattedDate);
 			Date date1 = formatter.parse(formattedDate);
 			formatter = new SimpleDateFormat("dd-MMM-yyyy");
 			formattedDate = formatter.format(date1);
 			out.println("<br> dd-MMM-yyyy date is ==> " + formattedDate);
-
+			
 			} catch (ParseException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
