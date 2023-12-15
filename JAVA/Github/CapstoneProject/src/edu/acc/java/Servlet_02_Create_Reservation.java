@@ -132,13 +132,13 @@ public class Servlet_02_Create_Reservation extends HttpServlet {
 //			out.println("<br> dd-MMM-yyyy date is ==> " + formattedDate);
 			
 //			formatter = new SimpleDateFormat("yyyy-MM-dd");		//this format is to test running it with blockedDates_part0123.js
-			formatter = new SimpleDateFormat("MM/dd/yyyy");			//This format is working fine with the first version, running with blockedDates_part01.js
-			
+//			formatter = new SimpleDateFormat("MM/dd/yyyy");			//This format is working fine with the first version, running with blockedDates_part01.js
+	
 			} catch (ParseException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
-
+		
         }else {
         	String loginReqMsg = "<h3>- Please log in to make a reservation. -</h3>";
         	request.setAttribute("loginReqMsg", loginReqMsg);
