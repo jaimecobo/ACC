@@ -133,7 +133,7 @@ public class Servlet_02_Create_Reservation extends HttpServlet {
 			
 //			formatter = new SimpleDateFormat("yyyy-MM-dd");		//this format is to test running it with blockedDates_part0123.js
 //			formatter = new SimpleDateFormat("MM/dd/yyyy");			//This format is working fine with the first version, running with blockedDates_part01.js
-			dateStr
+			dateStr 
 	
 			} catch (ParseException e) {
 				// TODO Auto-generated catch block
