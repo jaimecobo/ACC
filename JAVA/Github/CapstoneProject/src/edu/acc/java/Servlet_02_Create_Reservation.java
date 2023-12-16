@@ -136,6 +136,8 @@ public class Servlet_02_Create_Reservation extends HttpServlet {
 			dateStr = formatter.parse(departure_Date);
 			formattedDate = formatter.format(dateStr);
 			Date date2 = formatter.parse(formattedDate);			//Here I have date1 as a entry_date and date2 as departure_date in DATE FORMAT
+			
+			CalcFestDays
 	
 			} catch (ParseException e) {
 				// TODO Auto-generated catch block
