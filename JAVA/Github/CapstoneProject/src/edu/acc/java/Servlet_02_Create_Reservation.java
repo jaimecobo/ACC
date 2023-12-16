@@ -135,7 +135,7 @@ public class Servlet_02_Create_Reservation extends HttpServlet {
 //			formatter = new SimpleDateFormat("MM/dd/yyyy");			//This format is working fine with the first version, running with blockedDates_part01.js
 			dateStr = formatter.parse(departure_Date);
 			formattedDate = formatter.format(dateStr);
-			Date date2 = formatter.parse(formattedDate);
+			Date date2 = formatter.parse(formattedDate);			//Here I have date1 as a entry_date and date2 as departure_date in DATE FORMAT
 	
 			} catch (ParseException e) {
 				// TODO Auto-generated catch block
