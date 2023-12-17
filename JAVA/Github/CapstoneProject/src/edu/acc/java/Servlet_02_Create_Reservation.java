@@ -138,7 +138,9 @@ public class Servlet_02_Create_Reservation extends HttpServlet {
 			Date date2 = formatter.parse(formattedDate);			//Here I have date1 as a entry_date and date2 as departure_date in DATE FORMAT
 			
 			CalcFestDays calculate = new CalcFestDays();
-	
+			
+			festDaysCount
+
 			} catch (ParseException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
@@ -148,7 +150,7 @@ public class Servlet_02_Create_Reservation extends HttpServlet {
         	String loginReqMsg = "<h3>- Please log in to make a reservation. -</h3>";
         	request.setAttribute("loginReqMsg", loginReqMsg);
         	request.getRequestDispatcher("02_reservation_Form.jsp").forward(request, response);
-               	
+        
         }
 		
 	}
