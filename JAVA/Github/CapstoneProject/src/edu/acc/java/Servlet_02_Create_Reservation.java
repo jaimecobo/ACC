@@ -142,7 +142,7 @@ public class Servlet_02_Create_Reservation extends HttpServlet {
 			festDaysCount = calculate.calcDays(date1, date2);
 			
 
-			long interval = ;
+			long interval = 24;
 
 			} catch (ParseException e) {
 				// TODO Auto-generated catch block
