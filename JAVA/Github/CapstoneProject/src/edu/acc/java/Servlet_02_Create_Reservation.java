@@ -144,7 +144,7 @@ public class Servlet_02_Create_Reservation extends HttpServlet {
 
 			long interval = 24 * 60 * 60 * 1000; 							// 1 day in millis
 			long curTime = date1.getTime();
-			long endTime = date2.
+			long endTime = date2.getTime
 
 			} catch (ParseException e) {
 				// TODO Auto-generated catch block
