@@ -152,7 +152,7 @@ public class Servlet_02_Create_Reservation extends HttpServlet {
 			    curTime += interval;
 				}
 			
-			for(int i=0; i<)
+			for(int i=0; i<dates)
 
 			} catch (ParseException e) {
 				// TODO Auto-generated catch block
