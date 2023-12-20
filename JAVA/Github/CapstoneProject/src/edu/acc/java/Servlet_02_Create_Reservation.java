@@ -148,7 +148,7 @@ public class Servlet_02_Create_Reservation extends HttpServlet {
 			
 
 			while (curTime <= endTime) {
-			    dates
+			    dates.
 				}
 
 			} catch (ParseException e) {
