@@ -153,7 +153,8 @@ public class Servlet_02_Create_Reservation extends HttpServlet {
 				}
 			
 			for(int i=0; i<dates.size(); i++){
-			
+			    
+			    
 			}
 
 			} catch (ParseException e) {
