@@ -158,7 +158,7 @@ public class Servlet_02_Create_Reservation extends HttpServlet {
 			    
 			    strBuilder.append("\"" + ds + "\"" + ", ");
 			    
-			    for()
+			    for(int)
 			}
 
 			} catch (ParseException e) {
