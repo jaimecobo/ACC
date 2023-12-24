@@ -156,7 +156,7 @@ public class Servlet_02_Create_Reservation extends HttpServlet {
 			    Date lDate = (Date)dates.get(i);
 			    String ds = formatter.format(lDate);    			//ds is one of the dates in betten entry_Date and departureDate
 			    
-			    strBuilder.append("\"" + ds + "\")
+			    strBuilder.append("\"" + ds + "\"")
 			    
 			}
 
