@@ -159,7 +159,8 @@ public class Servlet_02_Create_Reservation extends HttpServlet {
 			    strBuilder.append("\"" + ds + "\"" + ", ");
 			    
 			    for(int j=0; j < festDates.length; i++){
-   
+                    
+                    if
 			    }
 			}
 
