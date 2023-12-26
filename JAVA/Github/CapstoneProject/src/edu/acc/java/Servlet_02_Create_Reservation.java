@@ -166,6 +166,7 @@ public class Servlet_02_Create_Reservation extends HttpServlet {
                     }
 			    }
 			}
+			strBuilder
 
 			} catch (ParseException e) {
 				// TODO Auto-generated catch block
