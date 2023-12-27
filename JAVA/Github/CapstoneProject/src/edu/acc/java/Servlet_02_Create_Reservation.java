@@ -171,7 +171,7 @@ public class Servlet_02_Create_Reservation extends HttpServlet {
 			
 			System.out.println();
 			System.out.println();
-			System.out.print("NUMBER OF FEST DAYS ARE: " + festDaysCount + " * FEST * FEST * FEST * FEST * FEST *")
+			System.out.print("NUMBER OF FEST DAYS ARE: " + festDaysCount + " * FEST * FEST * FEST * FEST * FEST *");
 
 			} catch (ParseException e) {
 				// TODO Auto-generated catch block
