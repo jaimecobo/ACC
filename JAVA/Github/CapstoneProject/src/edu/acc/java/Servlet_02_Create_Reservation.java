@@ -183,7 +183,7 @@ public class Servlet_02_Create_Reservation extends HttpServlet {
 			
 			
 			/* Subtract dates */
-			long diff = Math
+			long diff = Math.abs
 
 			} catch (ParseException e) {
 				// TODO Auto-generated catch block
