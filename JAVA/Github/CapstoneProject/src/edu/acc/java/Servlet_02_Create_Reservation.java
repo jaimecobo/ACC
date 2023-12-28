@@ -140,8 +140,8 @@ public class Servlet_02_Create_Reservation extends HttpServlet {
 			CalcFestDays calculate = new CalcFestDays();
 			
 			festDaysCount = calculate.calcDays(date1, date2);
+			 
 			
-
 			long interval = 24 * 60 * 60 * 1000; 							// 1 day in millis
 			long curTime = date1.getTime();
 			long endTime = date2.getTime(); 							// 
@@ -168,6 +168,7 @@ public class Servlet_02_Create_Reservation extends HttpServlet {
 			}
 			strBuilder.append("}");
 			
+		*
 			
 			System.out.println();
 			System.out.println();
