@@ -142,7 +142,8 @@ public class Servlet_02_Create_Reservation extends HttpServlet {
 			festDaysCount = calculate.calcDays(date1, date2);
 			
 		/*
-		 * HERE I WAS TRYING TO GET THE COUNT OF FEST DAYS, BUT I HAD TO CREATE AN EXTERNAL CLASS TO PERFORM THIS TASK 
+		 * HERE I WAS TRYING TO GET THE COUNT OF FEST DAYS, BUT I HAD TO CREATE AN EXTERNAL CLASS TO PERFORM THIS TASK
+		 * 
 			long interval = 24 * 60 * 60 * 1000; 							// 1 day in millis
 			long curTime = date1.getTime();
 			long endTime = date2.getTime(); 							// 
