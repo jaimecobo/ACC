@@ -187,7 +187,7 @@ public class Servlet_02_Create_Reservation extends HttpServlet {
 			long diffDays = diff / (24 * 60 * 60 * 1000);
 			out.print("<br>");
 			System.out.println();
-			System.out.println("Nights = " +)
+			System.out.println("Nights = " + diffDays)
 
 			} catch (ParseException e) {
 				// TODO Auto-generated catch block
