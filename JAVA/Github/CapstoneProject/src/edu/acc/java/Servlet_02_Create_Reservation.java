@@ -186,7 +186,7 @@ public class Servlet_02_Create_Reservation extends HttpServlet {
 			long diff = Math.abs(date1.getTime() - date2.getTime());
 			long diffDays = diff / (24 * 60 * 60 * 1000);
 			out.print("<br>");
-			System
+			System.
 
 			} catch (ParseException e) {
 				// TODO Auto-generated catch block
