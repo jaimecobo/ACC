@@ -194,7 +194,7 @@ public class Servlet_02_Create_Reservation extends HttpServlet {
 			total = total * 100;
 			total = total - (festDaysCount*100);
 			total = total + (festDaysCount*150);
-			total = total + (total * 0.0825)
+			total = total + (total * 0.0825);
 			
 			} catch (ParseException e) {
 				// TODO Auto-generated catch block
