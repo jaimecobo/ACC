@@ -197,7 +197,7 @@ public class Servlet_02_Create_Reservation extends HttpServlet {
 			total = total + (total * 0.0825);
 			System.out.println("TOTAL = " + total);
 			
-			price_msj = "Nights "
+			price_msj = "Nights" "
 
 
 			} catch (ParseException e) {
