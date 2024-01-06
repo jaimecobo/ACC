@@ -201,7 +201,7 @@ public class Servlet_02_Create_Reservation extends HttpServlet {
 			daysAmount = "" + diffDays;
 			System.out.println(daysAmount);
 			request.setAttribute("price_msj", price_msj);
-			request.getRequestDispatcher("reservation_Form.jsp").forward(request,)
+			request.getRequestDispatcher("reservation_Form.jsp").forward(request, response)
 
 			} catch (ParseException e) {
 				// TODO Auto-generated catch block
