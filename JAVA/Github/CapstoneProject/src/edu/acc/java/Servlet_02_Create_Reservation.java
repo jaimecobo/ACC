@@ -200,7 +200,7 @@ public class Servlet_02_Create_Reservation extends HttpServlet {
 			price_msj = "Nights \" " + diffDays + " \"----";
 			daysAmount = "" + diffDays;
 			System.out.println(daysAmount);
-			request.setAttribute("price_msj", price_msj)
+			request.setAttribute("price_msj", price_msj);
 
 			} catch (ParseException e) {
 				// TODO Auto-generated catch block
