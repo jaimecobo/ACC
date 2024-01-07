@@ -203,6 +203,9 @@ public class Servlet_02_Create_Reservation extends HttpServlet {
 			request.setAttribute("price_msj", price_msj);
 			request.getRequestDispatcher("reservation_Form.jsp").forward(request, response);
 
+			
+        	request
+	       
 			} catch (ParseException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
