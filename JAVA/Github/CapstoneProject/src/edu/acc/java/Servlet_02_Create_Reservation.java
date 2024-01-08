@@ -214,7 +214,7 @@ public class Servlet_02_Create_Reservation extends HttpServlet {
 		//=================================================================================================================
 		//=================================================================================================================
 		//CKECKING IF RESERVATIONS'S DATES ALREADY EXIST
-		String errorMsg = "<h3></h3>"
+		String errorMsg = "<h3>Selected dates are no longer available!</h3>"
 		
 		
         }else {
