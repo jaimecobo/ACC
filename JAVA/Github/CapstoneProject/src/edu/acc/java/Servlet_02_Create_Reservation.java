@@ -2,6 +2,7 @@ package edu.acc.java;
 
 import java.io.IOException;
 import java.io.PrintWriter;
+import
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
@@ -215,9 +216,9 @@ public class Servlet_02_Create_Reservation extends HttpServlet {
 		//=================================================================================================================
 		//CKECKING IF RESERVATIONS'S DATES ALREADY EXIST
 		String errorMsg = "<h3>Selected dates are no longer available!</h3>";
-		
-		
-        }else {
+
+        
+		}else {
         	String loginReqMsg = "<h3>- Please log in to make a reservation. -</h3>";
         	request.setAttribute("loginReqMsg", loginReqMsg);
         	request.getRequestDispatcher("02_reservation_Form.jsp").forward(request, response);
