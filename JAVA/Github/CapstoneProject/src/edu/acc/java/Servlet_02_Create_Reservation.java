@@ -220,7 +220,7 @@ public class Servlet_02_Create_Reservation extends HttpServlet {
 		try {
 
 	    }
-		catch (ClassNotFoundException)
+		catch (ClassNotFoundException | )
 
         }else {
         	String loginReqMsg = "<h3>- Please log in to make a reservation. -</h3>";
