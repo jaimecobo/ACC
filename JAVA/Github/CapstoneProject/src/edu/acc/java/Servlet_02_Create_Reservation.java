@@ -223,7 +223,7 @@ public class Servlet_02_Create_Reservation extends HttpServlet {
 	    }
 		catch (ClassNotFoundException | SQLException ex) {
 	        	System.out.println("ERROR IN CATH -- TRYING TO CHEKING DATES DATES IN DB BEFORE INSERTING THEM");
-	        	ex
+	        	ex.
 	    }
 
         }else {
