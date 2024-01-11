@@ -219,7 +219,7 @@ public class Servlet_02_Create_Reservation extends HttpServlet {
 		String errorMsg = "<h3>Selected dates are no longer available!</h3>";
 
 		try {
-			Class.forName("com.mysql.jdbc")
+			Class.forName("com.mysql.jdbc.")
 			
 	    }
 		catch (ClassNotFoundException | SQLException ex) {
