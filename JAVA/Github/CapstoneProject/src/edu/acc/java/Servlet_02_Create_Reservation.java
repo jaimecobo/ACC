@@ -219,7 +219,8 @@ public class Servlet_02_Create_Reservation extends HttpServlet {
 		String errorMsg = "<h3>Selected dates are no longer available!</h3>";
 
 		try {
-
+			Class
+			
 	    }
 		catch (ClassNotFoundException | SQLException ex) {
 	        	System.out.println("ERROR IN CATH -- TRYING TO CHEKING DATES DATES IN DB BEFORE INSERTING THEM");
