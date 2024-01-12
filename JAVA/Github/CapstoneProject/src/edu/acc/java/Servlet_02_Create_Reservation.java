@@ -220,13 +220,14 @@ public class Servlet_02_Create_Reservation extends HttpServlet {
 
 		try {
 			Class.forName("com.mysql.jdbc.Driver");
-			
+	        Connection
+
 	    }
 		catch (ClassNotFoundException | SQLException ex) {
 	        	System.out.println("ERROR IN CATH -- TRYING TO CHEKING DATES DATES IN DB BEFORE INSERTING THEM");
 	        	ex.printStackTrace();
 	    }
-
+		
         }else {
         	String loginReqMsg = "<h3>- Please log in to make a reservation. -</h3>";
         	request.setAttribute("loginReqMsg", loginReqMsg);
