@@ -222,7 +222,7 @@ public class Servlet_02_Create_Reservation extends HttpServlet {
 
 		try {
 			Class.forName("com.mysql.jdbc.Driver");
-	        Connection conn = DriverManager.getConnection("jdbc:")
+	        Connection conn = DriverManager.getConnection("jdbc:mysql")
 
 	    }
 		catch (ClassNotFoundException | SQLException ex) {
