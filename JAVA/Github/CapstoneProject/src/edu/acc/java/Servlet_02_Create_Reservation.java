@@ -224,7 +224,7 @@ public class Servlet_02_Create_Reservation extends HttpServlet {
 		try {
 			Class.forName("com.mysql.jdbc.Driver");
 	        Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/hotels360", "root", "sesame");
-	        PreparedStatement pst = conn.prepareStatement("Select id_reservation from reservation where entry_Date=? and")
+	        PreparedStatement pst = conn.prepareStatement("Select id_reservation from reservation where entry_Date=? and departure_Date")
 
 	    }
 		catch (ClassNotFoundException | SQLException ex) {
