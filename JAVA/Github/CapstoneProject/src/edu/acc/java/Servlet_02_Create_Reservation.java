@@ -229,7 +229,7 @@ public class Servlet_02_Create_Reservation extends HttpServlet {
 	        pst.setString(1, entry_Date);
 	        pst.setString(2, departure_Date);
 	        ResultSet rs = pst.executeQuery();
-	        if (rs.next) 
+	        if (rs.next() 
 
 	    }
 		catch (ClassNotFoundException | SQLException ex) {
