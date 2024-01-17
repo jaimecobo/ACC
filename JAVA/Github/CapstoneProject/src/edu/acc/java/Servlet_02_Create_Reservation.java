@@ -229,13 +229,14 @@ public class Servlet_02_Create_Reservation extends HttpServlet {
 	        pst.setString(1, entry_Date);
 	        pst.setString(2, departure_Date);
 	        ResultSet rs = pst.executeQuery();
-	       
+	        if 
+
 	    }
 		catch (ClassNotFoundException | SQLException ex) {
 	        	System.out.println("ERROR IN CATH -- TRYING TO CHEKING DATES DATES IN DB BEFORE INSERTING THEM");
 	        	ex.printStackTrace();
 	    }
-
+		
         }else {
         	String loginReqMsg = "<h3>- Please log in to make a reservation. -</h3>";
         	request.setAttribute("loginReqMsg", loginReqMsg);
