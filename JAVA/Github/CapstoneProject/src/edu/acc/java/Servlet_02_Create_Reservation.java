@@ -228,7 +228,7 @@ public class Servlet_02_Create_Reservation extends HttpServlet {
 	        PreparedStatement pst = conn.prepareStatement("Select id_reservation from reservation where entry_Date=? and departure_Date=?");
 	        pst.setString(1, entry_Date);
 	        pst.setString(2, departure_Date);
-	        ResultSet rs = pst.executeQuery(
+	        ResultSet rs = pst.executeQuery()
 	       
 	    }
 		catch (ClassNotFoundException | SQLException ex) {
