@@ -230,7 +230,7 @@ public class Servlet_02_Create_Reservation extends HttpServlet {
 	        pst.setString(2, departure_Date);
 	        ResultSet rs = pst.executeQuery();
 	        if (rs.next()) {
-	        	request.getSession().setAttribute("errorMsg", )
+	        	request.getSession().setAttribute("errorMsg", errorMsg)
 	        
 	        } 
 	        
