@@ -231,7 +231,7 @@ public class Servlet_02_Create_Reservation extends HttpServlet {
 	        ResultSet rs = pst.executeQuery();
 	        if (rs.next()) {
 	        	request.getSession().setAttribute("errorMsg", errorMsg);
-	        	request.getRequestDispatcher()
+	        	request.getRequestDispatcher(")
 	        
 	        } 
 	        
