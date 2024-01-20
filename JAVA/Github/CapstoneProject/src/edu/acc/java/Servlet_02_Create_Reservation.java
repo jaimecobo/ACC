@@ -232,7 +232,7 @@ public class Servlet_02_Create_Reservation extends HttpServlet {
 	        if (rs.next()) {
 	        	request.getSession().setAttribute("errorMsg", errorMsg);
 	        	request.getRequestDispatcher("02_reservation_Form.jsp").forward(request, response);
-	        	response.sendRedirect("")
+	        	response.sendRedirect("02_reservation_Form")
 	        } 
 	        
 	    }
