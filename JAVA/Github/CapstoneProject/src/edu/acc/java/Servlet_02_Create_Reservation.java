@@ -235,7 +235,7 @@ public class Servlet_02_Create_Reservation extends HttpServlet {
 //	        	response.sendRedirect("02_reservation_Form.jsp");
 	        } 
 	        else {
-	    		//
+	    		//INSERTING IN THE DATABASE
 	        
 	        }
 	    }
