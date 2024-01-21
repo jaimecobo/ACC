@@ -234,7 +234,7 @@ public class Servlet_02_Create_Reservation extends HttpServlet {
 //	        	request.getRequestDispatcher("02_reservation_Form.jsp").forward(request, response);		//USE THIS ONE IF STILL WANT TO SEND THE MESSAGE
 //	        	response.sendRedirect("02_reservation_Form.jsp");
 	        } 
-	        else
+	        else 
 			
 	    }
 		catch (ClassNotFoundException | SQLException ex) {
