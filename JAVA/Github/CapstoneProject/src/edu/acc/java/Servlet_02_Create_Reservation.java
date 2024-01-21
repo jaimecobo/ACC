@@ -236,7 +236,7 @@ public class Servlet_02_Create_Reservation extends HttpServlet {
 	        } 
 	        else {
 	    		//INSERTING IN THE DATABASE
-	    		System.out.println(
+	    		System.out.println()
 	        
 	        }
 	    }
