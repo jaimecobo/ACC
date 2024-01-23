@@ -241,7 +241,7 @@ public class Servlet_02_Create_Reservation extends HttpServlet {
 	    		int rowCount;
 	    		try {
 	    			
-	    		}catch(SQLException ex)
+	    		}catch(SQLException ex){
 	    		
 	        }
 	    }
