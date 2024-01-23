@@ -239,7 +239,8 @@ public class Servlet_02_Create_Reservation extends HttpServlet {
 	    		System.out.println("The id_Customer is " + id_Customer + " at doGPost method before inserting reservation in Create_Reservation Servlet.");
 	    		String balance = new Double(total).toString();
 	    		int rowCount;
-	    		try {	
+	    		try {
+	    			
 	    		}
 	    		
 	        }
