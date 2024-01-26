@@ -242,7 +242,7 @@ public class Servlet_02_Create_Reservation extends HttpServlet {
 	    		try {
 
 	    		    
-	    		    sql = "insert into reservation (departure_Date, entry_Date, status, balance, )"  
+	    		    sql = "insert into reservation (departure_Date, entry_Date, status, balance, id_Customer)"  
 	    			
 	    		}catch(SQLException ex){
 	    			out.println("ERROR IN Servlet_Create_Reservation TRYING TO INSERT A RESERVATION IN THE DB");
