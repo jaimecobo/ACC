@@ -253,7 +253,7 @@ public class Servlet_02_Create_Reservation extends HttpServlet {
 	    		}
 	    		
 	    		
-	    		Java_Mailgun 
+	    		Java_Mailgun mailGum
 
 	        
 	        }
