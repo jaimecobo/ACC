@@ -252,6 +252,10 @@ public class Servlet_02_Create_Reservation extends HttpServlet {
 	    			localDB.printTrace(ex);
 	    		}
 	    		
+	    		
+	    		Java_Mailgun
+
+	        
 	        }
 	    }
 		catch (ClassNotFoundException | SQLException ex) {
