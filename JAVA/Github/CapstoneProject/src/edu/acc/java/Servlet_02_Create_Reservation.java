@@ -254,7 +254,9 @@ public class Servlet_02_Create_Reservation extends HttpServlet {
 	    		
 	    		
 	    		Java_Mailgun mailGum = new Java_Mailgun();
-	    		mailGum.sendEmail(id_Customer, departure_Date);
+	    		mailGum.sendEmail(id_Customer, departure_Date);	
+
+	    		System
 
 	        
 	        }
