@@ -253,7 +253,7 @@ public class Servlet_02_Create_Reservation extends HttpServlet {
 	    		}
 	    		
 	    		
-	    		Java_Mailgun mailGum = new Java_Mailgun();
+//	    		Java_Mailgun mailGum = new Java_Mailgun();
 	    		mailGum.sendEmail(id_Customer, departure_Date);	
 
 	    		System.out.println("The id_Customer is " + id_Customer + " at doGPost method after reservation was inserted in Create_Reservation Servlet.");
