@@ -273,7 +273,7 @@ public class Servlet_02_Create_Reservation extends HttpServlet {
 		try {
 	       
 	    }
-		catch (ClassNotFoundException | SQLException )
+		catch (ClassNotFoundException | SQLException ex)
 		
 		//=================================================================================================================
 		//=================================================================================================================
