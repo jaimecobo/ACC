@@ -275,7 +275,7 @@ public class Servlet_02_Create_Reservation extends HttpServlet {
 	    }
 		catch (ClassNotFoundException | SQLException ex) {
 	        	System.out.println("ERROR in Catch");
-	        	ex
+	        	ex.
 	    }
 		
 		//=================================================================================================================
