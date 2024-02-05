@@ -272,7 +272,7 @@ public class Servlet_02_Create_Reservation extends HttpServlet {
 		
 		try {
 			
-			List<String>
+			List<String> resrv_num
 	       
 	    }
 		catch (ClassNotFoundException | SQLException ex) {
