@@ -275,7 +275,7 @@ public class Servlet_02_Create_Reservation extends HttpServlet {
 			List<String> resrv_num = new ArrayList<String>();
 			StringBuilder reservation_conf = new StringBuilder();
 	
-			Class.forName("com.mysql.jdbc")
+			Class.forName("com.mysql.jdbc.")
 	       
 	    }
 		catch (ClassNotFoundException | SQLException ex) {
