@@ -283,8 +283,8 @@ public class Servlet_02_Create_Reservation extends HttpServlet {
 	        ResultSet rs = pst.executeQuery();
 	        
 	        if (rs.next()) {
-	        	resrv_num.add(rs)
-
+	        	resrv_num.add(rs.getString(1));
+				
 	        }
 	       
 	    }
@@ -292,6 +292,7 @@ public class Servlet_02_Create_Reservation extends HttpServlet {
 	        	System.out.println("ERROR in Catch");
 	        	ex.printStackTrace();
 	    }
+		
 		
 		//=================================================================================================================
 		//=================================================================================================================
