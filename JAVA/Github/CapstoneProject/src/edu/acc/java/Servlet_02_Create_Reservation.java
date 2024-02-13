@@ -281,6 +281,8 @@ public class Servlet_02_Create_Reservation extends HttpServlet {
 	        pst.setString(1, departure_Date);
 	        pst.setString(2, entry_Date);
 	        ResultSet rs = pst.executeQuery();
+	        
+	        if
 	       
 	    }
 		catch (ClassNotFoundException | SQLException ex) {
