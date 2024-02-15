@@ -284,7 +284,8 @@ public class Servlet_02_Create_Reservation extends HttpServlet {
 	        
 	        if (rs.next()) {
 	        	resrv_num.add(rs.getString(1));
-				
+	        	reservation_conf
+
 	        }
 	       
 	    }
@@ -292,7 +293,6 @@ public class Servlet_02_Create_Reservation extends HttpServlet {
 	        	System.out.println("ERROR in Catch");
 	        	ex.printStackTrace();
 	    }
-		
 		
 		//=================================================================================================================
 		//=================================================================================================================
