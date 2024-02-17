@@ -285,7 +285,7 @@ public class Servlet_02_Create_Reservation extends HttpServlet {
 	        if (rs.next()) {
 	        	resrv_num.add(rs.getString(1));
 //	        	reservation_conf.append("Reservation number \" " + resrv_num.get(0) + " \" has been created.</td></tr>"
-	        	reservation_conf.append("Reservation number " + resrv_num.get());
+	        	reservation_conf.append("Reservation number " + resrv_num.get(0));
 
 	        }
 	       
