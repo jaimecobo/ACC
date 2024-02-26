@@ -289,7 +289,7 @@ public class Servlet_02_Create_Reservation extends HttpServlet {
 	        			+ "<tr><td style =\"color:blue\" align:\"center\">It will be a \" " + daysAmount + " \" night stay. </td></tr>"
 	        			+ "<tr><td style =\"color:blue\" align:\"center\">Total Balance = " + total + " $US.</td></tr>");
 	        	if(festDaysCount > 0) {
-	        		reservation_conf.append("<tr><td style =\"color:red\">You had an increase of 50% in " + festDaysCount + ");
+	        		reservation_conf.append("<tr><td style =\"color:red\">You had an increase of 50% in " + festDaysCount + "");
 	        				
 	        	}
 
