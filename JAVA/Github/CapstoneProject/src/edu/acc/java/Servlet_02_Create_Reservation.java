@@ -291,7 +291,7 @@ public class Servlet_02_Create_Reservation extends HttpServlet {
 	        	if(festDaysCount > 0) {
 	        		reservation_conf.append("<tr><td style =\"color:red\">You had an increase of 50% in " + festDaysCount + " of the days of your stay </td></tr>"
 //	        				+ " <tr><td style =\"color:red\"> because belong(s) to high demanded days season. </td></tr>"
-	        				+" <tr><td style =\"color:red\"></td>");
+	        				+" <tr><td style =\"color:red\"></td><");
 	        				
 	        	}
 
