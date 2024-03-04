@@ -295,7 +295,9 @@ public class Servlet_02_Create_Reservation extends HttpServlet {
 	        				+ "<tr><td> <a href=\"specialDays.html\">Special days!</a> </td></tr>");
 	        				
 	        	}
-
+	        	
+	        	Java_Mailgun
+	        	
 	        }
 	       
 	    }
