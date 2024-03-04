@@ -292,7 +292,7 @@ public class Servlet_02_Create_Reservation extends HttpServlet {
 	        		reservation_conf.append("<tr><td style =\"color:red\">You had an increase of 50% in " + festDaysCount + " of the days of your stay </td></tr>"
 //	        				+ " <tr><td style =\"color:red\"> because belong(s) to high demanded days season. </td></tr>"
 	        				+" <tr><td style =\"color:red\"> due to high demand. </td></tr>"
-	        				+ "<tr><td> <a href=\"specialDays.html\"></> </td></tr>");
+	        				+ "<tr><td> <a href=\"specialDays.html\"></a> </td></tr>");
 	        				
 	        	}
 
