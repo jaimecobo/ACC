@@ -300,7 +300,7 @@ public class Servlet_02_Create_Reservation extends HttpServlet {
 	    		mailGum.sendEmail(id_Customer);	
 	        	
 	        	reservation_conf = "<tr><td align:\"center\">Reservation number \" " + resrv_num.get(0) + " \" has been created.</td></tr>"
-	        			+ "<tr><td align:\"center\">It will be a \" " + ;
+	        			+ "<tr><td align:\"center\">It will be a \" " + price_msj;
 	    
 	        }
 	       
