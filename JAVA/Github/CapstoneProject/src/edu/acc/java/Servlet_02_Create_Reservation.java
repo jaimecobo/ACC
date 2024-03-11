@@ -301,7 +301,7 @@ public class Servlet_02_Create_Reservation extends HttpServlet {
 	        	
 	        	reservation_conf = "<tr><td align:\"center\">Reservation number \" " + resrv_num.get(0) + " \" has been created.</td></tr>"
 	        			+ "<tr><td align:\"center\">It will be a \" " + price_msj + " \" night stay. </td></tr>"
-	        			+ "<tr><td align:\"center\>";			
+	        			+ "<tr><td align:\"center\">";			
 	        
 	        }
 	       
