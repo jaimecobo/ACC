@@ -305,7 +305,7 @@ public class Servlet_02_Create_Reservation extends HttpServlet {
 	        	request.setAttribute("reservation_conf", reservation_conf);
 	        	request.getRequestDispatcher("02_reservation_Form.jsp").forward(request, response);
 	        	
-	        	/
+	        	/*
 //	        	JOptionPane.showMessageDialog( null, price_msj );
 				
 	        
