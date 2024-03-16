@@ -304,7 +304,11 @@ public class Servlet_02_Create_Reservation extends HttpServlet {
 	        			+ "<tr><td align:\"center\">Total Balance = " + total + " $US. </td></tr>";
 	        	request.setAttribute("reservation_conf", reservation_conf);
 	        	request.getRequestDispatcher("02_reservation_Form.jsp").forward(request, response);
-
+	        	
+	        	
+	        	JOptionPane
+				
+	        
 	        }
 	       
 	    }
