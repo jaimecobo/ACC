@@ -6,7 +6,7 @@ public class Java_Mailgun {
 		String id_Reservation;
 		String entry_Date;
 		String departure_Date;
-		String balance
+		String balance;
 	
 }
 
