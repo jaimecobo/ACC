@@ -3,7 +3,7 @@ package edu.acc.java;
 public class Java_Mailgun {
 	
 		
-		private 
+		private static
 		
 		
 		String recipient;
@@ -13,3 +13,9 @@ public class Java_Mailgun {
 		String balance;
 	
 }
+
+
+
+
+
+
