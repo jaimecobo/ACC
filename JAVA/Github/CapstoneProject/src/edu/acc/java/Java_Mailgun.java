@@ -3,7 +3,7 @@ package edu.acc.java;
 public class Java_Mailgun {
 	
 		
-		private static final String MAILGUN_DOMAIN_NAME = "
+		private static final String MAILGUN_DOMAIN_NAME = "\
 		
 		
 		String recipient;
