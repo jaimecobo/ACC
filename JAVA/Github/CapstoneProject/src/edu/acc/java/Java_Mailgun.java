@@ -3,7 +3,7 @@ package edu.acc.java;
 public class Java_Mailgun {
 	
 		
-		private static final
+		private static final 
 		
 		
 		String recipient;
