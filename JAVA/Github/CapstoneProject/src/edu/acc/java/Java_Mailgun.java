@@ -14,7 +14,10 @@ public class Java_Mailgun {
 		String balance;
 
 		
-		protected Java_Mailgun()
+		protected Java_Mailgun() {
+			super();
+			// TODO Auto-generated constructor stub
+		}
 	
 }
 
