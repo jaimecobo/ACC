@@ -19,6 +19,6 @@ public class Java_Mailgun {
 		}
 
 	
-		protected void sendEmail()
+		protected void sendEmail(String)
 	
 }
