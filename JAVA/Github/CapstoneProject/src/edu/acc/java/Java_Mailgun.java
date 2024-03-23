@@ -22,9 +22,9 @@ public class Java_Mailgun {
 		protected void sendEmail(String id_Customer) {
 		 
 		 try {
-	
+				
 		 }
-		
+			catch
 		}
 	
 }
