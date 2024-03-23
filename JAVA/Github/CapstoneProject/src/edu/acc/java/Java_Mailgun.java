@@ -24,7 +24,7 @@ public class Java_Mailgun {
 		 try {
 				
 		 }
-			catch (ClassNotFoundException | )
+			catch (ClassNotFoundException | SQLException)
 		}
 	
 }
