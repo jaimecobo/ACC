@@ -20,7 +20,7 @@ public class Java_Mailgun {
 
 	
 		protected void sendEmail(String id_Customer) {
-			System.out.println("Starting sendEmail at Java_Mailgun")
+			System.out.println("Starting sendEmail at Java_Mailgun");
 		 
 		 try {
 	
