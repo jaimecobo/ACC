@@ -26,7 +26,7 @@ public class Java_Mailgun {
 			System.out.println("Starting sendEmail at Java_Mailgun");
 		 
 		 try {
-				Class.
+				Class.forName
 	
 		 }
 			catch (ClassNotFoundException | SQLException ex) {
