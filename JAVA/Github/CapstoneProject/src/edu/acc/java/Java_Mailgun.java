@@ -27,6 +27,7 @@ public class Java_Mailgun {
 		 
 		 try {
 				Class.forName("com.mysql.jdbc.Driver");
+		        Connection
 	
 		 }
 			catch (ClassNotFoundException | SQLException ex) {
