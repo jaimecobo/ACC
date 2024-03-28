@@ -30,6 +30,7 @@ public class Java_Mailgun {
 		 try {
 				Class.forName("com.mysql.jdbc.Driver");
 		        Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/hotels360", "root", "sesame");
+		        PreparedStatement
 	
 		 }
 			catch (ClassNotFoundException | SQLException ex) {
