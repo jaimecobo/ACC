@@ -34,7 +34,7 @@ public class Java_Mailgun {
 		        Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/hotels360", "root", "sesame");
 		        PreparedStatement pst = conn.prepareStatement("Select email from customer where id_customer=?");
 		        pst.setString(1, id_Customer);
-		        ResultSet rs
+		        ResultSet rs 
 	
 		 }
 			catch (ClassNotFoundException | SQLException ex) {
