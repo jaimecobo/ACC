@@ -36,7 +36,8 @@ public class Java_Mailgun {
 		        pst.setString(1, id_Customer);
 		        ResultSet rs = pst.executeQuery();
 		        if (rs.next()) {
-		           }
+		           
+		    }
 		 }
 			catch (ClassNotFoundException | SQLException ex) {
 		        	System.out.println("ERROR in Catch SELECT IN MAILGUN");
