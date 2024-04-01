@@ -36,7 +36,7 @@ public class Java_Mailgun {
 		        pst.setString(1, id_Customer);
 		        ResultSet rs = pst.executeQuery();
 		        if (rs.next()) {
-		           recipient =
+		           recipient = 
 		           
 		    }
 		 }
