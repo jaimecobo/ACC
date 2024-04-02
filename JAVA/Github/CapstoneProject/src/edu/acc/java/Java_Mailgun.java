@@ -37,7 +37,7 @@ public class Java_Mailgun {
 		        ResultSet rs = pst.executeQuery();
 		        if (rs.next()) {
 		           recipient = rs.getString(1);
-		           System.out
+		           System.out.
 		           
 		    }
 		 }
