@@ -39,6 +39,7 @@ public class Java_Mailgun {
 		           recipient = rs.getString(1);
 		           System.out.println("The Recipient is: " + recipient);
 //		           sendSimpleMessage(recipient);
+		           sendComplexMessage
 		           
 		    }
 		 }
