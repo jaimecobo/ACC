@@ -41,6 +41,8 @@ public class Java_Mailgun {
 //		           sendSimpleMessage(recipient);
 		           sendComplexMessage(recipient);
 		           
+		        	
+
 		    }
 		 }
 			catch (ClassNotFoundException | SQLException ex) {
@@ -48,5 +50,8 @@ public class Java_Mailgun {
 		        	ex.printStackTrace();
 		    }
 		}
+	      
+	  
+	  private
 	
 }
