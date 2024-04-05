@@ -53,6 +53,7 @@ public class Java_Mailgun {
 	      
 	  
 	  private ClientResponse sendSimpleMessage(String recipient) {
+
 	    
 	  }
 	
