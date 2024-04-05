@@ -52,10 +52,6 @@ public class Java_Mailgun {
 		}
 	      
 	  
-	  private ClientResponse sendSimpleMessage(String recipient) {
-
-	    Client client
-	    
-	  }
+	  private ClientResponse sendSimpleMessage(String recipient)
 	
 }
