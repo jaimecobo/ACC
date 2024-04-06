@@ -55,7 +55,7 @@ public class Java_Mailgun {
 	  private ClientResponse sendSimpleMessage(String recipient) {
 
 	    Client client = Client.create();
-	    client.addFilter(new )
+	    client.addFilter(new HTTPBasicAuthFilter)
 	    
 	  }
 	
