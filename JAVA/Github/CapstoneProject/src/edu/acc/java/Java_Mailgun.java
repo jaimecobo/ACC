@@ -56,7 +56,7 @@ public class Java_Mailgun {
 
 	    Client client = Client.create();
 	    client.addFilter(new HTTPBasicAuthFilter("api", MAILGUN_API_KEY));
-	    WebResource
+	    WebResource 
 	    return webResource.type(MediaType.APPLICATION_FORM_URLENCODED).post(ClientResponse.class,
 	        formData);
 	  }
