@@ -59,7 +59,7 @@ public class Java_Mailgun {
 	    WebResource webResource = client.resource("https://api.mailgun.net/v3/" + MAILGUN_DOMAIN_NAME
 	        + "/messages");
 	    MultivaluedMapImpl formData = new MultivaluedMapImpl();
-	    formData.add("from", "Mailgun")
+	    formData.add("from", "Mailgun ")
 	    return webResource.type(MediaType.APPLICATION_FORM_URLENCODED).post(ClientResponse.class,
 	        formData);
 	  }
