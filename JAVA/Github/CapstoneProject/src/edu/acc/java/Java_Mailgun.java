@@ -61,7 +61,7 @@ public class Java_Mailgun {
 	    MultivaluedMapImpl formData = new MultivaluedMapImpl();
 	    formData.add("from", "Mailgun User <mailgun@" + MAILGUN_DOMAIN_NAME + ">");
 	    formData.add("to", recipient);
-	    formData.add(
+	    formData.add()
 	    return webResource.type(MediaType.APPLICATION_FORM_URLENCODED).post(ClientResponse.class,
 	        formData);
 	  }
