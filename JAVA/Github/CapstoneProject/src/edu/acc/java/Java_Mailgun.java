@@ -1,6 +1,6 @@
 package edu.acc.java;
 
-import com.sun.jersey.api.client.Client
+import com.sun.jersey.api.
 
 //import java.io.IOException;
 import java.sql.Connection;
