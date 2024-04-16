@@ -1,6 +1,6 @@
 package edu.acc.java;
 
-import com
+import com.
 
 //import java.io.IOException;
 import java.sql.Connection;
