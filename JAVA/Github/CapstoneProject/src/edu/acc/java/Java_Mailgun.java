@@ -1,7 +1,7 @@
 package edu.acc.java;
 
 import com.sun.jersey.api.client.Client;
-import 
+import com
 
 //import java.io.IOException;
 import java.sql.Connection;
