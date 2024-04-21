@@ -77,6 +77,6 @@ public class Java_Mailgun {
 	  
 
 	 
-	  private ClientResponse sendComplexMessage(
+	  private ClientResponse sendComplexMessage()
 	
 }
