@@ -74,5 +74,9 @@ public class Java_Mailgun {
 	    return webResource.type(MediaType.APPLICATION_FORM_URLENCODED).post(ClientResponse.class,
 	        formData);
 	  }
+	  
+
+	 
+	  private
 	
 }
