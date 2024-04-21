@@ -13,7 +13,7 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
-import javax.ws.rs.core.
+import javax.ws.rs.core.MediaType
 
 public class Java_Mailgun {
 	
