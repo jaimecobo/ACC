@@ -77,6 +77,6 @@ public class Java_Mailgun {
 	  
 
 	 
-	  private
+	  private 
 	
 }
