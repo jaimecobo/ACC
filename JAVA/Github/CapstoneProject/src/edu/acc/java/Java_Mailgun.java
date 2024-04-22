@@ -80,7 +80,7 @@ public class Java_Mailgun {
 	  private ClientResponse sendComplexMessage(String recipient) {
 
 	    return webResource.type(MediaType.MULTIPART_FORM_DATA_TYPE)
-	        .post(ClientResponse.)
+	        .post(ClientResponse.class)
 	  }
 	
 }
