@@ -79,7 +79,7 @@ public class Java_Mailgun {
 	 
 	  private ClientResponse sendComplexMessage(String recipient) {
 
-	    return webResource.type(
+	    return webResource.type()
 	  }
 	
 }
