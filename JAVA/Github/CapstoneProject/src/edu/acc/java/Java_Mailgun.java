@@ -79,7 +79,7 @@ public class Java_Mailgun {
 	 
 	  private ClientResponse sendComplexMessage(String recipient) {
 	    Client client = Client.create();
-	    client.addFilter()
+	    client.addFilter(new)
 	    return webResource.type(MediaType.MULTIPART_FORM_DATA_TYPE)
 	        .post(ClientResponse.class, formData);
 	  }
