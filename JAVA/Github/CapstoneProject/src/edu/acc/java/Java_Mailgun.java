@@ -80,7 +80,8 @@ public class Java_Mailgun {
 	  private ClientResponse sendComplexMessage(String recipient) {
 	    Client client = Client.create();
 	    client.addFilter(new HTTPBasicAuthFilter("api", MAILGUN_API_KEY));
-	    WebResource webResource = client.resource("https://api.mailgun.net/v3/" + MAILGUN_DOMAIN_NAME)
+	    WebResource webResource = client.resource("https://api.mailgun.net/v3/" + MAILGUN_DOMAIN_NAME
+	    )
 	    return webResource.type(MediaType.MULTIPART_FORM_DATA_TYPE)
 	        .post(ClientResponse.class, formData);
 	  }
