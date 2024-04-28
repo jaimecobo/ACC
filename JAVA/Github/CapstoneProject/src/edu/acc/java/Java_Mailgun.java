@@ -82,7 +82,7 @@ public class Java_Mailgun {
 	    client.addFilter(new HTTPBasicAuthFilter("api", MAILGUN_API_KEY));
 	    WebResource webResource = client.resource("https://api.mailgun.net/v3/" + MAILGUN_DOMAIN_NAME
 	        + "/messages");
-	    FormDataMultiPart formData = 
+	    FormDataMultiPart formData = new
 	    return webResource.type(MediaType.MULTIPART_FORM_DATA_TYPE)
 	        .post(ClientResponse.class, formData);
 	  }
