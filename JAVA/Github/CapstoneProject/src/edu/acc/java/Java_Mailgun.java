@@ -83,7 +83,7 @@ public class Java_Mailgun {
 	    WebResource webResource = client.resource("https://api.mailgun.net/v3/" + MAILGUN_DOMAIN_NAME
 	        + "/messages");
 	    FormDataMultiPart formData = new FormDataMultiPart();
-	    formData.field(
+	    formData.field()
 	    return webResource.type(MediaType.MULTIPART_FORM_DATA_TYPE)
 	        .post(ClientResponse.class, formData);
 	  }
