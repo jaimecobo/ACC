@@ -84,6 +84,8 @@ public class Java_Mailgun {
 	        + "/messages");
 	    FormDataMultiPart formData = new FormDataMultiPart();
 	    formData.field("from", "Mailgun User <mailgun@" + MAILGUN_DOMAIN_NAME + ">");
+	    formData
+	    formData.field("html", "<html><h2 style =\"color:blue\">Thank you for your reservation.</h2>"
 	    return webResource.type(MediaType.MULTIPART_FORM_DATA_TYPE)
 	        .post(ClientResponse.class, formData);
 	  }
