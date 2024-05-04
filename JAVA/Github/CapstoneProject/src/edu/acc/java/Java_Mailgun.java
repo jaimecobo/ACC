@@ -5,6 +5,7 @@ import com.sun.jersey.api.client.ClientResponse;
 import com.sun.jersey.api.client.WebResource;
 import com.sun.jersey.api.client.filter.HTTPBasicAuthFilter;
 import com.sun.jersey.core.util.MultivaluedMapImpl;
+import
 
 //import java.io.IOException;
 import java.sql.Connection;
@@ -85,7 +86,6 @@ public class Java_Mailgun {
 	    FormDataMultiPart formData = new FormDataMultiPart();
 	    formData.field("from", "Mailgun User <mailgun@" + MAILGUN_DOMAIN_NAME + ">");
 	    formData.field("to", recipient);
-	    formData.field("html", "<html><h2 style =\"color:blue\">Thank you for your reservation.</h2>"
 	    return webResource.type(MediaType.MULTIPART_FORM_DATA_TYPE)
 	        .post(ClientResponse.class, formData);
 	  }
