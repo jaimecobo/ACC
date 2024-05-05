@@ -86,7 +86,7 @@ public class Java_Mailgun {
 	    FormDataMultiPart formData = new FormDataMultiPart();
 	    formData.field("from", "Mailgun User <mailgun@" + MAILGUN_DOMAIN_NAME + ">");
 	    formData.field("to", recipient);
-	    
+	    formData.
 	    return webResource.type(MediaType.MULTIPART_FORM_DATA_TYPE)
 	        .post(ClientResponse.class, formData);
 	  }
