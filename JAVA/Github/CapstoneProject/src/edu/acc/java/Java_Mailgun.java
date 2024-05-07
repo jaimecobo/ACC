@@ -88,7 +88,7 @@ public class Java_Mailgun {
 	    formData.field("to", recipient);
 	    formData.field("subject", "Complex Mailgun Example");
 	    formData.field("html", "<html><h2 style =\"color:blue\">Thank you for your reservation.</h2>"
-	    				+ "<h4>")
+	    				+ "<h4>To check the status of your reservation")
 	    return webResource.type(MediaType.MULTIPART_FORM_DATA_TYPE)
 	        .post(ClientResponse.class, formData);
 	  }
