@@ -87,6 +87,7 @@ public class Java_Mailgun {
 	    formData.field("from", "Mailgun User <mailgun@" + MAILGUN_DOMAIN_NAME + ">");
 	    formData.field("to", recipient);
 	    formData.field("subject", "Complex Mailgun Example");
+	    formData
 	    return webResource.type(MediaType.MULTIPART_FORM_DATA_TYPE)
 	        .post(ClientResponse.class, formData);
 	  }
