@@ -89,6 +89,9 @@ public class Java_Mailgun {
 	    formData.field("subject", "Complex Mailgun Example");
 	    formData.field("html", "<html><h2 style =\"color:blue\">Thank you for your reservation.</h2>"
 	    				+ "<h4>To check the status of your reservation, visit our website: <a href=\"http://localhost:8084/Hotels360/01_index.jsp\">Apartments 365</a></h4></html>");
+	    ClassLoader classLoader = getClass().getClassLoader();
+	    File txtFile = new File(classLoader.getResource("example-attachment.txt").getFile());
+	    formData.bodyPart(new FileDataBodyPart("attachment", txtFile, MediaType.TEXT_PLAIN_TYPE));
 	    return webResource.type(MediaType.MULTIPART_FORM_DATA_TYPE)
 	        .post(ClientResponse.class, formData);
 	  }
