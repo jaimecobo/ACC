@@ -1,6 +1,6 @@
 package edu.acc.java;
 
-import java.security.NoSuchAlgorithmException
+import java.security.NoSuchAlgorithmException;
 
 public class _00_Hashing_Salting_Passwords {
 
