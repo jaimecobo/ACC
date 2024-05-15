@@ -6,7 +6,7 @@ import java.security.NoSuchAlgorithmException;
 public class _00_Hashing_Salting_Passwords {
 
 	public static String hashPassword(String password) throws NoSuchAlgorithmException{
-		MessageDigest md = MessageDigest.getInstance()
+		MessageDigest md = MessageDigest.getInstance("SHA-256")
 		}
 	}
 
