@@ -8,7 +8,7 @@ public class _00_Hashing_Salting_Passwords {
 	public static String hashPassword(String password) throws NoSuchAlgorithmException{
 		MessageDigest md = MessageDigest.getInstance("SHA-256");
 		md.reset();
-		md.update(password.)
+		md.update(password.getBytes)
 		}
 	}
 }
