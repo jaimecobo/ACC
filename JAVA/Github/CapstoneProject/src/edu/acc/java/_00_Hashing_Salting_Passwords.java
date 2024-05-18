@@ -9,7 +9,7 @@ public class _00_Hashing_Salting_Passwords {
 		MessageDigest md = MessageDigest.getInstance("SHA-256");
 		md.reset();
 		md.update(password.getBytes());
-		byte[]
+		byte[] mdArray
 		}
 	}
 }
