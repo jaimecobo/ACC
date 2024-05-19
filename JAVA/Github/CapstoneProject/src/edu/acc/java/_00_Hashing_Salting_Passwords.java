@@ -10,6 +10,6 @@ public class _00_Hashing_Salting_Passwords {
 		md.reset();
 		md.update(password.getBytes());
 		byte[] mdArray = md.digest();
-		StringBuilder sb =
+		StringBuilder sb = 
 	}
 }
