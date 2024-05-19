@@ -11,6 +11,6 @@ public class _00_Hashing_Salting_Passwords {
 		md.update(password.getBytes());
 		byte[] mdArray = md.digest();
 		StringBuilder sb = new StringBuilder(mdArray.length * 2);
-		for
+		for 
 	}
 }
