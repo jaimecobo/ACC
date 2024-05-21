@@ -13,7 +13,7 @@ public class _00_Hashing_Salting_Passwords {
 		StringBuilder sb = new StringBuilder(mdArray.length * 2);
 		for (byte b : mdArray) {
 			int v = b & 0xff;
-			if(v<16)
+			if(v<)
 		}
 	}
 }
