@@ -12,7 +12,7 @@ public class _00_Hashing_Salting_Passwords {
 		byte[] mdArray = md.digest();
 		StringBuilder sb = new StringBuilder(mdArray.length * 2);
 		for (byte b : mdArray) {
-			int 
+			int v
 		}
 	}
 }
