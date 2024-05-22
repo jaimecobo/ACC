@@ -14,7 +14,7 @@ public class _00_Hashing_Salting_Passwords {
 		for (byte b : mdArray) {
 			int v = b & 0xff;
 			if(v<16) {
-				sb.append(
+				sb.append()
 			}
 		}
 	}
