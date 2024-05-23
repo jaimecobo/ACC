@@ -16,7 +16,7 @@ public class _00_Hashing_Salting_Passwords {
 			if(v<16) {
 				sb.append('0');
 			}
-			sb.
+			sb.append
 		}
 	}
 }
