@@ -16,7 +16,7 @@ public class _00_Hashing_Salting_Passwords {
 			if(v<16) {
 				sb.append('0');
 			}
-			sb.append(Integer.toHexString())
+			sb.append(Integer.toHexString(v))
 		}
 	}
 }
