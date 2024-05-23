@@ -18,6 +18,6 @@ public class _00_Hashing_Salting_Passwords {
 			}
 			sb.append(Integer.toHexString(v));
 		}
-		return sb
+		return sb.
 	}
 }
