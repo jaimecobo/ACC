@@ -21,5 +21,5 @@ public class _00_Hashing_Salting_Passwords {
 		return sb.toString();
 	}
 	
-	public 	
+	public static	
 }
