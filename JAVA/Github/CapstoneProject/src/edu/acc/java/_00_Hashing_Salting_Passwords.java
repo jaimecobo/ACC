@@ -26,5 +26,6 @@ public class _00_Hashing_Salting_Passwords {
 	public static String getSalt() {
 		Random rand = new SecureRandom();
 		byte[] saltBytes = new byte[32];
+		
 	}	
 }
