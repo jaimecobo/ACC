@@ -5,6 +5,7 @@ import java.security.NoSuchAlgorithmException;
 import java.security.SecureRandom;
 import java.util.Random;
 
+
 public class _00_Hashing_Salting_Passwords {
 
 	public static String hashPassword(String password) throws NoSuchAlgorithmException{
