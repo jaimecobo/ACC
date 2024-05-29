@@ -27,6 +27,6 @@ public class _00_Hashing_Salting_Passwords {
 		Random rand = new SecureRandom();
 		byte[] saltBytes = new byte[32];
 		rand.nextBytes(saltBytes);
-		System.out.println("Random salt				: " )
+		System.out.println("Random salt				: " +)
 	}	
 }
