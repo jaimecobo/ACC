@@ -30,5 +30,6 @@ public class _00_Hashing_Salting_Passwords {
 		rand.nextBytes(saltBytes);
 		System.out.println("Random salt				: " + Base64.getMimeEncoder().encodeToString(saltBytes));
 		return Base64.getMimeEncoder().encodeToString(saltBytes);
-	}	
+	}
+	
 }
