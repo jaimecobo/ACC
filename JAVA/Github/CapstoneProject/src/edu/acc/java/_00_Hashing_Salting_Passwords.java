@@ -32,4 +32,5 @@ public class _00_Hashing_Salting_Passwords {
 		return Base64.getMimeEncoder().encodeToString(saltBytes);
 	}
 	
+	public
 }
