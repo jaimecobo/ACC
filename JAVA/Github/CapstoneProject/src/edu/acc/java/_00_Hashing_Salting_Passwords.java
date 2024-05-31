@@ -32,5 +32,5 @@ public class _00_Hashing_Salting_Passwords {
 		return Base64.getMimeEncoder().encodeToString(saltBytes);
 	}
 	
-	public static String hashSaltAndPassword(String password, String salt) throws
+	public static String hashSaltAndPassword(String password, String salt) throws 
 }
