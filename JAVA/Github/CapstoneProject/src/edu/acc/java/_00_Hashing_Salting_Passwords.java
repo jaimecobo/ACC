@@ -34,6 +34,6 @@ public class _00_Hashing_Salting_Passwords {
 	
 	public static String hashSaltAndPassword(String password, String salt) throws NoSuchAlgorithmException{
 		System.out.println("Salted hash for received password	: " + hashPassword(password + salt));
-		return hashPassword(
+		return hashPassword()
 	}
 }
