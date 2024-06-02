@@ -38,5 +38,5 @@ public class _00_Hashing_Salting_Passwords {
 		
 	}
 	
-	public static void 
+	public static void checkPasswordStrength
 }
