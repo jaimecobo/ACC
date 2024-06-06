@@ -39,6 +39,6 @@ public class _00_Hashing_Salting_Passwords {
 	}
 	
 	public static void checkPasswordStrength(String password) throws Exception{
-		if (password == null || password.trim().isEmpty())
+		if (password == null || password.trim().isEmpty()) 
 	}
 }
