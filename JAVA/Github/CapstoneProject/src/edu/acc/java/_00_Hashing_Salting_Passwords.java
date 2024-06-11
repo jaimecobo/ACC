@@ -49,7 +49,7 @@ public class _00_Hashing_Salting_Passwords {
 	}
 	
 	/* This code test the functionality of this class. */
-	public static
+	public static 
 	
 	
 }
