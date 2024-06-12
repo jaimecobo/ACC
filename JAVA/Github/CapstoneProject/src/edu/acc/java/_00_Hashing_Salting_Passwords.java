@@ -49,7 +49,8 @@ public class _00_Hashing_Salting_Passwords {
 	}
 	
 	/* This code test the functionality of this class. */
-	public static void main(String[] args) {		
+	public static void main(String[] args) {
+		try		
 	}
 	
 	
