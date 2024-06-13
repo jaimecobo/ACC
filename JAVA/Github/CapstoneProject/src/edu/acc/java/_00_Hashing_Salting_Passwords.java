@@ -53,7 +53,8 @@ public class _00_Hashing_Salting_Passwords {
 		try {
 			
 		System.out.println("Hash for 'Sesame'		: " 
-				+ hashPassword("Sesame"))
+				+ hashPassword("Sesame"));
+		
 		}		
 	}
 	
