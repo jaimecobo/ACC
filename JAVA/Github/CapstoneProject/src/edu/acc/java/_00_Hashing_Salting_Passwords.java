@@ -54,7 +54,7 @@ public class _00_Hashing_Salting_Passwords {
 			
 		System.out.println("Hash for 'Sesame'		: " 
 				+ hashPassword("Sesame"));
-		System.out
+		System.out.
 		}		
 	}
 	
