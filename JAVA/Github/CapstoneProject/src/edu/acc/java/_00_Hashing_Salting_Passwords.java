@@ -56,7 +56,8 @@ public class _00_Hashing_Salting_Passwords {
 				+ hashPassword("Sesame"));
 		System.out.println("Random salt 			: "
 				+ getSalt());
-		System.out.println("Salted hash for 'Sesame'	: ")
+		System.out.println("Salted hash for 'Sesame'	: "
+				)
 		}		
 	}
 	
