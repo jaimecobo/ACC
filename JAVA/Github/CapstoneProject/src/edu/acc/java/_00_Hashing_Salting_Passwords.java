@@ -59,7 +59,7 @@ public class _00_Hashing_Salting_Passwords {
 		System.out.println("Salted hash for 'Sesame'	: "
 				+ hashAndSaltPassword("Sesame")) ;
 		}catch(NoSuchAlgorithmException ex) {
-			System.
+			System.out.println
 			
 		}		
 	}
