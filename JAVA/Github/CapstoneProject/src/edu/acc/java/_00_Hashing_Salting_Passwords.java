@@ -49,20 +49,20 @@ public class _00_Hashing_Salting_Passwords {
 	}
 	
 	/* This code test the functionality of this class. */
-	public static void main(String[] args) {
-		try {
-			
-		System.out.println("Hash for 'Sesame'		: " 
-				+ hashPassword("Sesame"));
-		System.out.println("Random salt 			: "
-				+ getSalt());
-		System.out.println("Salted hash for 'Sesame'	: "
-				+ hashAndSaltPassword("Sesame")) ;
-		}catch(NoSuchAlgorithmException ex) {
-			System.out.println(ex);
-			
-		}		
-	}
+//	public static void main(String[] args) {
+//		try {
+//			
+//		System.out.println("Hash for 'Sesame'		: " 
+//				+ hashPassword("Sesame"));
+//		System.out.println("Random salt 			: "
+//				+ getSalt());
+//		System.out.println("Salted hash for 'Sesame'	: "
+//				+ hashAndSaltPassword("Sesame")) ;
+//		}catch(NoSuchAlgorithmException ex) {
+//			System.out.println(ex);
+//			
+//		}		
+//	}
 	
 	
 }
