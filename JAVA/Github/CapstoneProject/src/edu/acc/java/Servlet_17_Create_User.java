@@ -1,3 +1,3 @@
 package edu.acc.java;
 
-public class Servlet_17_Create_User extends HttpServlet {
+public class Servlet_17_Create_User extends HttpServlet {}
