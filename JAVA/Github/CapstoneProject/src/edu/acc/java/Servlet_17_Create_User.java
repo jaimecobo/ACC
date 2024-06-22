@@ -21,6 +21,6 @@ public class Servlet_17_Create_User extends HttpServlet {
 	/**
 	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
 	 */
-	protected void doGet()
+	protected void doGet(HttpServletRequest)
 
 }
