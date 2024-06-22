@@ -3,7 +3,6 @@ package edu.acc.java;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 
-
 /**
  * Servlet implementation class Servlet_Create_User
  */
@@ -18,5 +17,9 @@ public class Servlet_17_Create_User extends HttpServlet {
         super();
         // TODO Auto-generated constructor stub
     }
+
+	/**
+	 *
+	 */
 
 }
