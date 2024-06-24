@@ -28,6 +28,7 @@ public class Servlet_17_Create_User extends HttpServlet {
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
+		response
 	}
 
 }
