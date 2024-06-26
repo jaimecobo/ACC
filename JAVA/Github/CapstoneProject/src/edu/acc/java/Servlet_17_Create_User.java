@@ -29,7 +29,7 @@ public class Servlet_17_Create_User extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
 		response.getWriter().append("Served at: ").append(request.getContextPath());
-		request.getRequestDispatcher("")
+		request.getRequestDispatcher("05_management_Options.jsp")
 	}
 
 }
