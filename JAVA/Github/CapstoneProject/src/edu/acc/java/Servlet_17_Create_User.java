@@ -43,7 +43,7 @@ public class Servlet_17_Create_User extends HttpServlet {
 		
 		final JPanel panel = new JPanel();
 		// create a jframe
-	    
+	    JFrame
 		
 	}
 
