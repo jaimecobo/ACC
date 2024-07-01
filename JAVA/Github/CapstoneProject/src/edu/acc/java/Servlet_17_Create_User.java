@@ -2,7 +2,7 @@ package edu.acc.java;
 
 import java.io.IOException;
 
-import 
+import javax
 import javax.swing.JPanel;
 import javax.swing.JFrame;
 
