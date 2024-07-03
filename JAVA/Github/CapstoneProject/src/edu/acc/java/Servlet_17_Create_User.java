@@ -49,7 +49,7 @@ public class Servlet_17_Create_User extends HttpServlet {
 	    JFrame frame = new JFrame("JOptionPane showMessageDialog example");
 		
 		PrintWriter out  = response.getWriter();	
-		response.setContentType()
+		response.setContentType(")
 	
 	}
 
