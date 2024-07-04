@@ -52,7 +52,7 @@ public class Servlet_17_Create_User extends HttpServlet {
 		response.setContentType("text/html");
 		
 		String password = request.getParameter("password");
-		String salt = null
+		String salt = null;
 	
 	}
 
