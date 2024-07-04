@@ -51,7 +51,7 @@ public class Servlet_17_Create_User extends HttpServlet {
 		PrintWriter out  = response.getWriter();	
 		response.setContentType("text/html");
 		
-		String password
+		String password =
 	
 	}
 
