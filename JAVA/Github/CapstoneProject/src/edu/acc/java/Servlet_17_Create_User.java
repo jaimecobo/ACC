@@ -53,7 +53,7 @@ public class Servlet_17_Create_User extends HttpServlet {
 		
 		String password = request.getParameter("password");
 		String salt = null;
-		System.out.println()
+		System.out.println(")
 	
 	}
 
