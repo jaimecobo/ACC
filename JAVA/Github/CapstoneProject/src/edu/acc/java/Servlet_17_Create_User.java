@@ -55,7 +55,8 @@ public class Servlet_17_Create_User extends HttpServlet {
 		String salt = null;
 		System.out.println("1111111111 " + password);
 		
-		try {}
+		try {
+		}
 	
 	}
 
