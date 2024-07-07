@@ -56,7 +56,7 @@ public class Servlet_17_Create_User extends HttpServlet {
 		System.out.println("1111111111 " + password);
 		
 		try {
-			System.out.println("222222222 starting first")
+			System.out.println("222222222 starting first ")
 		
 		} catch (Exception ex) {}
 	
