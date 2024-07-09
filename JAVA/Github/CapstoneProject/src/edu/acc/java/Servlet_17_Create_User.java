@@ -57,7 +57,6 @@ public class Servlet_17_Create_User extends HttpServlet {
 		
 		try {
 			System.out.println("222222222 starting first Try block 'checkPasswordStrength' -- password = " + password);
-			_00_Hashing_Salting_Passwords.checkPasswordStrength(password)
 		
 		} catch (Exception ex) {}
 	
