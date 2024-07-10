@@ -59,7 +59,7 @@ public class Servlet_17_Create_User extends HttpServlet {
 			System.out.println("222222222 starting first Try block 'checkPasswordStrength' -- password = " + password);
 			_00_Hashing_Salting_Passwords.checkPasswordStrength(password);
 			System.out.println("33333333 After checkPasswordStrength -- password = " + password);
-			try
+			try 
 		
 		} catch (Exception ex) {}
 	
