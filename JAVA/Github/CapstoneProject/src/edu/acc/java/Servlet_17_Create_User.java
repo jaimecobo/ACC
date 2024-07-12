@@ -60,7 +60,7 @@ public class Servlet_17_Create_User extends HttpServlet {
 			_00_Hashing_Salting_Passwords.checkPasswordStrength(password);
 			System.out.println("33333333 After checkPasswordStrength -- password = " + password);
 			try {
-				System.out.println("444444444")
+				System.out.println("444444444 ")
 			}catch(Exception ex) {}
 		
 		} catch (Exception ex) {}
