@@ -63,6 +63,7 @@ public class Servlet_17_Create_User extends HttpServlet {
 				System.out.println("444444444 starting second Try block 'geSalt' & 'hashPassword' -- password = " + password);
 				salt = _00_Hashing_Salting_Passwords.getSalt();
 				password = _00_Hashing_Salting_Passwords.hashSaltAndPassword(password, salt);
+				
 			}catch(Exception ex) {}
 		
 		} catch (Exception ex) {}
