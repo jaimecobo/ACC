@@ -65,6 +65,7 @@ public class Servlet_17_Create_User extends HttpServlet {
 				password = _00_Hashing_Salting_Passwords.hashSaltAndPassword(password, salt);
 				System.out.println("555555555 After hashPassword -- password = " + password);
 			}catch(Exception ex) {
+	
 			}
 		
 		} catch (Exception ex) {}
