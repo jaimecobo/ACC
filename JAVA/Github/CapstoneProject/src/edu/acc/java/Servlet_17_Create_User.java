@@ -68,6 +68,7 @@ public class Servlet_17_Create_User extends HttpServlet {
 				System.out.println("7777777777 Exception at hashAndSaltPassword catch -- password = " + password);
 				   out.println("<script type=\"text/javascript\">");
 				   out.println("alert(" + ex + ");");
+				
 			}
 		
 		} catch (Exception ex) {}
