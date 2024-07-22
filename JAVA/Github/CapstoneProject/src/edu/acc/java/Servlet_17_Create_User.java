@@ -70,7 +70,7 @@ public class Servlet_17_Create_User extends HttpServlet {
 				   out.println("alert(" + ex + ");");
 				   out.println("location='17_adminUserForm.jsp';");
 				   out.println("</script>");
-				JOptionPane.showMessageDialog
+				JOptionPane.showMessageDialog(
 			}
 		
 		} catch (Exception ex) {}
