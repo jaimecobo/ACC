@@ -74,7 +74,9 @@ public class Servlet_17_Create_User extends HttpServlet {
 				ex.printStackTrace();
 			}
 		
-		} catch (Exception ex) {}
+		} catch (Exception ex) {
+
+		}
 
 	}
 
