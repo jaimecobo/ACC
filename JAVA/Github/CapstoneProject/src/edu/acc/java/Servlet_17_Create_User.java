@@ -77,7 +77,7 @@ public class Servlet_17_Create_User extends HttpServlet {
 		} catch (Exception ex) {
 			// TODO Auto-generated catch block
 			System.out.println("666666666 Exception at checkPasswordStrength catch -- password = " + password);
-			out.println()
+			out.println(")
 		}
 
 	}
