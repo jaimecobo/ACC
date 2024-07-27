@@ -79,7 +79,7 @@ public class Servlet_17_Create_User extends HttpServlet {
 			System.out.println("666666666 Exception at checkPasswordStrength catch -- password = " + password);
 			out.println("<script type=\"text/javascript\">");
 			   out.println("alert(" + ex + ");");
-			   out.println()
+			   out.println(")
 		}
 
 	}
