@@ -80,8 +80,9 @@ public class Servlet_17_Create_User extends HttpServlet {
 			out.println("<script type=\"text/javascript\">");
 			   out.println("alert(" + ex + ");");
 			   out.println("location='17_adminUserForm.jsp';");
+			   
 		}
-
+		
 	}
 
 }
