@@ -85,7 +85,7 @@ public class Servlet_17_Create_User extends HttpServlet {
 			ex.printStackTrace();
 		}
 		
-		LocalMySQLCP localDB
+		LocalMySQLCP localDB 
 	
 	}
 
