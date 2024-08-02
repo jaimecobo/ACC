@@ -88,6 +88,7 @@ public class Servlet_17_Create_User extends HttpServlet {
 		LocalMySQLCP localDB = new LocalMySQLCP();
 		String firstName = request.getParameter("firstName");
 		String lastName = request.getParameter("lastName");
+		
 	
 	}
 
