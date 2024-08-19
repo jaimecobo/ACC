@@ -6,7 +6,7 @@ import java.io.PrintWriter;
 import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 import javax.swing.JFrame;
-
+z
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -81,7 +81,7 @@ public class Servlet_17_Create_User extends HttpServlet {
 			   out.println("alert(" + ex + ");");
 			   out.println("location='17_adminUserForm.jsp';");
 			   out.println("</script>");
-			JOptionPane.showMessageDialog(frame, ex, "Warning", JOptionPane.WARNING_MESSAGE);
+//			JOptionPane.showMessageDialog(frame, ex, "Warning", JOptionPane.WARNING_MESSAGE);
 			ex.printStackTrace();
 		}
 		
@@ -89,6 +89,7 @@ public class Servlet_17_Create_User extends HttpServlet {
 		String firstName = request.getParameter("firstName");
 		String lastName = request.getParameter("lastName");
 		String address = request.getParameter("address");
+		
 	
 	}
 
