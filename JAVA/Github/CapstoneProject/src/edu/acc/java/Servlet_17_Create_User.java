@@ -90,7 +90,7 @@ public class Servlet_17_Create_User extends HttpServlet {
 		String lastName = request.getParameter("lastName");
 		String address = request.getParameter("address");
 		String email = request.getParameter("email");
-		String 
+		String doc_Type
 	
 	}
 
