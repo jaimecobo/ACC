@@ -91,7 +91,7 @@ public class Servlet_17_Create_User extends HttpServlet {
 		String address = request.getParameter("address");
 		String email = request.getParameter("email");
 		String doc_Type = request.getParameter("doc_Type");
-		String doc_Number = 
+		String doc_Number = request
 	
 	}
 
