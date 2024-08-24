@@ -6,7 +6,7 @@ import java.io.PrintWriter;
 import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 import javax.swing.JFrame;
-z
+
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -94,6 +94,7 @@ public class Servlet_17_Create_User extends HttpServlet {
 		String doc_Number = request.getParameter("doc_Number");
 		String phone = request.getParameter("phone");
 		String birthday = request.getParameter("birthday");
+		
 	
 	}
 
