@@ -96,7 +96,7 @@ public class Servlet_17_Create_User extends HttpServlet {
 		String birthday = request.getParameter("birthday");
 		String userName = request.getParameter("userName");
 		
-		String
+		String sql
 	
 	}
 
