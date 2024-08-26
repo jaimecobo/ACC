@@ -103,7 +103,7 @@ public class Servlet_17_Create_User extends HttpServlet {
 	        
 		}
 		catch (ClassNotFoundException | SQLException ex) {
-	        	System.out.println(")
+	        	System.out.println("")
 	    }
 	
 	}
