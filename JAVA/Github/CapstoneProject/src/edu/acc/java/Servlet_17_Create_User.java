@@ -2,7 +2,7 @@ package edu.acc.java;
 
 import java.io.IOException;
 import java.io.PrintWriter;
-import java.sql.SQLException
+import java.sql.SQLException;
 
 import javax.swing.JOptionPane;
 import javax.swing.JPanel;
