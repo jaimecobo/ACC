@@ -103,7 +103,7 @@ public class Servlet_17_Create_User extends HttpServlet {
 		
 		try {
 			Class.forName("com.mysql.jdbc.Driver");
-	        Connection conn = 
+	        Connection 
 	        
 		}
 		catch (ClassNotFoundException | SQLException ex) {
