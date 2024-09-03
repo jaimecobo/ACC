@@ -109,6 +109,7 @@ public class Servlet_17_Create_User extends HttpServlet {
 	        PreparedStatement pst = conn.prepareStatement("Select username from user where username=?");
 	        pst.setString(1, userName);
 	        
+	        
 		}
 		catch (ClassNotFoundException | SQLException ex) {
 	        	System.out.println("ERROR in Catch");
