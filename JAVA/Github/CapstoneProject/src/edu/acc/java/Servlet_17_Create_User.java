@@ -107,7 +107,7 @@ public class Servlet_17_Create_User extends HttpServlet {
 			Class.forName("com.mysql.jdbc.Driver");
 	        Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/hotels360", "root", "sesame");
 	        PreparedStatement pst = conn.prepareStatement("Select username from user where username=?");
-	        pst.setString(
+	        pst.setString()
 	        
 		}
 		catch (ClassNotFoundException | SQLException ex) {
