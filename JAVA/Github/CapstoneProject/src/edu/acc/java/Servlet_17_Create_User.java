@@ -111,7 +111,7 @@ public class Servlet_17_Create_User extends HttpServlet {
 	        pst.setString(1, userName);
 	        ResultSet rs = pst.executeQuery();
 	        
-	        if () 
+	        if (s) 
 	        
 		}
 		catch (ClassNotFoundException | SQLException ex) {
