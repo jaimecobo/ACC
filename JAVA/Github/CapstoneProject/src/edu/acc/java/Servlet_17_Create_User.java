@@ -112,6 +112,7 @@ public class Servlet_17_Create_User extends HttpServlet {
 	        ResultSet rs = pst.executeQuery();
 	        
 	        
+	        
 		}
 		catch (ClassNotFoundException | SQLException ex) {
 	        	System.out.println("ERROR in Catch");
