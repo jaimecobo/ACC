@@ -113,7 +113,7 @@ public class Servlet_17_Create_User extends HttpServlet {
 	        
 	        if (rs.next()) {
 	        	String otherUsername02 = " ** Please choose a different username. **";
-	        	request.getSession()
+	        	request.getSession().
 	        } 
 	        
 		}
