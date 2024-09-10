@@ -116,7 +116,8 @@ public class Servlet_17_Create_User extends HttpServlet {
 	        	request.getSession().setAttribute("otherUsername02", otherUsername02);
 	        	response.sendRedirect("17_adminUserForm.jsp");
 	        } 
-	        else {}
+	        else {
+	        }
 	        
 		}
 		catch (ClassNotFoundException | SQLException ex) {
