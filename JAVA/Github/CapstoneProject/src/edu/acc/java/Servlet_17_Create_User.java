@@ -117,6 +117,7 @@ public class Servlet_17_Create_User extends HttpServlet {
 	        	response.sendRedirect("17_adminUserForm.jsp");
 	        } 
 	        
+	        
 		}
 		catch (ClassNotFoundException | SQLException ex) {
 	        	System.out.println("ERROR in Catch");
