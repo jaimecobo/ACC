@@ -121,7 +121,7 @@ public class Servlet_17_Create_User extends HttpServlet {
 				int rowCount;
 				try {
 					
-				}catch(SQLException )
+				}catch(SQLException ex)
 	        }
 	        
 		}
