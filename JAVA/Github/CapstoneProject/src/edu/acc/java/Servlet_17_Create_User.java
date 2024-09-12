@@ -124,7 +124,7 @@ public class Servlet_17_Create_User extends HttpServlet {
 				}catch(SQLException ex){
 					out.println("ERROR catch in Servlet_Create_User");
 					ex.printStackTrace();
-					localDB.printTrace
+					localDB.printTrace(
 				}
 	        }
 	        
