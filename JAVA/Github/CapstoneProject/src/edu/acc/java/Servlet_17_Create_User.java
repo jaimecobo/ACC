@@ -124,7 +124,7 @@ public class Servlet_17_Create_User extends HttpServlet {
 		
 					sql = "insert into user (firstName, lastName, address, email, document_Type, document_Number, phone_Number, birthday, username, password, salt) values (?,?,?,?,?,?,?,?,?,?,?)";
 				    parms = new String[]{firstName, lastName, address, email, doc_Type, doc_Number, phone,  birthday, userName, password, salt};  
-					rowCount = localDB.executeUpdate(sql,)
+					rowCount = localDB.executeUpdate(sql, )
 				}catch(SQLException ex){
 					out.println("ERROR catch in Servlet_Create_User");
 					ex.printStackTrace();
