@@ -123,7 +123,7 @@ public class Servlet_17_Create_User extends HttpServlet {
 					String userCreated;
 		
 					sql = "insert into user (firstName, lastName, address, email, document_Type, document_Number, phone_Number, birthday, username, password, salt) values (?,?,?,?,?,?,?,?,?,?,?)";
-				    parms = new String[]{firstName, lastName, address, email, doc_Type,}
+				    parms = new String[]{firstName, lastName, address, email, doc_Type, }
 				}catch(SQLException ex){
 					out.println("ERROR catch in Servlet_Create_User");
 					ex.printStackTrace();
