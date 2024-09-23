@@ -1,3 +1,3 @@
 package edu.acc.java;
 
-public 
+public class
