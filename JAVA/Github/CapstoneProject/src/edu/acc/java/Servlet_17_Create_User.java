@@ -126,7 +126,7 @@ public class Servlet_17_Create_User extends HttpServlet {
 				    parms = new String[]{firstName, lastName, address, email, doc_Type, doc_Number, phone,  birthday, userName, password, salt};  
 					rowCount = localDB.executeUpdate(sql, parms);
 					userCreated = "Username \" " + userName + " \" has been created.";
-					request.getSession().setAttribute("userCreated", userCreated)
+					request.getSession().setAttribute("userCreated", userCreated);
 				}catch(SQLException ex){
 					out.println("ERROR catch in Servlet_Create_User");
 					ex.printStackTrace();
