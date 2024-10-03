@@ -29,7 +29,7 @@ public class Servlet_05_Login_User extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		
 		
-		request.getRequestDispatcher("04_adminAccess.jsp").forward(request)
+		request.getRequestDispatcher("04_adminAccess.jsp").forward(request,)
 		
 	}
 
