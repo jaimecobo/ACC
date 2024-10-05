@@ -39,6 +39,7 @@ public class Servlet_05_Login_User extends HttpServlet {
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
 		//doGet(request, response);
+		
 
 	}
 
