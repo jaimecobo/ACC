@@ -41,7 +41,7 @@ public class Servlet_05_Login_User extends HttpServlet {
 		//doGet(request, response);
 		
 		PrintWriter out  = response.getWriter();	
-		response.setContentType("text/html")
+		response.setContentType("text/html");
 
 	}
 
