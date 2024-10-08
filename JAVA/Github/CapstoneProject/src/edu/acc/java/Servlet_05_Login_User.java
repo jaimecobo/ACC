@@ -8,6 +8,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+
 /**
  * Servlet implementation class Servlet_Login
  */
@@ -42,8 +43,7 @@ public class Servlet_05_Login_User extends HttpServlet {
 		
 //		PrintWriter out  = response.getWriter();	
 //		response.setContentType("text/html");
-		HttpSession session = request.getSession();
-		String username = 
+		HttpSession session = 
 		
 	}
 
