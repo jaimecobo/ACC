@@ -47,7 +47,7 @@ public class Servlet_05_Login_User extends HttpServlet {
 		String username = request.getParameter("username");
 		String password = request.getParameter("password");
 		String salt = null;
-		if (username)
+		if (username.)
 		
 	}
 
