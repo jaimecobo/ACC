@@ -49,7 +49,7 @@ public class Servlet_05_Login_User extends HttpServlet {
 		String salt = null;
 		if (username.equals("administrator01")) {
 		try {
-		}catch (ClassNotFoundException)
+		}catch (ClassNotFoundException | )
 		}
 		
 	}
