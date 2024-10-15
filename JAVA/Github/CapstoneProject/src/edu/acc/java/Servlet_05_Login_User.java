@@ -51,7 +51,7 @@ public class Servlet_05_Login_User extends HttpServlet {
 		if (username.equals("administrator01")) {
 		try {
 			
-		}catch (ClassNotFoundException | SQLException )
+		}catch (ClassNotFoundException | SQLException ex)
 		}
 		
 	}
