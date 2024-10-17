@@ -1,7 +1,7 @@
 package edu.acc.java;
 
 import java.io.IOException;
-import java.sql.Connection;
+import java.sql.Connection
 import java.sql.SQLException;
 
 import javax.servlet.ServletException;
@@ -52,7 +52,7 @@ public class Servlet_05_Login_User extends HttpServlet {
 		if (username.equals("administrator01")) {
 		try {
 			Class.forName("com.mysql.jdbc.Driver");
-	        Connection conn = DriverManager
+	        Connection
 	        }
 		}catch (ClassNotFoundException | SQLException ex) {
         	System.out.println("ERROR in Catch");
