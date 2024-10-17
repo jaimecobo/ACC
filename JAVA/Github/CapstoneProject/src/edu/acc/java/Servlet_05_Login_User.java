@@ -50,13 +50,13 @@ public class Servlet_05_Login_User extends HttpServlet {
 		String salt = null;
 		if (username.equals("administrator01")) {
 		try {
-			
+			Class
+	        }
 		}catch (ClassNotFoundException | SQLException ex) {
         	System.out.println("ERROR in Catch");
         	ex.printStackTrace();
 		}
 		}
-		
 	}
 
 }
