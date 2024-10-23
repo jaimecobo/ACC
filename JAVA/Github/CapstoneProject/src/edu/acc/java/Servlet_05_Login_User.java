@@ -58,7 +58,7 @@ public class Servlet_05_Login_User extends HttpServlet {
 	        Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/hotels360", "root", "sesame");
 	        PreparedStatement pst = conn.prepareStatement("Select salt from user where username=?");
 	        pst.setString(1, username);
-	        ResultSet rs = pst
+	        ResultSet rs = pst.
 	        }
 		}catch (ClassNotFoundException | SQLException ex) {
         	System.out.println("ERROR in Catch");
