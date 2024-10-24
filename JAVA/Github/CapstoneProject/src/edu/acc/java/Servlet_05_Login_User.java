@@ -59,7 +59,7 @@ public class Servlet_05_Login_User extends HttpServlet {
 	        PreparedStatement pst = conn.prepareStatement("Select salt from user where username=?");
 	        pst.setString(1, username);
 	        ResultSet rs = pst.executeQuery();
-	        
+	        if
 	        }
 		}catch (ClassNotFoundException | SQLException ex) {
         	System.out.println("ERROR in Catch");
