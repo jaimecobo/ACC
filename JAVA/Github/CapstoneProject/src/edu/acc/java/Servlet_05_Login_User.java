@@ -61,7 +61,7 @@ public class Servlet_05_Login_User extends HttpServlet {
 	        ResultSet rs = pst.executeQuery();
 	        if (rs.next()) {
 	        	System.out.println("rs.getString(1) = " + rs.getString(1));
-	        salt = rs.getString
+	        salt = rs.getString(
 	        }
 	        }
 		}catch (ClassNotFoundException | SQLException ex) {
