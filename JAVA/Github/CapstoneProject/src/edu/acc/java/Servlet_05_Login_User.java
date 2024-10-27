@@ -62,7 +62,7 @@ public class Servlet_05_Login_User extends HttpServlet {
 	        if (rs.next()) {
 	        	System.out.println("rs.getString(1) = " + rs.getString(1));
 	        salt = rs.getString(1);
-	        	
+	        	System
 	        }
 	        }
 		}catch (ClassNotFoundException | SQLException ex) {
