@@ -65,7 +65,7 @@ public class Servlet_05_Login_User extends HttpServlet {
 	        	System.out.println("Salt = " + salt);
 	        }
 	        try {
-	        }catch (NoSuchAlgorithmException ex)
+	        }catch (NoSuchAlgorithmException ex) 
 		}catch (ClassNotFoundException | SQLException ex) {
         	System.out.println("ERROR in Catch");
         	ex.printStackTrace();
