@@ -1,6 +1,7 @@
 package edu.acc.java;
 
 import java.io.IOException;
+
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
@@ -68,12 +69,15 @@ public class Servlet_05_Login_User extends HttpServlet {
 	        }catch (NoSuchAlgorithmException ex) {
 			// TODO Auto-generated catch block
 			
+			System.out.println(ex);
+			ex.printStackTrace();
 	        }
 		}catch (ClassNotFoundException | SQLException ex) {
         	System.out.println("ERROR in Catch");
         	ex.printStackTrace();
 		}
 		}
+		
 	}
 
 }
