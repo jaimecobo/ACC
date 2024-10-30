@@ -69,7 +69,7 @@ public class Servlet_05_Login_User extends HttpServlet {
 	        }catch (NoSuchAlgorithmException ex) {
 			// TODO Auto-generated catch block
 			System.out.println(ex);
-			ex.
+			ex.printStackTrace
 	        }
 		}catch (ClassNotFoundException | SQLException ex) {
         	System.out.println("ERROR in Catch");
