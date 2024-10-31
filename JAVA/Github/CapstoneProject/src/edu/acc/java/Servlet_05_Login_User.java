@@ -67,7 +67,7 @@ public class Servlet_05_Login_User extends HttpServlet {
 	        }
 	        try {
 	        	password = _00_Hashing_Salting_Passwords.hashSaltAndPassword(password, salt);
-	        	System.out.println("Full ")
+	        	System.out.println("Full passowrd")
 	        }catch (NoSuchAlgorithmException ex) {
 			// TODO Auto-generated catch block
 			System.out.println(ex);
