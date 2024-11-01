@@ -78,7 +78,7 @@ public class Servlet_05_Login_User extends HttpServlet {
         	ex.printStackTrace();
 		}
 		}
-		String id_User =
+		String id_User = 
 	}
 
 }
