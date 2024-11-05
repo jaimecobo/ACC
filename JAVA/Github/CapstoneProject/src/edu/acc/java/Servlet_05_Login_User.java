@@ -85,7 +85,7 @@ public class Servlet_05_Login_User extends HttpServlet {
 		out.println("Username = " + username);
 		out.print("<br>");
 		out.println("Password = " + password);
-		out.print("<br>")
+		out.print("<br>");
 		
 	}
 
