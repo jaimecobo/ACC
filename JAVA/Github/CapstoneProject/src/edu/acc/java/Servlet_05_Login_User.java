@@ -89,7 +89,8 @@ public class Servlet_05_Login_User extends HttpServlet {
 		
 		try {
 	    }
-		catch (ClassNotFoundException | SQLException ex) {}
+		catch (ClassNotFoundException | SQLException ex) {
+	    }
 	}
 
 }
