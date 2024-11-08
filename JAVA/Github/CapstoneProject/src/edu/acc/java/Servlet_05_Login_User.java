@@ -88,7 +88,7 @@ public class Servlet_05_Login_User extends HttpServlet {
 //		out.print("<br>");
 		
 		try {
-			Class.forName("com.")
+			Class.forName("com.mysql")
 	    }
 		catch (ClassNotFoundException | SQLException ex) {
 	        	System.out.println("ERROR in Catch");
