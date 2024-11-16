@@ -94,7 +94,7 @@ public class Servlet_05_Login_User extends HttpServlet {
 	        pst.setString(1, username);
 	        pst.setString(2, password);
 	        ResultSet rs = pst.executeQuery();
-	        if ( 
+	        if () 
 	    }
 		catch (ClassNotFoundException | SQLException ex) {
 	        	System.out.println("ERROR in Catch");
