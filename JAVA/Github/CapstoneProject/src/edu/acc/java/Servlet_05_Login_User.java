@@ -96,6 +96,7 @@ public class Servlet_05_Login_User extends HttpServlet {
 	        ResultSet rs = pst.executeQuery();
 	        if (rs.next()) {
 	           request.getSession().setAttribute("username", username);
+	           
 	        } 
 	    }
 		catch (ClassNotFoundException | SQLException ex) {
