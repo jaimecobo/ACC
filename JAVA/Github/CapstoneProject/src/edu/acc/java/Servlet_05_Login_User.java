@@ -95,7 +95,7 @@ public class Servlet_05_Login_User extends HttpServlet {
 	        pst.setString(2, password);
 	        ResultSet rs = pst.executeQuery();
 	        if (rs.next()) {
-	           out.println("Correct login credentials")
+	           out.println("Correct login credentials");
 	           request.getSession().setAttribute("username", username);
 	           id_User = rs.getString(1);
 	        } 
