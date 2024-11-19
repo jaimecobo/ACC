@@ -98,6 +98,7 @@ public class Servlet_05_Login_User extends HttpServlet {
 //	           out.println("Correct login credentials");
 	           request.getSession().setAttribute("username", username);
 	           id_User = rs.getString(1);
+	        
 	        } 
 	    }
 		catch (ClassNotFoundException | SQLException ex) {
