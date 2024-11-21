@@ -102,7 +102,7 @@ public class Servlet_05_Login_User extends HttpServlet {
 	        	
 	        	session.setAttribute("id_User", id_User);
 	        	String user = ("Username: " + username);
-	        	request.setAttribute("user")
+	        	request.setAttribute("user", user)
 	        } 
 	     
 	    }
