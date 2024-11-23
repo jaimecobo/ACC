@@ -104,7 +104,7 @@ public class Servlet_05_Login_User extends HttpServlet {
 	        	String user = ("Username: " + username);
 	        	request.setAttribute("user", user);
 	        	request.getRequestDispatcher("05_management_Options.jsp").forward(request, response);
-	           response.sendRedirect("")
+	           response.sendRedirect("05_management_Options")
 	        } 
 	     
 	    }
