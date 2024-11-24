@@ -106,7 +106,7 @@ public class Servlet_05_Login_User extends HttpServlet {
 	        	request.getRequestDispatcher("05_management_Options.jsp").forward(request, response);
 //	           response.sendRedirect("05_management_Options.jsp");
 	        } 
-	     
+	        
 	    }
 		catch (ClassNotFoundException | SQLException ex) {
 	        	System.out.println("ERROR in Catch");
