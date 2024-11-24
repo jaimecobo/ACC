@@ -107,7 +107,7 @@ public class Servlet_05_Login_User extends HttpServlet {
 //	           response.sendRedirect("05_management_Options.jsp");
 	        } 
 	        else {
-	        	String message = "Incorrect login credentials"
+	        	String message = "Incorrect login credentials."
 	        
 	        }
 	    }
