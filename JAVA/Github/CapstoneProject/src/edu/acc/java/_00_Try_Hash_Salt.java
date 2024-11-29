@@ -2,5 +2,5 @@ package edu.acc.java;
 
 public class _00_Try_Hash_Salt {
 
-	public static void main ()
+	public static void main (String)
 }
