@@ -1,6 +1,6 @@
 package edu.acc.java;
 
-import javax.swing.
+import javax.swing.JPanel
 
 public class _00_Try_Hash_Salt {
 
