@@ -8,6 +8,7 @@ public class _00_Try_Hash_Salt {
 	static final JPanel panel = new JPanel();
 	public static void main (String[] args) {
 	try {
+		
 	}
 
 	}
