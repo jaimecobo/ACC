@@ -12,6 +12,6 @@ public class _00_Try_Hash_Salt {
 	}catch(Exception ex) {
 	
 	}
-
+		
 	}
 }
