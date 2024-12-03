@@ -10,7 +10,7 @@ public class _00_Try_Hash_Salt {
 	try {
 	
 	}catch(Exception ex) {
-		System.out.println("Exception ")
+		System.out.println("Exception at")
 	}
 		
 	}
