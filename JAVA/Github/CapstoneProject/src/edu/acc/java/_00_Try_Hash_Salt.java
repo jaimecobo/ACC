@@ -9,7 +9,7 @@ public class _00_Try_Hash_Salt {
 	public static void main (String[] args) {
 //	try {
 //	_00_Hashing_Salting_Passwords.checkPasswordStrength(password);
-	}catch(Exception ex) {
+//	}catch(Exception ex) {
 		System.out.println("Exception at _00_Try_Hash_Salt checkPasswordStrength = " + ex);
 	}
 
