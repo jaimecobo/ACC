@@ -13,6 +13,7 @@ public class _00_Try_Hash_Salt {
 //		System.out.println("Exception at _00_Try_Hash_Salt checkPasswordStrength = " + ex);
 //	}
 		try {
+		
 		}
 		
 	}
